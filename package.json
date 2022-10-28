@@ -11,6 +11,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.6.0"
+    "@unocss/astro": "^0.46.1",
+    "astro": "^1.6.1",
+    "unocss": "^0.46.1"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.46.1",
+    "vite": "^3.2.1"
   }
 }
