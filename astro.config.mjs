@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 import UnoCSS from "@unocss/astro";
@@ -6,12 +6,12 @@ import UnoCSS from "@unocss/astro";
 // https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS()],
-  srcDir: './src',
+  srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ['**/node_modules', '**/.git', '**/.trunk/**'],
-      }
-    }
-  }
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
+      },
+    },
+  },
 });
