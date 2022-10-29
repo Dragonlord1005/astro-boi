@@ -8,16 +8,19 @@ import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress({
-    css: false
-  })],
+  integrations: [
+    UnoCSS(),
+    compress({
+      css: false,
+    }),
+  ],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
-      }
-    }
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
+      },
+    },
   },
-  site: "https://astroi-boi.netlify.app"
+  site: "https://astroi-boi.netlify.app",
 });
