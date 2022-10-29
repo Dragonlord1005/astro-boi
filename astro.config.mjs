@@ -7,9 +7,6 @@ import UnoCSS from "@unocss/astro";
 import compress from "astro-compress";
 
 // https://astro.build/config
-import netlify from "@astrojs/netlify/functions";
-
-// https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS(), compress({
     css: false
@@ -24,5 +21,4 @@ export default defineConfig({
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
-  // adapter: netlify()
 });
