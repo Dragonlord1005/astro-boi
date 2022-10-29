@@ -11,6 +11,7 @@ type Props = MarkdownLayoutProps<{
     author: string
     date: string
     url: string
+    description: string
 }>;
 // 1. The frontmatter prop gives access to frontmatter props and other data
 const { frontmatter, url } = Astro.props;
@@ -21,6 +22,7 @@ const { frontmatter, url } = Astro.props;
         <!-- Add other Head elements here, like styles and meta tags. -->
         <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
         <title>{frontmatter.title}</title>
+        <meta name="description" content={frontmatter.description} />
     </head>
     <body class="text-center">
         <!-- Add other UI components here, like common headers and footers -->
