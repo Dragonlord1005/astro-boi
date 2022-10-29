@@ -23,6 +23,6 @@ export default defineConfig({
     }
   },
   site: "https://astroi-boi.netlify.app",
-  output: "server",
+  output: "static",
   adapter: netlify()
 });
