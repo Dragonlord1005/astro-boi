@@ -14,4 +14,5 @@ export default defineConfig({
       },
     },
   },
+  site: "https://astroi-boi.netlify.app",
 });
