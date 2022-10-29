@@ -4,14 +4,19 @@ import { defineConfig } from "astro/config";
 import UnoCSS from "@unocss/astro";
 
 // https://astro.build/config
+import compress from "astro-compress";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS()],
+  integrations: [UnoCSS(), compress()],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
-      },
-    },
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
+      }
+    }
   },
+  site: "https://astroi-boi.netlify.app",
+  output: "static",
 });

@@ -13,6 +13,7 @@
   "dependencies": {
     "@unocss/astro": "0.46.1",
     "astro": "1.6.1",
+    "astro-compress": "^1.1.1",
     "unocss": "0.46.1"
   },
   "devDependencies": {

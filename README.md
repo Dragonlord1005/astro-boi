@@ -10,8 +10,7 @@
 
 Inside of your Astro project, you'll see the following folders and files:
 
-<!-- trunk-ignore(markdownlint/MD040) -->
-```
+```cmd
 /
 ├── public/
 │   └── favicon.svg
