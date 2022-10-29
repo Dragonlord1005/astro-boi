@@ -5,6 +5,9 @@ import Card from '../components/Card.astro';
 
 <Layout title="Astro-boi" description="Home Page">
 	<main>
+		<head>
+			<link rel="stylesheet" href="/styles/index.css" />
+		</head>
 		<h1 class="text-center"><span class="text-gradient">Astro Boi</span></h1>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -40,19 +43,3 @@ import Card from '../components/Card.astro';
 		</ul>
 	</main>
 </Layout>
-
-<style>
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>

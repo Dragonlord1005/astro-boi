@@ -4,6 +4,9 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Projects" description="Projects">
+	<head>
+		<link rel="stylesheet" href="/styles/index.css" />
+	</head>
     <main>
         <h1 class="text-center">My <span class="text-gradient">Projects</span></h1>
 		<ul role="list" class="link-card-grid">
@@ -20,20 +23,3 @@ import Layout from '../layouts/Layout.astro';
 		</ul>
     </main>
 </Layout>
-
-
-<style>
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>

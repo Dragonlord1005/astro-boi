@@ -8,9 +8,7 @@ import compress from "astro-compress";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress({
-    css: false
-  })],
+  integrations: [UnoCSS(), compress()],
   srcDir: "./src",
   vite: {
     server: {
