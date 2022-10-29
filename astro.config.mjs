@@ -5,5 +5,13 @@ import UnoCSS from "@unocss/astro";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS()]
+  integrations: [UnoCSS()],
+  srcDir: './src',
+  vite: {
+    server: {
+      watch: {
+        ignored: ['**/node_modules', '**/.git', '**/.trunk/**'],
+      }
+    }
+  }
 });
