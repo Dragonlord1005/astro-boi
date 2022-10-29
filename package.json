@@ -11,7 +11,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/netlify": "^1.2.0",
     "@unocss/astro": "0.46.1",
     "astro": "1.6.1",
     "astro-compress": "^1.1.1",
