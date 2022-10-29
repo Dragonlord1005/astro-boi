@@ -5,13 +5,25 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Projects">
     <main>
-        <h1>Astro</h1>
+        <h1 class="text-center">My <span class="text-gradient">Projects</span></h1>
+		<ul role="list" class="link-card-grid">
+			<Card
+				title="Next Boi"
+				body="My current main blog site, made with Next.js and TailwindCSS"
+				href="https://next-boi.vercel.app"
+			/>
+			<Card
+				title="Astro Boi"
+				body="My current main blog site, made with Astro and UnoCSS, (your on it right now)"
+				href="https://astro-boi.vercel.app"
+			/>
+		</ul>
     </main>
 </Layout>
 
 
 <style>
-	main {
+	/* main {
 		margin: auto;
 		padding: 1.5rem;
 		max-width: 60ch;
@@ -20,7 +32,7 @@ import Layout from '../layouts/Layout.astro';
 		font-size: 3rem;
 		font-weight: 800;
 		margin: 0;
-	}
+	} */
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
