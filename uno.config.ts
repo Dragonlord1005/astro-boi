@@ -25,4 +25,10 @@ export default defineConfig({
       },
     }),
   ],
+  preflights: [
+    {
+      layer: 'main',
+      getCSS: async () => (await fetch('src/styles/main.css')).text(),
+    },
+  ],
 });
