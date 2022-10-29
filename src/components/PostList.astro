@@ -1,0 +1,25 @@
+---
+const posts = await Astro.glob('../pages/blog/*.md') // returns an array of posts that live at ../pages/blog/*.md
+import Card from "./Card.astro";
+---
+
+<div>
+    <ul role="list" class="link-card-grid">
+        {posts.slice(0, 3).map((post) => (
+            <Card
+                title={post.frontmatter.title}
+                body={post.frontmatter.description}
+                href={post.frontmatter.url}
+            />
+        ))}
+    </ul>
+</div>
+
+<style>
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
