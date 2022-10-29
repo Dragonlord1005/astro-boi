@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@unocss/astro': ^0.46.1
-  '@unocss/reset': ^0.46.1
-  astro: ^1.6.1
-  unocss: ^0.46.1
-  vite: ^3.2.1
+  '@unocss/astro': 0.46.1
+  '@unocss/reset': 0.46.1
+  astro: 1.6.1
+  unocss: 0.46.1
+  vite: 3.2.1
 
 dependencies:
   '@unocss/astro': 0.46.1_vite@3.2.1
