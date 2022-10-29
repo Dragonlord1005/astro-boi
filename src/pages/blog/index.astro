@@ -2,14 +2,12 @@
 import Card from "../../components/Card.astro";
 import Layout from "../../layouts/Layout.astro";
 import PostList from "../../components/PostList.astro";
+import '../../styles/index.css';
 ---
 <Layout title="Posts" description="Posts">
-	<head>
-		<link rel="stylesheet" href="../styles/index.css" />
-	</head>
     <main>
         <h1 class="text-center">Blog <span class="text-gradient">Posts</span></h1>
-        <a class="text-size-6 font-bold text-center">Nothing here yet!!!</a>
+        <a class="text-size-6 font-bold">Nothing here yet!!!</a>
 		<!-- <PostList /> -->
 		<ul role="list" class="link-card-grid">
 			<PostList
