@@ -1,11 +1,12 @@
 ---
 const posts = await Astro.glob('../pages/blog/*.md') // returns an array of posts that live at ../pages/blog/*.md
+const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
 import Card from "./Card.astro";
 ---
 
 <div>
     <ul role="list" class="link-card-grid">
-        {posts.slice(0, 3).map((post) => (
+        {nonDraftPosts.slice(0, 3).map((post) => (
             <Card
                 title={post.frontmatter.title}
                 body={post.frontmatter.description}
