@@ -11,9 +11,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^1.2.2",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "@unocss/astro": "0.46.1",
     "astro": "1.6.1",
     "astro-compress": "^1.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "unocss": "0.46.1"
   },
   "devDependencies": {
