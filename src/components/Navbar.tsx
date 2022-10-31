@@ -21,7 +21,7 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+      <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center font-bold">
         <div className="text-sm lg:flex-grow">
           <a
             href="/"
