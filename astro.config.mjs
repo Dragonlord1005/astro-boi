@@ -16,10 +16,10 @@ export default defineConfig({
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
-      }
-    }
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
+      },
+    },
   },
   site: "https://astroi-boi.netlify.app",
-  output: "static"
+  output: "static",
 });
