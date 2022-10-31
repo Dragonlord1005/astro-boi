@@ -5,6 +5,7 @@ export interface Props {
 }
 
 const { title, description } = Astro.props;
+import Navigation from '../components/Navigation';
 ---
 
 <!DOCTYPE html>
@@ -17,6 +18,10 @@ const { title, description } = Astro.props;
 		<title>{title}</title>
 		<meta name="description" content={description} />
 	</head>
+	<header>
+		<!-- <Navbar /> -->
+		<Navigation />
+	</header>
 	<body>
 		<slot />
 	</body>
@@ -29,7 +34,7 @@ const { title, description } = Astro.props;
 	html {
 		font-family: system-ui, sans-serif;
 		/* background-color: #F6F6F6; */
-		@apply bg-white
+		@apply bg-white dark:bg-gray-700;
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
