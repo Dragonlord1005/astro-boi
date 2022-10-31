@@ -14,6 +14,7 @@ export default defineConfig({
       /^btn-(.*)$/,
       ([, c]) => `rounded-1.5 bg-gray-800 text-white w-${c} hover:bg-gray-900`,
     ],
+    { link: "block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"}
   ],
   transformers: [
     transformerDirectives(),

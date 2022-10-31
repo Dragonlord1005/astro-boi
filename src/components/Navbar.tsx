@@ -25,19 +25,19 @@ const Navbar = () => {
         <div className="text-sm lg:flex-grow">
           <a
             href="/"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="link mr-4"
           >
             Home
           </a>
           <a
             href="/projects"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4"
+            className="link mr-4"
           >
             Projects
           </a>
           <a
             href="/blog"
-            className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white"
+            className="link"
           >
             Blog
           </a>
