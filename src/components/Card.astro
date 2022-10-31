@@ -13,7 +13,7 @@ const { href, title, body } = Astro.props;
 			{title}
 			<span>&rarr;</span>
 		</h2>
-		<p>
+		<p class="dark:color-white">
 			{body}
 		</p>
 	</a>
@@ -41,6 +41,7 @@ const { href, title, body } = Astro.props;
 		color: #111;
 		background-color: white;
 		opacity: 0.8;
+		@apply dark:bg-gray-600 dark:color-white;
 	}
 	h2 {
 		margin: 0;

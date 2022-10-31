@@ -21,7 +21,9 @@ export default defineConfig({
     transformerCompileClass(),
   ],
   presets: [
-    presetUno(),
+    presetUno({
+      dark: 'media',
+    }),
     presetIcons({
       scale: 2,
       cdn: 'https://esm.sh/',
