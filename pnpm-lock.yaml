@@ -2,35 +2,35 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/react': 1.2.2
-  '@types/react': 18.0.21
-  '@types/react-dom': 18.0.6
+  '@types/react': 18.0.24
+  '@types/react-dom': 18.0.8
   '@unocss/astro': 0.46.2
   '@unocss/preset-attributify': 0.46.2
   '@unocss/reset': 0.46.2
   '@unocss/transformer-compile-class': 0.46.2
-  astro: 1.6.1
-  astro-compress: ^1.1.1
+  astro: 1.6.2
+  astro-compress: 1.1.1
   react: 18.0.0
   react-dom: 18.0.0
   unocss: 0.46.2
-  vite: 3.2.1
+  vite: 3.2.2
 
 dependencies:
-  '@astrojs/react': 1.2.2_z5gax7qsno6qaf2ngprhq6e6sa
-  '@types/react': 18.0.21
-  '@types/react-dom': 18.0.6
-  '@unocss/astro': 0.46.2_vite@3.2.1
-  astro: 1.6.1
+  '@astrojs/react': 1.2.2_nokq5r4hfuyb4dh5hapmrxdi2u
+  '@types/react': 18.0.24
+  '@types/react-dom': 18.0.8
+  '@unocss/astro': 0.46.2_vite@3.2.2
+  astro: 1.6.2
   astro-compress: 1.1.1
   react: 18.0.0
   react-dom: 18.0.0_react@18.0.0
-  unocss: 0.46.2_vite@3.2.1
+  unocss: 0.46.2_vite@3.2.2
 
 devDependencies:
   '@unocss/preset-attributify': 0.46.2
   '@unocss/reset': 0.46.2
   '@unocss/transformer-compile-class': 0.46.2
-  vite: 3.2.1
+  vite: 3.2.2
 
 packages:
 
@@ -57,8 +57,8 @@ packages:
     resolution: {integrity: sha512-vBMPy9ok4iLapSyCCT1qsZ9dK7LkVFl9mObtLEmWiec9myGHS9h2kQY2xzPeFNJiWXUf9O6tSyQpQTy5As/p3g==}
     dev: false
 
-  /@astrojs/compiler/0.28.1:
-    resolution: {integrity: sha512-rcuQs5kcT6OshfJxXkZ2Tn61V4/5UAmvZKma/qmNhpAdBkGk6J/1gJ/Gxa2sAS6WNUjUyVo5BRrdsNGW36qkoQ==}
+  /@astrojs/compiler/0.29.7:
+    resolution: {integrity: sha512-4G2vZNK3TwjsLyLqfQidObUYnUEB4U6iN70IM+GwBOBZhpOoCy1EEUAROmUx8IyU1mBNZlZXHPOAQt5FoWF8Yg==}
     dev: false
 
   /@astrojs/language-server/0.26.2:
@@ -131,7 +131,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/1.2.2_z5gax7qsno6qaf2ngprhq6e6sa:
+  /@astrojs/react/1.2.2_nokq5r4hfuyb4dh5hapmrxdi2u:
     resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
@@ -142,8 +142,8 @@ packages:
     dependencies:
       '@babel/core': 7.19.6
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.6
-      '@types/react': 18.0.21
-      '@types/react-dom': 18.0.6
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
       react: 18.0.0
       react-dom: 18.0.0_react@18.0.0
     transitivePeerDependencies:
@@ -166,8 +166,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/webapi/1.1.0:
-    resolution: {integrity: sha512-yLSksFKv9kRbI3WWPuRvbBjS+J5ZNmZHacJ6Io8XQleKIHHHcw7RoNcrLK0s+9iwVPhqMYIzja6HJuvnO93oFw==}
+  /@astrojs/webapi/1.1.1:
+    resolution: {integrity: sha512-yeUvP27PoiBK/WCxyQzC4HLYZo4Hg6dzRd/dTsL50WGlAQVCwWcqzVJrIZKvzNDNaW/fIXutZTmdj6nec0PIGg==}
     dependencies:
       global-agent: 3.0.0
       node-fetch: 3.2.10
@@ -676,18 +676,10 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.0.6:
-    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
+  /@types/react-dom/18.0.8:
+    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
     dependencies:
       '@types/react': 18.0.24
-    dev: false
-
-  /@types/react/18.0.21:
-    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
-    dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.2
-      csstype: 3.1.1
     dev: false
 
   /@types/react/18.0.24:
@@ -714,12 +706,12 @@ packages:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
 
-  /@unocss/astro/0.46.2_vite@3.2.1:
+  /@unocss/astro/0.46.2_vite@3.2.2:
     resolution: {integrity: sha512-z3ZakmuLgx3t8FT463lFjwpyd9Ukak1C7yxUgK//0OxtDHn44VqMeVGODLCEYTwi/P2CmX9EbM2+r/us60CGFg==}
     dependencies:
       '@unocss/core': 0.46.2
       '@unocss/reset': 0.46.2
-      '@unocss/vite': 0.46.2_vite@3.2.1
+      '@unocss/vite': 0.46.2_vite@3.2.2
     transitivePeerDependencies:
       - rollup
       - vite
@@ -851,7 +843,7 @@ packages:
       '@unocss/core': 0.46.2
     dev: false
 
-  /@unocss/vite/0.46.2_vite@3.2.1:
+  /@unocss/vite/0.46.2_vite@3.2.2:
     resolution: {integrity: sha512-n4S6/ONLiine+1vglwjnStsXmBQJluq22kBaCj9iixG2yKFW6t5kh6hvrWQ5IP0XGyxqQLXNE7KIjM91cqSLSg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -864,7 +856,7 @@ packages:
       '@unocss/scope': 0.46.2
       '@unocss/transformer-directives': 0.46.2
       magic-string: 0.26.7
-      vite: 3.2.1
+      vite: 3.2.2
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -966,16 +958,16 @@ packages:
       terser: 5.15.1
     dev: false
 
-  /astro/1.6.1:
-    resolution: {integrity: sha512-fECZFVxoSI0Yt76M57m6jf6jJ14I8IHfy0hR+WuahpWsbshijDBrK8RQ6pNwhaE1JzIbBQtYa34+BY0RSkwKNg==}
+  /astro/1.6.2:
+    resolution: {integrity: sha512-UHbzQ3Q7iU2a0XBY6Dzh/Hksoa7svmkWZ3ABRGgSOT765GXIGZkErgeNAsjsBW7RsTUKVLqVxD2LK3NzZL5EKA==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.28.1
+      '@astrojs/compiler': 0.29.7
       '@astrojs/language-server': 0.26.2
       '@astrojs/markdown-remark': 1.1.3
       '@astrojs/telemetry': 1.0.1
-      '@astrojs/webapi': 1.1.0
+      '@astrojs/webapi': 1.1.1
       '@babel/core': 7.19.6
       '@babel/generator': 7.20.0
       '@babel/parser': 7.20.0
@@ -1029,8 +1021,8 @@ packages:
       typescript: 4.8.4
       unist-util-visit: 4.1.1
       vfile: 5.3.5
-      vite: 3.2.1
-      vitefu: 0.1.0_vite@3.2.1
+      vite: 3.2.2
+      vitefu: 0.1.0_vite@3.2.2
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -4255,7 +4247,7 @@ packages:
       unist-util-visit-parents: 5.1.1
     dev: false
 
-  /unocss/0.46.2_vite@3.2.1:
+  /unocss/0.46.2_vite@3.2.2:
     resolution: {integrity: sha512-SH06Cv+WLV1ZKsDxXTM/qYe9HGhKu/guZyj+SwWM9QJFdVCTXZuJDLDkqqLQpGRbs5CXBBgo2sWKPEL365rTdw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4264,7 +4256,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.46.2_vite@3.2.1
+      '@unocss/astro': 0.46.2_vite@3.2.2
       '@unocss/cli': 0.46.2
       '@unocss/core': 0.46.2
       '@unocss/preset-attributify': 0.46.2
@@ -4280,7 +4272,7 @@ packages:
       '@unocss/transformer-compile-class': 0.46.2
       '@unocss/transformer-directives': 0.46.2
       '@unocss/transformer-variant-group': 0.46.2
-      '@unocss/vite': 0.46.2_vite@3.2.1
+      '@unocss/vite': 0.46.2_vite@3.2.2
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4336,8 +4328,8 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite/3.2.1:
-    resolution: {integrity: sha512-ADtMkfHuWq4tskJsri2n2FZkORO8ZyhI+zIz7zTrDAgDEtct1jdxOg3YsZBfHhKjmMoWLOSCr+64qrEDGo/DbQ==}
+  /vite/3.2.2:
+    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4365,7 +4357,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitefu/0.1.0_vite@3.2.1:
+  /vitefu/0.1.0_vite@3.2.2:
     resolution: {integrity: sha512-5MQSHP9yr0HIve8q4XNb7QXfO1P4tzZDZP99qH0FM5ClcwYddeGXRDQ4TQYRUeXLjZ+vLecirHtGNpwFFUF7sw==}
     peerDependencies:
       vite: ^3.0.0
@@ -4374,7 +4366,7 @@ packages:
         optional: true
     dependencies:
       import-meta-resolve: 2.1.0
-      vite: 3.2.1
+      vite: 3.2.2
     dev: false
 
   /vscode-css-languageservice/6.1.1:
