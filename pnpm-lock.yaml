@@ -1,35 +1,35 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/react': ^1.2.2
-  '@types/react': ^18.0.21
-  '@types/react-dom': ^18.0.6
+  '@astrojs/react': 1.2.2
+  '@types/react': 18.0.21
+  '@types/react-dom': 18.0.6
   '@unocss/astro': 0.46.2
-  '@unocss/preset-attributify': ^0.46.1
+  '@unocss/preset-attributify': 0.46.2
   '@unocss/reset': 0.46.2
-  '@unocss/transformer-compile-class': ^0.46.1
+  '@unocss/transformer-compile-class': 0.46.2
   astro: 1.6.1
   astro-compress: ^1.1.1
-  react: ^18.0.0
-  react-dom: ^18.0.0
-  unocss: 0.46.1
+  react: 18.0.0
+  react-dom: 18.0.0
+  unocss: 0.46.2
   vite: 3.2.1
 
 dependencies:
-  '@astrojs/react': 1.2.2_nsgh7lqw2e2kb5wanadocemtdi
-  '@types/react': 18.0.24
-  '@types/react-dom': 18.0.8
+  '@astrojs/react': 1.2.2_z5gax7qsno6qaf2ngprhq6e6sa
+  '@types/react': 18.0.21
+  '@types/react-dom': 18.0.6
   '@unocss/astro': 0.46.2_vite@3.2.1
   astro: 1.6.1
   astro-compress: 1.1.1
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
-  unocss: 0.46.1_vite@3.2.1
+  react: 18.0.0
+  react-dom: 18.0.0_react@18.0.0
+  unocss: 0.46.2_vite@3.2.1
 
 devDependencies:
-  '@unocss/preset-attributify': 0.46.1
+  '@unocss/preset-attributify': 0.46.2
   '@unocss/reset': 0.46.2
-  '@unocss/transformer-compile-class': 0.46.1
+  '@unocss/transformer-compile-class': 0.46.2
   vite: 3.2.1
 
 packages:
@@ -131,7 +131,7 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/react/1.2.2_nsgh7lqw2e2kb5wanadocemtdi:
+  /@astrojs/react/1.2.2_z5gax7qsno6qaf2ngprhq6e6sa:
     resolution: {integrity: sha512-ab9fYvzkC74J7N+M3DWQuZgwu7sYjW0aLO3sEAdCX/jZZz+0BhrqS8m9QjtGJyQK/niF4tgJjpPfadopxKc56g==}
     engines: {node: ^14.18.0 || >=16.12.0}
     peerDependencies:
@@ -142,10 +142,10 @@ packages:
     dependencies:
       '@babel/core': 7.19.6
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.6
-      '@types/react': 18.0.24
-      '@types/react-dom': 18.0.8
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
+      '@types/react': 18.0.21
+      '@types/react-dom': 18.0.6
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -676,10 +676,18 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: false
 
-  /@types/react-dom/18.0.8:
-    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
+  /@types/react-dom/18.0.6:
+    resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
       '@types/react': 18.0.24
+    dev: false
+
+  /@types/react/18.0.21:
+    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.2
+      csstype: 3.1.1
     dev: false
 
   /@types/react/18.0.24:
@@ -706,17 +714,6 @@ packages:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
 
-  /@unocss/astro/0.46.1_vite@3.2.1:
-    resolution: {integrity: sha512-5WfDZNFwqLaAykXmly049nk6k6cZ4ZYFbmO/ijcbxeemx1Pduq3J9FfMznL8KBxXLs/S/kE174X6TtOMrVp//Q==}
-    dependencies:
-      '@unocss/core': 0.46.1
-      '@unocss/reset': 0.46.1
-      '@unocss/vite': 0.46.1_vite@3.2.1
-    transitivePeerDependencies:
-      - rollup
-      - vite
-    dev: false
-
   /@unocss/astro/0.46.2_vite@3.2.1:
     resolution: {integrity: sha512-z3ZakmuLgx3t8FT463lFjwpyd9Ukak1C7yxUgK//0OxtDHn44VqMeVGODLCEYTwi/P2CmX9EbM2+r/us60CGFg==}
     dependencies:
@@ -728,16 +725,16 @@ packages:
       - vite
     dev: false
 
-  /@unocss/cli/0.46.1:
-    resolution: {integrity: sha512-lMV1o3+PskSvLaBZbjHKf+KmSN8W42Je0oZEQL4+zgNTstISrdNdByHQTkBDYW6NU4HfURjs8wPlsKYox8wTMA==}
+  /@unocss/cli/0.46.2:
+    resolution: {integrity: sha512-GGcmK/koKQNye3ot1nhVe2ocrFDG1vYjwx3XcF8a9xqCrufvyj5BGsOBSb9U6TXcWVICf3VEHHH5rNNoc2OzxQ==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@rollup/pluginutils': 5.0.2
-      '@unocss/config': 0.46.1
-      '@unocss/core': 0.46.1
-      '@unocss/preset-uno': 0.46.1
+      '@unocss/config': 0.46.2
+      '@unocss/core': 0.46.2
+      '@unocss/preset-uno': 0.46.2
       cac: 6.7.14
       chokidar: 3.5.3
       colorette: 2.0.19
@@ -750,14 +747,6 @@ packages:
       - rollup
     dev: false
 
-  /@unocss/config/0.46.1:
-    resolution: {integrity: sha512-KFjXllxqXn7ddpzIlFNVnMEBVyLUpp4hfT0Smf17D2V91rsG0wduWpD2bildv9pTOnkGP64W+ftXOtH5I4WbSw==}
-    engines: {node: '>=14'}
-    dependencies:
-      '@unocss/core': 0.46.1
-      unconfig: 0.3.7
-    dev: false
-
   /@unocss/config/0.46.2:
     resolution: {integrity: sha512-Rz8cH4981Ugruypo5a8MNQ3Xo+TC8wilQ3vhNlmDFFIWPqb4kN8Uz7IvHomMd5hhzG/fl26yHY6zD6+1R8Rfgw==}
     engines: {node: '>=14'}
@@ -766,19 +755,8 @@ packages:
       unconfig: 0.3.7
     dev: false
 
-  /@unocss/core/0.46.1:
-    resolution: {integrity: sha512-WdwBHhBVH7unOqJMPOBZB1GvwRp/ZrPcyxnAA10eEVXDjR6yyC0GEwV0tFCvBpaw7HEAPuLwHtLo7e3n4vPTnQ==}
-
   /@unocss/core/0.46.2:
     resolution: {integrity: sha512-55vmfm+GOsLEgpT5tPYb3jXLgsiRZNcPTGGuZq9W5TFlb5fuuq+Tme0vrRc9u6H3rQiw2WAP74wLNSyiOgmbog==}
-    dev: false
-
-  /@unocss/inspector/0.46.1:
-    resolution: {integrity: sha512-WjMDM4+GYgBZatCGE/eLqNCrjL1Fy1r0+2NDMEK0Pgu0ISH/boUE9c3cvQUsQkatzACAWvzRZGaySGlbTsa0fw==}
-    dependencies:
-      gzip-size: 6.0.0
-      sirv: 2.0.2
-    dev: false
 
   /@unocss/inspector/0.46.2:
     resolution: {integrity: sha512-8f/wk8mo+EDgeN0idc5TKZq66ELDApNmTPa4OKVw6STASD48a/NeuOXgvHLYj940oHLVqoB+vUIexHaZB+bPtw==}
@@ -787,93 +765,78 @@ packages:
       sirv: 2.0.2
     dev: false
 
-  /@unocss/preset-attributify/0.46.1:
-    resolution: {integrity: sha512-257qQm3ycN6vOtXHuqucUmGZTMavB8Wvwa/hAmFQzPCOefOZ5Qbe4Ytx6KERqk76hyYXYOfUdCaLkmBSoyLidQ==}
+  /@unocss/preset-attributify/0.46.2:
+    resolution: {integrity: sha512-LWL+P50TrWQD50dD16PHUd4+PeiFJWhIRPRi3gfa7jAX3V9o83eEFIsVL/jGNdlMNtfkpiB6su6kJE/kkPvluA==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
 
-  /@unocss/preset-icons/0.46.1:
-    resolution: {integrity: sha512-cQ6o1SzB17Wfvx/2uOgFtSX8rVncNw8Lx/6s4m8zEQNz0Dqv1BEmFYy6WuahrUhCv0SmCnQSD1HHxVMWHa5B/g==}
+  /@unocss/preset-icons/0.46.2:
+    resolution: {integrity: sha512-Ry4lP1fXKuB6DSw4cY8C1YJ36nzLqw2sBuTxTpYd3KiE19jNCj/ZX6j3LS/+gQ36X0jhfWloJLIFRfmSqpi4EQ==}
     dependencies:
       '@iconify/utils': 2.0.1
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
       ohmyfetch: 0.4.20
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@unocss/preset-mini/0.46.1:
-    resolution: {integrity: sha512-e+Lpn313oPlIN2DpE+hUFqvk2cVCHbH6dNbwN32NDqgarYnGYbWcYyCmEpiyvS5JwPUt4yUwtVp3aE5gF3Tn4Q==}
+  /@unocss/preset-mini/0.46.2:
+    resolution: {integrity: sha512-WygYS/EfXMMr+cfZqG5s2e2sqT/9/CYQESIQKDZwJ+irIcVa7BQU768DyWvExfXnf70GBLAnu+d2NCAt2jxUFA==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
     dev: false
 
-  /@unocss/preset-tagify/0.46.1:
-    resolution: {integrity: sha512-CPQsSYG41/biADyRonDmy7FU0ZjZBrFIz+dk3iNFRwAek7n4r355M3DV9A93DRH6QPcWpG2A08X45xdPJv5uUg==}
+  /@unocss/preset-tagify/0.46.2:
+    resolution: {integrity: sha512-xqhu1++bCRGenOhQ7v6i6WfvPft/8NT5dUApiilyfJLo8USHIkjWVp+GNmrgGpLSWEUR3sLSLNVMAwyklJ/lAw==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
     dev: false
 
-  /@unocss/preset-typography/0.46.1:
-    resolution: {integrity: sha512-Fw9+FXNA2O+V/3j1dEPTVeppke3Y1UzgqJB1qizmuC2dAYDv0ciBF2/japOXuFlwHZ13eUi566Sbp4asydnKvw==}
+  /@unocss/preset-typography/0.46.2:
+    resolution: {integrity: sha512-V8UsCdqgx6bhkBltubZUxUHRquzAXJb5o380Cm5vEJD1j7g1X3ASxLjUd+gfIpdaA8GyYpx1bHzxW6Oie1/t4g==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
     dev: false
 
-  /@unocss/preset-uno/0.46.1:
-    resolution: {integrity: sha512-3Lf6FPYducETimBRW5miKcdLUsJUONXxwP9zsiKiRY+89D8LLgNCAR5ojHWMwytoTT63z5/bWKDW9qGyPH65kw==}
+  /@unocss/preset-uno/0.46.2:
+    resolution: {integrity: sha512-yiQ46czblVYjryUysM8nkb54Yo7TuSOAaWhWjFcq0pUyOt7fOAfQmf3NPE5KvGmvEWot5le0tf0r6b9yfjgOeA==}
     dependencies:
-      '@unocss/core': 0.46.1
-      '@unocss/preset-mini': 0.46.1
-      '@unocss/preset-wind': 0.46.1
+      '@unocss/core': 0.46.2
+      '@unocss/preset-mini': 0.46.2
+      '@unocss/preset-wind': 0.46.2
     dev: false
 
-  /@unocss/preset-web-fonts/0.46.1:
-    resolution: {integrity: sha512-rKGxF/xb0NY+du35I3/G6bQaVWkleExGgwFJUafWtMTlPHRKDVFojkMpMM2ISPp5NamU2+NbXu+UV9pAiJilLQ==}
+  /@unocss/preset-web-fonts/0.46.2:
+    resolution: {integrity: sha512-clBztrq582XbJUZ0wKmdTEP06K/O9xhRDWeHMNjul5UBDSBStNxiCIW/risKBdATvj4+mkVgayJjzchFXzSUVA==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
       ohmyfetch: 0.4.20
     dev: false
 
-  /@unocss/preset-wind/0.46.1:
-    resolution: {integrity: sha512-3gKo++T99YiMEYZq+uNl1YlaQN5ZlaHfdM4XhM6IGxlvDI7Z4zilnUrvXC8ZCM6w0qAJa7boKCEu8q/A+yssvw==}
+  /@unocss/preset-wind/0.46.2:
+    resolution: {integrity: sha512-ZoEIZH8uHGSVw9Xuy9jRyqQxCz1jqRt1JD8l/UiVdNuY5UuWAHDj/8JSAzDp29bE79ZlVvLAj9azWzLQ57ZVrQ==}
     dependencies:
-      '@unocss/core': 0.46.1
-      '@unocss/preset-mini': 0.46.1
-    dev: false
-
-  /@unocss/reset/0.46.1:
-    resolution: {integrity: sha512-LdRwIdAtLj05e/PIT0aKc76K5bJBpNhlL527uBpXODXIIrdcnTuKP+N9uC2thdWUBnmfTfH5O40rqC/g+js8HA==}
+      '@unocss/core': 0.46.2
+      '@unocss/preset-mini': 0.46.2
     dev: false
 
   /@unocss/reset/0.46.2:
     resolution: {integrity: sha512-WP6RwbJDIJkaZ72Q1j0G9A3ZXjkn7DJRqmfYau1wbp/F3qaaJ0aPDysscVttA31LQ4mh2xd+Q/0wT9LoFEvJEQ==}
 
-  /@unocss/scope/0.46.1:
-    resolution: {integrity: sha512-ZDT7sFn1woR5pmArgVoNBVyOFR57E2E3f/MCKKIHX/6OXGoPgKdP6kv04ByvqCkYmAFBgl8OTscxAB6m3bip9w==}
-    dev: false
-
   /@unocss/scope/0.46.2:
     resolution: {integrity: sha512-a0BYadbvgCc80q8xEYIJfOkcJ2VA6BCwJTZdjMKt+omrJfLBItjantSW+XMnkzRHQOiqgmoDhs1vewh8wBRf1A==}
     dev: false
 
-  /@unocss/transformer-attributify-jsx/0.46.1:
-    resolution: {integrity: sha512-0tmDj7m5SyNpImqyOp+06DLLQi6J5XiuNaG0xk6vuYyq9fc9EuSlukPDTGUTmWuTY1+l2RKGw/FGXBLVNHQ5ZQ==}
+  /@unocss/transformer-attributify-jsx/0.46.2:
+    resolution: {integrity: sha512-z2/baLU2um5iIXNbkCSA9iHLUowfo3wnIoJJAxlSOxKDwBNoKOzqaIx0XLvpU2ME0DXRyhFkRzS5w1quMjYc/g==}
     dependencies:
-      '@unocss/core': 0.46.1
+      '@unocss/core': 0.46.2
     dev: false
 
-  /@unocss/transformer-compile-class/0.46.1:
-    resolution: {integrity: sha512-sXQpA1Rm4mRlGp346iREJ9ovbyHjqxa2oTB7jtD+1LY4yNswhkMqXz61V++lWaXd59zBoDtQbnjGlBXdiy9M2A==}
+  /@unocss/transformer-compile-class/0.46.2:
+    resolution: {integrity: sha512-2UPniFiFHuXgu3RWdHjXXzkUU9YqxILkEMbzDIqgYRxGvRITJO7nWGApdvgXdxD5WaqKqm//67/THYRV5SH1FA==}
     dependencies:
-      '@unocss/core': 0.46.1
-
-  /@unocss/transformer-directives/0.46.1:
-    resolution: {integrity: sha512-qBD8jiq4v7YlItxiPk0NLj0OeF/HQk2GijetGe7I8B0/b+/jA81ni014Ht28CLLI1eIM63MirTg1U8w/ucn9JA==}
-    dependencies:
-      '@unocss/core': 0.46.1
-      css-tree: 2.2.1
-    dev: false
+      '@unocss/core': 0.46.2
 
   /@unocss/transformer-directives/0.46.2:
     resolution: {integrity: sha512-OTJ3bvxD7dOsSWDw431PmxPNtw4MrknfKuaX7NkgPvyyPX7MxIEKdmT1Oz6nu3O3iyGgVJYlNsnOie0ShZvA9A==}
@@ -882,28 +845,10 @@ packages:
       css-tree: 2.2.1
     dev: false
 
-  /@unocss/transformer-variant-group/0.46.1:
-    resolution: {integrity: sha512-RwgfrgjK+5O9Xx3snsuJtHiogPVpyYV47C3Y0UfTcMjpGCB+lXlqxjWMfoupFwOvXx52MssOAWPGf7aZkajYlQ==}
+  /@unocss/transformer-variant-group/0.46.2:
+    resolution: {integrity: sha512-fJf4pWvUDy3ZO0rpRGXiFNWOm7HQi6+lw37Ik9YMlNGAmsa+pS4q24r/RbBHML2H7boRlnrzubTh/8/PaTh7EQ==}
     dependencies:
-      '@unocss/core': 0.46.1
-    dev: false
-
-  /@unocss/vite/0.46.1_vite@3.2.1:
-    resolution: {integrity: sha512-7jJHxIyAJ765afdk90ajyokz6QMdR3lKJTXzCTjp2afrRfvIeTv+a0cYdytOazCPdqbKclqMuOcMEYjJD8Q2kA==}
-    peerDependencies:
-      vite: ^2.9.0 || ^3.0.0-0
-    dependencies:
-      '@ampproject/remapping': 2.2.0
-      '@rollup/pluginutils': 5.0.2
-      '@unocss/config': 0.46.1
-      '@unocss/core': 0.46.1
-      '@unocss/inspector': 0.46.1
-      '@unocss/scope': 0.46.1
-      '@unocss/transformer-directives': 0.46.1
-      magic-string: 0.26.7
-      vite: 3.2.1
-    transitivePeerDependencies:
-      - rollup
+      '@unocss/core': 0.46.2
     dev: false
 
   /@unocss/vite/0.46.2_vite@3.2.1:
@@ -3587,18 +3532,18 @@ packages:
       strip-json-comments: 2.0.1
     dev: false
 
-  /react-dom/18.2.0_react@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  /react-dom/18.0.0_react@18.0.0:
+    resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.0.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.0.0
+      scheduler: 0.21.0
     dev: false
 
-  /react/18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  /react/18.0.0:
+    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -3810,8 +3755,8 @@ packages:
       suf-log: 2.5.3
     dev: false
 
-  /scheduler/0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  /scheduler/0.21.0:
+    resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
@@ -4310,32 +4255,32 @@ packages:
       unist-util-visit-parents: 5.1.1
     dev: false
 
-  /unocss/0.46.1_vite@3.2.1:
-    resolution: {integrity: sha512-zeDBjj8XGAe7zgkwgoqBuFcokPmn8z0ES6/+qGNE9T04hnhjlwE7jVBKFMCkB6gWJs8Zmug+lORYubJ9B87a8Q==}
+  /unocss/0.46.2_vite@3.2.1:
+    resolution: {integrity: sha512-SH06Cv+WLV1ZKsDxXTM/qYe9HGhKu/guZyj+SwWM9QJFdVCTXZuJDLDkqqLQpGRbs5CXBBgo2sWKPEL365rTdw==}
     engines: {node: '>=14'}
     peerDependencies:
-      '@unocss/webpack': 0.46.1
+      '@unocss/webpack': 0.46.2
     peerDependenciesMeta:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.46.1_vite@3.2.1
-      '@unocss/cli': 0.46.1
-      '@unocss/core': 0.46.1
-      '@unocss/preset-attributify': 0.46.1
-      '@unocss/preset-icons': 0.46.1
-      '@unocss/preset-mini': 0.46.1
-      '@unocss/preset-tagify': 0.46.1
-      '@unocss/preset-typography': 0.46.1
-      '@unocss/preset-uno': 0.46.1
-      '@unocss/preset-web-fonts': 0.46.1
-      '@unocss/preset-wind': 0.46.1
-      '@unocss/reset': 0.46.1
-      '@unocss/transformer-attributify-jsx': 0.46.1
-      '@unocss/transformer-compile-class': 0.46.1
-      '@unocss/transformer-directives': 0.46.1
-      '@unocss/transformer-variant-group': 0.46.1
-      '@unocss/vite': 0.46.1_vite@3.2.1
+      '@unocss/astro': 0.46.2_vite@3.2.1
+      '@unocss/cli': 0.46.2
+      '@unocss/core': 0.46.2
+      '@unocss/preset-attributify': 0.46.2
+      '@unocss/preset-icons': 0.46.2
+      '@unocss/preset-mini': 0.46.2
+      '@unocss/preset-tagify': 0.46.2
+      '@unocss/preset-typography': 0.46.2
+      '@unocss/preset-uno': 0.46.2
+      '@unocss/preset-web-fonts': 0.46.2
+      '@unocss/preset-wind': 0.46.2
+      '@unocss/reset': 0.46.2
+      '@unocss/transformer-attributify-jsx': 0.46.2
+      '@unocss/transformer-compile-class': 0.46.2
+      '@unocss/transformer-directives': 0.46.2
+      '@unocss/transformer-variant-group': 0.46.2
+      '@unocss/vite': 0.46.2_vite@3.2.1
     transitivePeerDependencies:
       - rollup
       - supports-color
