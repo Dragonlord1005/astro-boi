@@ -15,6 +15,9 @@ type Props = MarkdownLayoutProps<{
 }>;
 // 1. The frontmatter prop gives access to frontmatter props and other data
 const { frontmatter, url } = Astro.props;
+import Navigation from '../components/Navigation';
+
+import '../styles/main.css';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -24,6 +27,9 @@ const { frontmatter, url } = Astro.props;
         <title>{frontmatter.title}</title>
         <meta name="description" content={frontmatter.description} />
     </head>
+    <header>
+        <Navigation />
+    </header>
     <body class="text-center">
         <!-- Add other UI components here, like common headers and footers -->
         <h1 class="text-center">{frontmatter.title} by {frontmatter.author}</h1>
@@ -32,3 +38,19 @@ const { frontmatter, url } = Astro.props;
         <p>Written on: {frontmatter.date}</p>
     </body>
 </html>
+
+<style is:global>
+	:root {
+		--accent: 124, 58, 237;
+		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
+	}
+	html {
+		font-family: system-ui, sans-serif;
+		/* background-color: #F6F6F6; */
+		@apply bg-white dark:bg-gray-700;
+	}
+	code {
+		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+			Bitstream Vera Sans Mono, Courier New, monospace;
+	}
+</style>

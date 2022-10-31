@@ -11,3 +11,11 @@ h1 {
 	text-align: center;
 	@apply dark:text-white;
 }
+
+a {
+	@apply dark:text-white;
+}
+
+p {
+	@apply dark: text-white;
+}
