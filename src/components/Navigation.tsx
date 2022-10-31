@@ -3,6 +3,7 @@ const Navigation = () => {
     <nav className="flex w-full dark:color-white justify-between p-6 bg-gray-800">
       <div className="flex flex-shrink-0">
         <span className="font-bold">Astro Boi</span>
+		    <div className="i-logos-astro w-2.5em h-2.5em flex content-center" />
       </div>
       <div className="links lg:text-center w-full mr-20">
         <a href="/" className="link mr-6">
