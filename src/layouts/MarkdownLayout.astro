@@ -1,19 +1,13 @@
 ---
-
-
-
-// All types will be here and are neccesary for type support
 import type { MarkdownLayoutProps } from 'astro'
 
 type Props = MarkdownLayoutProps<{
-    // Define frontmatter props here
     title: string
     author: string
     date: string
     url: string
     description: string
 }>;
-// 1. The frontmatter prop gives access to frontmatter props and other data
 const { frontmatter, url } = Astro.props;
 import Navigation from '../components/Navigation';
 
@@ -22,7 +16,6 @@ import '../styles/main.css';
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Add other Head elements here, like styles and meta tags. -->
         <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
         <title>{frontmatter.title}</title>
         <meta name="description" content={frontmatter.description} />
@@ -31,9 +24,7 @@ import '../styles/main.css';
         <Navigation />
     </header>
     <body class="text-center">
-        <!-- Add other UI components here, like common headers and footers -->
         <h1 class="text-center">{frontmatter.title} by {frontmatter.author}</h1>
-        <!-- 2. Rendered HTML will be passed into the default slot. -->
         <slot />
         <p>Written on: {frontmatter.date}</p>
     </body>
@@ -46,7 +37,6 @@ import '../styles/main.css';
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		/* background-color: #F6F6F6; */
 		@apply bg-white dark:bg-gray-700;
 	}
 	code {
