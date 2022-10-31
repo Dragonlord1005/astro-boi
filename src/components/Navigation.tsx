@@ -6,7 +6,8 @@ const Navigation = () => {
             </div>
             <div className="links lg:text-center w-full mr-20">
                 <a href="/" className="link mr-6">Home</a>
-                <a href="/about" className="link mr-6">About</a>
+                {/* TODO: Add a about page */}
+                {/* <a href="/about" className="link mr-6">About</a> */}
                 <a href="/projects" className="link mr-6">Projects</a>
                 <a href="/blog" className="link">Blog</a>
             </div>
