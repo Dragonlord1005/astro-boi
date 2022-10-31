@@ -1,10 +1,15 @@
 const Navigation = () => {
     return (
-        <nav className="border flex w-full dark:color-white border-color-gray-6 dark:border-color-gray-4 border-width-3.5 justify-between p-6">
-            <p className="font-bold">Astro Boi</p>
-            <ul className="links">
-
-            </ul>
+        <nav className="flex w-full dark:color-white justify-between p-6 bg-gray-800">
+            <div className="flex flex-shrink-0">
+                <span className="font-bold">Astro Boi</span>
+            </div>
+            <div className="links lg:text-center w-full mr-20">
+                <a href="/" className="link mr-6">Home</a>
+                <a href="/about" className="link mr-6">About</a>
+                <a href="/projects" className="link mr-6">Projects</a>
+                <a href="/blog" className="link">Blog</a>
+            </div>
         </nav>
     )
 }
