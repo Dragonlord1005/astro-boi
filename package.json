@@ -17,8 +17,8 @@
     "@unocss/astro": "0.46.2",
     "astro": "1.6.2",
     "astro-compress": "1.1.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "unocss": "0.46.2"
   },
   "devDependencies": {
