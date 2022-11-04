@@ -5,12 +5,12 @@ description: Test Post
 author: Test
 # draft: true
 date: 10/29/2022
-url: /blog/test
+url: /posts/test
 ---
 
 This is a test post
 
 
 ```python
-print("hello world")
+print("Astro is pretty cool")
 ```

@@ -1,5 +1,5 @@
 ---
-const posts = await Astro.glob('../pages/blog/*.md') // returns an array of posts that live at ../pages/blog/*.md
+const posts = await Astro.glob('../pages/posts/*.md') // returns an array of posts that live at ../pages/blog/*.md
 const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
 import Card from "./Card.astro";
 ---
