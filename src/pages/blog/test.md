@@ -9,3 +9,8 @@ url: /blog/test
 ---
 
 This is a test post
+
+
+```python
+print("hello world")
+```
