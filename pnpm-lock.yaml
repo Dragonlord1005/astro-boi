@@ -13,24 +13,24 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   unocss: 0.46.3
-  vite: 3.2.2
+  vite: 3.2.3
 
 dependencies:
   '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
-  '@unocss/astro': 0.46.3_vite@3.2.2
+  '@unocss/astro': 0.46.3_vite@3.2.3
   astro: 1.6.3
   astro-compress: 1.1.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  unocss: 0.46.3_vite@3.2.2
+  unocss: 0.46.3_vite@3.2.3
 
 devDependencies:
   '@unocss/preset-attributify': 0.46.3
   '@unocss/reset': 0.46.3
   '@unocss/transformer-compile-class': 0.46.3
-  vite: 3.2.2
+  vite: 3.2.3
 
 packages:
 
@@ -706,12 +706,12 @@ packages:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
 
-  /@unocss/astro/0.46.3_vite@3.2.2:
+  /@unocss/astro/0.46.3_vite@3.2.3:
     resolution: {integrity: sha512-3Of0VLh5TVWc5MXzAF+Ik/9XBDkaaUcbxKquAI6hMSehtcnGOpmmNLZNjOaBdLuFDFP4RJGZ9Kkp/MuSLPuHDQ==}
     dependencies:
       '@unocss/core': 0.46.3
       '@unocss/reset': 0.46.3
-      '@unocss/vite': 0.46.3_vite@3.2.2
+      '@unocss/vite': 0.46.3_vite@3.2.3
     transitivePeerDependencies:
       - rollup
       - vite
@@ -843,7 +843,7 @@ packages:
       '@unocss/core': 0.46.3
     dev: false
 
-  /@unocss/vite/0.46.3_vite@3.2.2:
+  /@unocss/vite/0.46.3_vite@3.2.3:
     resolution: {integrity: sha512-LCq3olCaRTheit6s5oE6x9/BlODpdG5K5CJ44GP7UZei3SuHOAKkbHNq7tanmMXc1jvIUre8HOeIKhARcA5Bwg==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -856,7 +856,7 @@ packages:
       '@unocss/scope': 0.46.3
       '@unocss/transformer-directives': 0.46.3
       magic-string: 0.26.7
-      vite: 3.2.2
+      vite: 3.2.3
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -1021,11 +1021,12 @@ packages:
       typescript: 4.8.4
       unist-util-visit: 4.1.1
       vfile: 5.3.5
-      vite: 3.2.2
-      vitefu: 0.1.0_vite@3.2.2
+      vite: 3.2.3
+      vitefu: 0.1.0_vite@3.2.3
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
+      - '@types/node'
       - less
       - sass
       - stylus
@@ -4247,7 +4248,7 @@ packages:
       unist-util-visit-parents: 5.1.1
     dev: false
 
-  /unocss/0.46.3_vite@3.2.2:
+  /unocss/0.46.3_vite@3.2.3:
     resolution: {integrity: sha512-9ICDcmCkNH2jp6NVR7kMYe4rvfIc4INv7u5g4G2yQx00YYfGc8PCY7VqWlJsHoD7eUuqUOSwBbd9gsg3cvNn4A==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4256,7 +4257,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.46.3_vite@3.2.2
+      '@unocss/astro': 0.46.3_vite@3.2.3
       '@unocss/cli': 0.46.3
       '@unocss/core': 0.46.3
       '@unocss/preset-attributify': 0.46.3
@@ -4272,7 +4273,7 @@ packages:
       '@unocss/transformer-compile-class': 0.46.3
       '@unocss/transformer-directives': 0.46.3
       '@unocss/transformer-variant-group': 0.46.3
-      '@unocss/vite': 0.46.3_vite@3.2.2
+      '@unocss/vite': 0.46.3_vite@3.2.3
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4328,17 +4329,20 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite/3.2.2:
-    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
+  /vite/3.2.3:
+    resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -4357,7 +4361,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitefu/0.1.0_vite@3.2.2:
+  /vitefu/0.1.0_vite@3.2.3:
     resolution: {integrity: sha512-5MQSHP9yr0HIve8q4XNb7QXfO1P4tzZDZP99qH0FM5ClcwYddeGXRDQ4TQYRUeXLjZ+vLecirHtGNpwFFUF7sw==}
     peerDependencies:
       vite: ^3.0.0
@@ -4366,7 +4370,7 @@ packages:
         optional: true
     dependencies:
       import-meta-resolve: 2.1.0
-      vite: 3.2.2
+      vite: 3.2.3
     dev: false
 
   /vscode-css-languageservice/6.1.1:
