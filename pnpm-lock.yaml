@@ -8,7 +8,7 @@ specifiers:
   '@unocss/preset-attributify': 0.46.3
   '@unocss/reset': 0.46.3
   '@unocss/transformer-compile-class': 0.46.3
-  astro: 1.6.3
+  astro: 1.6.5
   astro-compress: 1.1.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -20,7 +20,7 @@ dependencies:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@unocss/astro': 0.46.3_vite@3.2.3
-  astro: 1.6.3
+  astro: 1.6.5
   astro-compress: 1.1.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -958,8 +958,8 @@ packages:
       terser: 5.15.1
     dev: false
 
-  /astro/1.6.3:
-    resolution: {integrity: sha512-Om84PLuuF497q1LVMzcr0jI3r0kNoYgdX7W0IVUgVnrNd7ubK11h9zhg/2MHRSui+0vCH3+0hnCnCG6QEd2a2Q==}
+  /astro/1.6.5:
+    resolution: {integrity: sha512-PBjtMJeCRTkvG2ExMpfDUEc7FbwpJ/pxixe7Kt1Z9dfggofGLXnNa5JxzvacuotI1u35wb9nwQ7aI4Uyk5Ellg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
