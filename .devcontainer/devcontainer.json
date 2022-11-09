@@ -17,20 +17,21 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "antfu.file-nesting",
-        "trunk.io",
-        "formulahendry.auto-rename-tag",
-        "EditorConfig.EditorConfig",
-        "miguelsolorio.fluent-icons",
-        "vscode-icons-team.vscode-icons",
-        "quicktype.quicktype",
-        "aaron-bond.better-comments",
-        "GitHub.copilot",
-        "WakaTime.vscode-wakatime",
-        "astro-build.astro-vscode",
-        "antfu.unocss"
-      ]
+		"dbaeumer.vscode-eslint",
+		"antfu.file-nesting",
+		"trunk.io",
+		"formulahendry.auto-rename-tag",
+		"EditorConfig.EditorConfig",
+		"miguelsolorio.fluent-icons",
+		"vscode-icons-team.vscode-icons",
+		"quicktype.quicktype",
+		"aaron-bond.better-comments",
+		"GitHub.copilot",
+		"WakaTime.vscode-wakatime",
+		"astro-build.astro-vscode",
+		"antfu.unocss",
+		"Gruntfuggly.todo-tree"
+	]
     }
   },
 
