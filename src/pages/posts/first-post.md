@@ -7,6 +7,7 @@ date: 11/4/2022
 url: /posts/first-post
 ---
 <!-- TODO: Make it so that unocss isn't compling css styles in here -->
+<!-- @unocss-ignore -->
 
 [Astro](https://Astro.build)
 
