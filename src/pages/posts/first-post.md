@@ -6,7 +6,6 @@ author: Dragonlord1005
 date: 11/4/2022
 url: /posts/first-post
 ---
-<!-- TODO: Make it so that unocss isn't compling css styles in here -->
 <!-- @unocss-ignore -->
 
 [Astro](https://Astro.build)
@@ -54,8 +53,6 @@ const Navigation = () => {
         <a href="/" className="link mr-6">
           Home
         </a>
-        {/* TODO: Add a about page */}
-        {/* <a href="/about" className="link mr-6">About</a> */}
         <a href="/projects" className="link mr-6">
           Projects
         </a>
