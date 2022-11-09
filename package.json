@@ -14,17 +14,17 @@
     "@astrojs/react": "1.2.2",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
-    "@unocss/astro": "0.46.3",
+    "@unocss/astro": "0.46.4",
     "astro": "1.6.5",
     "astro-compress": "1.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "unocss": "0.46.3"
+    "unocss": "0.46.4"
   },
   "devDependencies": {
-    "@unocss/preset-attributify": "0.46.3",
-    "@unocss/reset": "0.46.3",
-    "@unocss/transformer-compile-class": "0.46.3",
+    "@unocss/preset-attributify": "0.46.4",
+    "@unocss/reset": "0.46.4",
+    "@unocss/transformer-compile-class": "0.46.4",
     "vite": "3.2.3"
   }
 }
