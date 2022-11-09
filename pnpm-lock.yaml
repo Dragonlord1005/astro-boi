@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/react': 1.2.2
+  '@iconify/json': ^2.1.135
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@unocss/astro': 0.46.4
@@ -17,6 +18,7 @@ specifiers:
 
 dependencies:
   '@astrojs/react': 1.2.2_gqczyrwmhlwpr6z64d3xh3wv54
+  '@iconify/json': 2.1.135
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   '@unocss/astro': 0.46.4_vite@3.2.3
@@ -442,6 +444,13 @@ packages:
     os: [linux]
     requiresBuild: true
     optional: true
+
+  /@iconify/json/2.1.135:
+    resolution: {integrity: sha512-TPcWuayPACVtr2PxMbayUU+UEpoeL9VKvc3iJ+nImmxCZvDqeO7ralHqBSZi52sf9O5lvpe6xQSQijSIr6omAw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+      pathe: 0.3.9
+    dev: false
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
