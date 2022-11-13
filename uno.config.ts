@@ -26,7 +26,7 @@ export default defineConfig({
     presetIcons({
       scale: 2,
       cdn: "https://esm.sh/",
-      prefix: 'i-',
+      prefix: "i-",
       extraProperties: {
         display: "inline-block",
         "vertical-align": "middle",
