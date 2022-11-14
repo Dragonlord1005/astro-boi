@@ -24,13 +24,13 @@ export default defineConfig({
       dark: "media",
     }),
     presetIcons({
-      scale: 2,
+      // scale: 2,
       cdn: "https://esm.sh/",
       prefix: "i-",
-      extraProperties: {
-        display: "inline-block",
-        "vertical-align": "middle",
-      },
+      // extraProperties: {
+      //   display: "inline-block",
+      //   "vertical-align": "middle",
+      // },
     }),
     presetAttributify(),
   ],
