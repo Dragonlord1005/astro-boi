@@ -6,6 +6,7 @@ author: Dragonlord1005
 date: 11/4/2022
 url: /posts/first-post
 ---
+
 <!-- @unocss-ignore -->
 
 [Astro](https://Astro.build)
@@ -38,20 +39,25 @@ import Card from "./Card.astro";
 	}
 </style>
 ```
+
 This is all you need to list out posts and filter out drafts, and its included in the documentation.
 
 Something else thats great is you can use other framework components like for example react.
+
 ```tsx
 const Navigation = () => {
   return (
     <nav className="flex w-full dark:color-white justify-between p-6 bg-gray-800">
       <div className="flex flex-shrink-0">
         <span className="font-bold">Astro Boi</span>
-		    <div className="i-logos-astro w-2.5em h-2.5em flex content-center" />
+        <span className="i-logos-astro w-2.5em h-2.5em flex content-center" />
       </div>
       <div className="links lg:text-center w-full mr-20">
         <a href="/" className="link mr-6">
           Home
+        </a>
+        <a href="/about" className="link mr-6">
+          About
         </a>
         <a href="/projects" className="link mr-6">
           Projects
@@ -65,10 +71,13 @@ const Navigation = () => {
 };
 export default Navigation;
 ```
+
 Its automatically rendered into html, but it can easily be rendered by javascript instead, just add
+
 ```astro
 <component client:load>
 ```
+
 and your done!
 
 This is all powered by the islands architecture, look it up in astros documentation, I'm too lazy to tell you.
