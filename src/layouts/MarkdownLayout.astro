@@ -11,7 +11,7 @@ type Props = MarkdownLayoutProps<{
 const { frontmatter, url } = Astro.props;
 import Navigation from '../components/Navigation';
 
-import '../styles/main.css';
+// import '../styles/main.css';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -32,6 +32,9 @@ import '../styles/main.css';
 </html>
 
 <style is:global>
+    * {
+		@apply dark:text-white light:text-dark
+	}
 	:root {
 		--accent: 124, 58, 237;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
