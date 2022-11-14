@@ -1,7 +1,3 @@
-* {
-  @apply dark: text-white;
-}
-
 main {
   margin: auto;
   padding: 1.5rem;
