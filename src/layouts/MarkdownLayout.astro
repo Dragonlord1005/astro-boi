@@ -19,6 +19,7 @@ import Navigation from '../components/Navigation';
         <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
         <title>{frontmatter.title}</title>
         <meta name="description" content={frontmatter.description} />
+        <link rel="preload" href="Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
     </head>
     <header>
         <Navigation />
@@ -40,7 +41,8 @@ import Navigation from '../components/Navigation';
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
 	}
 	html {
-		font-family: system-ui, sans-serif;
+		/* font-family: system-ui, sans-serif;   */
+        font-family: 'Mona Sans';   
 		@apply bg-white dark:bg-gray-700;
 	}
 	code {
