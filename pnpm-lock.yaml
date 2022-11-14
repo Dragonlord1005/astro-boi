@@ -9,7 +9,7 @@ specifiers:
   '@unocss/reset': 0.46.5
   '@unocss/transformer-compile-class': 0.46.5
   astro: 1.6.7
-  astro-compress: 1.1.5
+  astro-compress: 1.1.6
   react: 18.2.0
   react-dom: 18.2.0
   unocss: 0.46.5
@@ -21,7 +21,7 @@ dependencies:
   '@types/react-dom': 18.0.8
   '@unocss/astro': 0.46.5_vite@3.2.3
   astro: 1.6.7
-  astro-compress: 1.1.5
+  astro-compress: 1.1.6
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   unocss: 0.46.5_vite@3.2.3
@@ -942,8 +942,8 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro-compress/1.1.5:
-    resolution: {integrity: sha512-Lp1BvKivu2MsAk3dbnNOnrpTcsM0Pn0aNt9aWSLAxuFqsXT3bj2L0lCWaCNBgDQ2j7FJtM8CrN2wITBRmspFHQ==}
+  /astro-compress/1.1.6:
+    resolution: {integrity: sha512-XFDkepT28LftKLsnH8F++esMerNOEx2D/B00VVEiCo2gNI7KpXXzrgE+PBN3mJbXxuwgJNhhHd810g9+BVe53g==}
     dependencies:
       csso: 5.0.5
       deepmerge-ts: 4.2.2
