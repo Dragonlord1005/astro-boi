@@ -17,6 +17,8 @@ import Navigation from '../components/Navigation';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="description" content={description} />
+		<link rel="preload" href="fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
 	</head>
 	<header>
 		<Navigation />
@@ -34,7 +36,8 @@ import Navigation from '../components/Navigation';
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
 	}
 	html {
-		font-family: system-ui, sans-serif;
+		/* font-family: system-ui, sans-serif; */
+		font-family: 'Mona Sans';
 		/* background-color: #F6F6F6; */
 		@apply bg-white dark:bg-gray-700;
 	}
