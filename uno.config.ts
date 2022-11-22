@@ -37,7 +37,7 @@ export default defineConfig({
   preflights: [
     {
       layer: "main",
-      getCSS: async () => (await fetch("src/styles/main.css")).text(),
+      getCSS: async () => (await fetch("public/styles/index.css")).text(),
     },
   ],
 });
