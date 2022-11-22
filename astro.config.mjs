@@ -11,7 +11,11 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), react()],
+  integrations: [
+    UnoCSS(),
+    // compress(),
+    react()
+  ],
   srcDir: "./src",
   vite: {
     server: {
