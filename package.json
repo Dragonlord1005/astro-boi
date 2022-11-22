@@ -23,13 +23,12 @@
     "unocss": "0.46.5"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.19",
     "@unocss/preset-attributify": "0.46.5",
     "@unocss/preset-icons": "^0.46.5",
     "@unocss/reset": "0.46.5",
     "@unocss/transformer-compile-class": "0.46.5",
-    "@unocss/transformer-variant-group": "^0.46.5",
-    "astro-robots-txt": "^0.3.10",
+    "@unocss/transformer-variant-group": "0.46.5",
+    "astro-robots-txt": "0.3.10",
     "vite": "3.2.4"
   }
 }
