@@ -4,7 +4,8 @@ import {
   transformerDirectives,
   presetAttributify,
   transformerCompileClass,
-  transformerVariantGroup
+  transformerVariantGroup,
+  presetTypography,
 } from "unocss";
 
 import presetIcons from '@unocss/preset-icons'
@@ -35,6 +36,7 @@ export default defineConfig({
       // },
     }),
     presetAttributify(),
+    presetTypography(),
   ],
   preflights: [
     {

@@ -8,6 +8,7 @@ specifiers:
   '@unocss/astro': 0.46.5
   '@unocss/preset-attributify': 0.46.5
   '@unocss/preset-icons': ^0.46.5
+  '@unocss/preset-typography': ^0.46.5
   '@unocss/reset': 0.46.5
   '@unocss/transformer-compile-class': 0.46.5
   '@unocss/transformer-variant-group': 0.46.5
@@ -34,6 +35,7 @@ dependencies:
 devDependencies:
   '@unocss/preset-attributify': 0.46.5
   '@unocss/preset-icons': 0.46.5
+  '@unocss/preset-typography': 0.46.5
   '@unocss/reset': 0.46.5
   '@unocss/transformer-compile-class': 0.46.5
   '@unocss/transformer-variant-group': 0.46.5
@@ -817,7 +819,6 @@ packages:
     resolution: {integrity: sha512-wAf9XNNzJWrXEFWuEUXfY5Jmx7HPv5Mi+3EkOcPi8at7lcncWkF0PmLY/nI95nfXQZipkV+aDyHp3TsDn9FgAw==}
     dependencies:
       '@unocss/core': 0.46.5
-    dev: false
 
   /@unocss/preset-uno/0.46.5:
     resolution: {integrity: sha512-O4f/cSdNAnK3MVXLgzihnOLrp12h3787U9bPZ1WS7Ow52D+kzBfRLVEWy4RWCGDN+ko/0q7Q7nqZOkrtcCELJQ==}
