@@ -9,6 +9,7 @@ specifiers:
   '@unocss/preset-attributify': 0.46.5
   '@unocss/reset': 0.46.5
   '@unocss/transformer-compile-class': 0.46.5
+  '@unocss/transformer-variant-group': ^0.46.5
   astro: 1.6.10
   astro-compress: 1.1.9
   astro-robots-txt: ^0.3.10
@@ -33,6 +34,7 @@ devDependencies:
   '@unocss/preset-attributify': 0.46.5
   '@unocss/reset': 0.46.5
   '@unocss/transformer-compile-class': 0.46.5
+  '@unocss/transformer-variant-group': 0.46.5
   astro-robots-txt: 0.3.10
   vite: 3.2.4
 
@@ -871,7 +873,6 @@ packages:
     resolution: {integrity: sha512-xBylFf8Q0z0jzr8OoqiIstC2ZXPeniENGANOruTzXlS+DJ2uuKNrwOuXpBbMTEA2D7lmLwtbyg1PZy3mDUB3iA==}
     dependencies:
       '@unocss/core': 0.46.5
-    dev: false
 
   /@unocss/vite/0.46.5_vite@3.2.4:
     resolution: {integrity: sha512-/auNcS1L3PjwAA3U/i9scJf2Zx3kkgCdKiXyfetjws4ddAnVE+LrDmIKbbdSUiWFoq9W2QOPpOPpV2xips2gmg==}

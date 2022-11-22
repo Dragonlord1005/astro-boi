@@ -5,6 +5,7 @@ import {
   transformerDirectives,
   presetAttributify,
   transformerCompileClass,
+  transformerVariantGroup
 } from "unocss";
 
 export default defineConfig({
@@ -15,10 +16,10 @@ export default defineConfig({
       ([, c]) => `rounded-1.5 bg-gray-800 text-white w-${c} hover:bg-gray-900`,
     ],
     {
-      link: "block mt-4 lg:inline-block lg:mt-0 text-gray-200 transition-all-500 hover:font-bold hover:color-yellow-500",
+      link: "block mt-4 lg:inline-block lg:mt-0 text-gray-200 transition-all-500 hover:(font-bold color-yellow-500)",
     },
   ],
-  transformers: [transformerDirectives(), transformerCompileClass()],
+  transformers: [transformerDirectives(), transformerCompileClass(), transformerVariantGroup()],
   presets: [
     presetUno({
       dark: "media",
