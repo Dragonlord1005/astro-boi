@@ -23,8 +23,9 @@
     "unocss": "0.46.5"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.142",
+    "@iconify-json/logos": "^1.1.19",
     "@unocss/preset-attributify": "0.46.5",
+    "@unocss/preset-icons": "^0.46.5",
     "@unocss/reset": "0.46.5",
     "@unocss/transformer-compile-class": "0.46.5",
     "@unocss/transformer-variant-group": "^0.46.5",

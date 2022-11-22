@@ -1,12 +1,13 @@
 import {
   defineConfig,
-  presetIcons,
   presetUno,
   transformerDirectives,
   presetAttributify,
   transformerCompileClass,
   transformerVariantGroup
 } from "unocss";
+
+import presetIcons from '@unocss/preset-icons'
 
 export default defineConfig({
   shortcuts: [
