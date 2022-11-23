@@ -1,11 +1,11 @@
 const Navigation = () => {
   return (
-    <nav className="flex w-full dark:color-white justify-between p-6 bg-gray-800">
+    <nav className="flex w-full color-white dark:(bg-gray-800) light:(bg-gray-7) justify-between p-6">
       <div className="flex flex-shrink-0">
-        <span className="font-bold color-white">Astro Boi</span>
-        <span className="i-logos-astro?mask dark:text-white light:text-dark w-2em h-2em" />
+        <span className="color-white font-bold">Astro Boi</span>
+        <span className="i-logos-astro?mask text-white w-2em h-2em" />
       </div>
-      <div className="links lg:text-center w-full mr-20">
+      <div className=":uno: links lg:text-center w-full mr-20">
         <a href="/" className="link mr-6">
           Home
         </a>
