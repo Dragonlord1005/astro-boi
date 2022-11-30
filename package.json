@@ -15,18 +15,18 @@
     "@astrojs/sitemap": "^1.0.0",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
-    "@unocss/astro": "0.46.5",
+    "@unocss/astro": "0.47.3",
     "astro": "1.6.12",
     "astro-compress": "1.1.14",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "unocss": "0.46.5"
+    "unocss": "0.47.3"
   },
   "devDependencies": {
-    "@unocss/preset-attributify": "0.46.5",
-    "@unocss/reset": "0.46.5",
-    "@unocss/transformer-compile-class": "0.46.5",
-    "@unocss/transformer-variant-group": "^0.46.5",
+    "@unocss/preset-attributify": "0.47.3",
+    "@unocss/reset": "0.47.3",
+    "@unocss/transformer-compile-class": "0.47.3",
+    "@unocss/transformer-variant-group": "^0.47.0",
     "astro-robots-txt": "^0.3.10",
     "vite": "3.2.4"
   }
