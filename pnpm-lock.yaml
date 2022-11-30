@@ -12,8 +12,8 @@ specifiers:
   '@unocss/reset': 0.47.3
   '@unocss/transformer-compile-class': 0.47.3
   '@unocss/transformer-variant-group': 0.47.3
-  astro: 1.6.11
-  astro-compress: 1.1.11
+  astro: 1.6.12
+  astro-compress: 1.1.14
   astro-robots-txt: 0.3.10
   react: 18.2.0
   react-dom: 18.2.0
@@ -26,8 +26,8 @@ dependencies:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   '@unocss/astro': 0.47.3_vite@3.2.4
-  astro: 1.6.11
-  astro-compress: 1.1.11
+  astro: 1.6.12
+  astro-compress: 1.1.14
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   unocss: 0.47.3_vite@3.2.4
@@ -518,8 +518,8 @@ packages:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: false
 
-  /@nikolarhristov/pipeline/0.0.6:
-    resolution: {integrity: sha512-OQTD2pbG3KXy1S3DsXyj8HALfL/Zn+k/+iVnIPUiS7emjrPkc+rO7XzWD2FDWuK3sI97qPXE8yfxJmXn6tp37w==}
+  /@nikolarhristov/pipeline/0.0.9:
+    resolution: {integrity: sha512-1tP1VcUTodT0DtKME8Ck24RIV/CLP7TBw4G6vcdMbgVyTSUhj+DV/pB+tdtqrVFnEJf9jGbQkYGAoc5i57OHVA==}
     dependencies:
       critters: 0.0.16
       csso: 5.0.5
@@ -979,10 +979,10 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro-compress/1.1.11:
-    resolution: {integrity: sha512-jeG/lgxJLh1AUu0A7qzWXDweZEAhpsWth/a2wvFy1aIw6euLlBU4FP+N+adsLG8PaN2YiWaeCcGonPwM4Cksjg==}
+  /astro-compress/1.1.14:
+    resolution: {integrity: sha512-bCwqk8ZAOwkd+BR0NPLWXyqAnNOT562na9jJuP4FyPfv5PovJ0AJKtGElXyoWC3G5oyWdqZ0y1wARyQGQUN4Og==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.0.6
+      '@nikolarhristov/pipeline': 0.0.9
     dev: false
 
   /astro-robots-txt/0.3.10:
@@ -993,8 +993,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /astro/1.6.11:
-    resolution: {integrity: sha512-T0xb0U0FOrqXxl87x4mjpufhf0b47RMPIu8WWK+2ODrRZkPj1sr24alh3Y/PLSyiWSqoGZF7xzQ6hzt0jDCyVQ==}
+  /astro/1.6.12:
+    resolution: {integrity: sha512-Pa1BfD/w2B/1bi6UXyvwbSnKnZqBglWgw8vjuEP+YJ8tb63g2yAn4mOy2Fh/Z5jn6fV1mkA2HS2TN2ZpTgagdg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
