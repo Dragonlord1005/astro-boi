@@ -18,5 +18,6 @@
       "matchPackagePatterns": ["unocss"],
       "groupName": "unocss",
     }
-  ]
+  ],
+  "baseBranches": ["main", "iconify-local"],
 }
