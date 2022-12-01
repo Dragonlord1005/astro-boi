@@ -13,7 +13,7 @@ specifiers:
   '@unocss/transformer-compile-class': 0.47.3
   '@unocss/transformer-variant-group': 0.47.3
   astro: 1.6.12
-  astro-compress: 1.1.14
+  astro-compress: 1.1.15
   astro-robots-txt: 0.3.10
   astro-seo: 0.6.0
   react: 18.2.0
@@ -28,7 +28,7 @@ dependencies:
   '@types/react-dom': 18.0.9
   '@unocss/astro': 0.47.3_vite@3.2.4
   astro: 1.6.12
-  astro-compress: 1.1.14
+  astro-compress: 1.1.15
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   unocss: 0.47.3_vite@3.2.4
@@ -520,9 +520,12 @@ packages:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: false
 
-  /@nikolarhristov/pipeline/0.0.9:
-    resolution: {integrity: sha512-1tP1VcUTodT0DtKME8Ck24RIV/CLP7TBw4G6vcdMbgVyTSUhj+DV/pB+tdtqrVFnEJf9jGbQkYGAoc5i57OHVA==}
+  /@nikolarhristov/pipeline/0.0.10:
+    resolution: {integrity: sha512-8njHnJpRshYtu14QXGgbTKE7sY9HScwKwWuq0qx9g5VB3fUXWgluPFEAMovmS8ABvh8RjLTht1sxajswB8FUzg==}
     dependencies:
+      '@types/csso': 5.0.0
+      '@types/html-minifier-terser': 7.0.0
+      '@types/sharp': 0.31.0
       critters: 0.0.16
       csso: 5.0.5
       deepmerge-ts: 4.2.2
@@ -640,6 +643,16 @@ packages:
       '@babel/types': 7.20.0
     dev: false
 
+  /@types/css-tree/2.0.0:
+    resolution: {integrity: sha512-mY2sXRLBnUPMYw6mkOT+6dABeaNxAEKZz6scE9kQPNJx8fKe1fOsm8Honl7+xFYe6TKX8WNk2+7oMp2vBArJ9Q==}
+    dev: false
+
+  /@types/csso/5.0.0:
+    resolution: {integrity: sha512-EMrCTGpXRUsbFfZBzn2jcW6Sqg8kxWXkJcpvAGYSEzFqAJ2THDJSwiMeS2fPUw+0p6RQNT/n8F/skEc9hUBc0g==}
+    dependencies:
+      '@types/css-tree': 2.0.0
+    dev: false
+
   /@types/debug/4.1.7:
     resolution: {integrity: sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg==}
     dependencies:
@@ -670,6 +683,10 @@ packages:
 
   /@types/html-escaper/3.0.0:
     resolution: {integrity: sha512-OcJcvP3Yk8mjYwf/IdXZtTE1tb/u0WF0qa29ER07ZHCYUBZXSN29Z1mBS+/96+kNMGTFUAbSz9X+pHmHpZrTCw==}
+    dev: false
+
+  /@types/html-minifier-terser/7.0.0:
+    resolution: {integrity: sha512-hw3bhStrg5e3FQT8qZKCJTrzt/UbEaunU1xRWJ+aNOTmeBMvE3S4Ml2HiiNnZgL8izu0LFVkHUoPFXL1s5QNpQ==}
     dev: false
 
   /@types/json5/0.0.30:
@@ -730,6 +747,12 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: false
+
+  /@types/sharp/0.31.0:
+    resolution: {integrity: sha512-nwivOU101fYInCwdDcH/0/Ru6yIRXOpORx25ynEOc6/IakuCmjOAGpaO5VfUl4QkDtUC6hj+Z2eCQvgXOioknw==}
+    dependencies:
+      '@types/node': 17.0.45
     dev: false
 
   /@types/unist/2.0.6:
@@ -981,10 +1004,10 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro-compress/1.1.14:
-    resolution: {integrity: sha512-bCwqk8ZAOwkd+BR0NPLWXyqAnNOT562na9jJuP4FyPfv5PovJ0AJKtGElXyoWC3G5oyWdqZ0y1wARyQGQUN4Og==}
+  /astro-compress/1.1.15:
+    resolution: {integrity: sha512-DOjll0tJ4ZaV/m3HtVMlpYbbSiQDmjdTOX7uTjSG+i0g0UHZdQ2Z2aDfDKLYpze+Eax9Y7KF5c839ysArZ4cMA==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.0.9
+      '@nikolarhristov/pipeline': 0.0.10
     dev: false
 
   /astro-robots-txt/0.3.10:
@@ -995,11 +1018,10 @@ packages:
       zod: 3.19.1
     dev: true
 
-
   /astro-seo/0.6.0:
     resolution: {integrity: sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==}
     dev: true
-    
+
   /astro/1.6.12:
     resolution: {integrity: sha512-Pa1BfD/w2B/1bi6UXyvwbSnKnZqBglWgw8vjuEP+YJ8tb63g2yAn4mOy2Fh/Z5jn6fV1mkA2HS2TN2ZpTgagdg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
