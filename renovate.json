@@ -19,5 +19,5 @@
       "groupName": "unocss",
     }
   ],
-  "baseBranches": ["main", "iconify-local"],
+  "baseBranches": ["main"]
 }
