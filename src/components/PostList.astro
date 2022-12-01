@@ -1,8 +1,14 @@
 ---
-const posts = await Astro.glob('../pages/posts/*.md') // returns an array of posts that live at ../pages/blog/*.md
+// Find all files in the posts directory
+const posts = await Astro.glob('../pages/posts/*.md')
+
+// Filter out any posts with a draft frontmatter value
 const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
+
+// Import the Card component
 import Card from "./Card.astro";
 
+// Import the CSS file
 import '../styles/link-card-grid.css'
 ---
 

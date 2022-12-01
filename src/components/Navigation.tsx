@@ -1,11 +1,6 @@
-const Navigation = () => {
+const Links = () => {
   return (
-    <nav className="flex w-full dark:color-white justify-between p-6 bg-gray-800">
-      <div className="flex flex-shrink-0">
-        <span className="font-bold color-white">Astro Boi</span>
-        <span className="i-logos-astro w-2.5em h-2.5em flex content-center" />
-      </div>
-      <div className="links lg:text-center w-full mr-20">
+    <div className=":uno: links lg:text-center w-full mr-20">
         <a href="/" className="link mr-6">
           Home
         </a>
@@ -18,7 +13,18 @@ const Navigation = () => {
         <a href="/blog" className="link">
           Blog
         </a>
+    </div>
+  )
+}
+
+const Navigation = () => {
+  return (
+    <nav className="flex w-full color-white justify-between p-6 dark:(bg-gray-800) light:(bg-gray-7)">
+      <div className="flex flex-shrink-0">
+        <span className="font-bold">Astro Boi</span>
+        <span className="i-logos-astro?mask color-white w-2em h-2em" />
       </div>
+      <Links />
     </nav>
   );
 };

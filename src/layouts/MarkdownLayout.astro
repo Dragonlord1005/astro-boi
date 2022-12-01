@@ -12,20 +12,26 @@ const { frontmatter, url } = Astro.props;
 import Navigation from '../components/Navigation';
 
 import '../styles/layout.css'
+
+import { SEO } from "astro-seo"
 ---
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <SEO
+            title={frontmatter.title}
+            description={frontmatter.description} />
         <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
-        <title>{frontmatter.title}</title>
-        <meta name="description" content={frontmatter.description} />
+        <!-- TODO: Remove Me -->
+        <!-- <title>{frontmatter.title}</title>
+        <meta name="description" content={frontmatter.description} /> -->
         <link rel="preload" href="../../fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../../fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
     </head>
     <header>
         <Navigation />
     </header>
-    <body class="text-center">
+    <body class="text-center prose">
         <link rel="stylesheet" href="/prism-one-dark.css" />
         <h1 class="text-center">{frontmatter.title} by {frontmatter.author}</h1>
         <slot />
