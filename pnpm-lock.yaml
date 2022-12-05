@@ -19,19 +19,19 @@ specifiers:
   react: 18.2.0
   react-dom: 18.2.0
   unocss: 0.47.4
-  vite: 3.2.4
+  vite: 3.2.5
 
 dependencies:
   '@astrojs/react': 1.2.2_cn3ejhfta5lq2dae4xucvtkwvu
   '@astrojs/sitemap': 1.0.0
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
-  '@unocss/astro': 0.47.4_vite@3.2.4
+  '@unocss/astro': 0.47.4_vite@3.2.5
   astro: 1.6.12
   astro-compress: 1.1.15
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
-  unocss: 0.47.4_vite@3.2.4
+  unocss: 0.47.4_vite@3.2.5
 
 devDependencies:
   '@unocss/preset-attributify': 0.47.4
@@ -42,7 +42,7 @@ devDependencies:
   '@unocss/transformer-variant-group': 0.47.4
   astro-robots-txt: 0.3.10
   astro-seo: 0.6.0
-  vite: 3.2.4
+  vite: 3.2.5
 
 packages:
 
@@ -763,12 +763,12 @@ packages:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
 
-  /@unocss/astro/0.47.4_vite@3.2.4:
+  /@unocss/astro/0.47.4_vite@3.2.5:
     resolution: {integrity: sha512-MHj7qcUMpyc3jb6+JNU8Ohsmn2SKohk+cuHNt7vXajGVRaGWHzkgQFAWDtHNAD0Xfx7L+PcsUMFUjQsB1jfT6w==}
     dependencies:
       '@unocss/core': 0.47.4
       '@unocss/reset': 0.47.4
-      '@unocss/vite': 0.47.4_vite@3.2.4
+      '@unocss/vite': 0.47.4_vite@3.2.5
     transitivePeerDependencies:
       - rollup
       - vite
@@ -897,7 +897,7 @@ packages:
     dependencies:
       '@unocss/core': 0.47.4
 
-  /@unocss/vite/0.47.4_vite@3.2.4:
+  /@unocss/vite/0.47.4_vite@3.2.5:
     resolution: {integrity: sha512-2EjEQc7zoddplTKsPgzJGP+wZ+JUNiFgkvdgfj/swa0VfvIV/Rpnn1xcN8lnY/Q8XqC8ohUPsGTyCGsib0a+Tw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -910,7 +910,7 @@ packages:
       '@unocss/scope': 0.47.4
       '@unocss/transformer-directives': 0.47.4
       magic-string: 0.26.7
-      vite: 3.2.4
+      vite: 3.2.5
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -1084,8 +1084,8 @@ packages:
       typescript: 4.8.4
       unist-util-visit: 4.1.1
       vfile: 5.3.5
-      vite: 3.2.4
-      vitefu: 0.2.1_vite@3.2.4
+      vite: 3.2.5
+      vitefu: 0.2.1_vite@3.2.5
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -4354,7 +4354,7 @@ packages:
       unist-util-visit-parents: 5.1.1
     dev: false
 
-  /unocss/0.47.4_vite@3.2.4:
+  /unocss/0.47.4_vite@3.2.5:
     resolution: {integrity: sha512-psveBFNqgIfGwItUZGIn+GQVJ3gRItR2B/aadV85hYoBjiPWBodRYBxv1bC5rkt/eZd0Wr3XqsnzI4nUUVuQuQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4363,7 +4363,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.47.4_vite@3.2.4
+      '@unocss/astro': 0.47.4_vite@3.2.5
       '@unocss/cli': 0.47.4
       '@unocss/core': 0.47.4
       '@unocss/preset-attributify': 0.47.4
@@ -4379,7 +4379,7 @@ packages:
       '@unocss/transformer-compile-class': 0.47.4
       '@unocss/transformer-directives': 0.47.4
       '@unocss/transformer-variant-group': 0.47.4
-      '@unocss/vite': 0.47.4_vite@3.2.4
+      '@unocss/vite': 0.47.4_vite@3.2.5
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4442,8 +4442,8 @@ packages:
       vfile-message: 3.1.2
     dev: false
 
-  /vite/3.2.4:
-    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
+  /vite/3.2.5:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4474,7 +4474,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitefu/0.2.1_vite@3.2.4:
+  /vitefu/0.2.1_vite@3.2.5:
     resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
@@ -4482,7 +4482,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 3.2.4
+      vite: 3.2.5
     dev: false
 
   /vscode-css-languageservice/6.1.1:
