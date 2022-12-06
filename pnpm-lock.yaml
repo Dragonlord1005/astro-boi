@@ -12,8 +12,8 @@ specifiers:
   '@unocss/reset': 0.47.4
   '@unocss/transformer-compile-class': 0.47.4
   '@unocss/transformer-variant-group': 0.47.4
-  astro: 1.6.12
-  astro-compress: 1.1.15
+  astro: 1.6.13
+  astro-compress: 1.1.18
   astro-robots-txt: 0.3.10
   astro-seo: 0.6.0
   react: 18.2.0
@@ -27,8 +27,8 @@ dependencies:
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.9
   '@unocss/astro': 0.47.4_vite@3.2.4
-  astro: 1.6.12
-  astro-compress: 1.1.15
+  astro: 1.6.13
+  astro-compress: 1.1.18
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   unocss: 0.47.4_vite@3.2.4
@@ -520,8 +520,8 @@ packages:
     resolution: {integrity: sha512-4/RWEeXDO6bocPONheFe6gX/oQdP/bEpv0oL4HqjPP5DCenBSt0mHgahppY49N0CpsaqffdwPq+TlX9CYOq2Dw==}
     dev: false
 
-  /@nikolarhristov/pipeline/0.0.10:
-    resolution: {integrity: sha512-8njHnJpRshYtu14QXGgbTKE7sY9HScwKwWuq0qx9g5VB3fUXWgluPFEAMovmS8ABvh8RjLTht1sxajswB8FUzg==}
+  /@nikolarhristov/pipeline/0.1.0:
+    resolution: {integrity: sha512-kxrVA9uXidzQIC1AUSWhnG8JskTiAXpRqBbovCR7zlSdexFm6qb5TtP1dXj+nW3zHwMKTHTt7b+G1MjLnHFniA==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
@@ -533,7 +533,7 @@ packages:
       html-minifier-terser: 7.1.0
       sharp: 0.31.2
       svgo: 3.0.2
-      terser: 5.16.0
+      terser: 5.16.1
     dev: false
 
   /@nodelib/fs.scandir/2.1.5:
@@ -1004,10 +1004,10 @@ packages:
       tslib: 2.4.0
     dev: false
 
-  /astro-compress/1.1.15:
-    resolution: {integrity: sha512-DOjll0tJ4ZaV/m3HtVMlpYbbSiQDmjdTOX7uTjSG+i0g0UHZdQ2Z2aDfDKLYpze+Eax9Y7KF5c839ysArZ4cMA==}
+  /astro-compress/1.1.18:
+    resolution: {integrity: sha512-/691T3/hxPbaxoatsNG3JUuUA7jj6+qQqWyqU4kAaFBNEV6lms6pmv1DECM8qaOx47pLZe7VeuXGkb8tOS2x9g==}
     dependencies:
-      '@nikolarhristov/pipeline': 0.0.10
+      '@nikolarhristov/pipeline': 0.1.0
     dev: false
 
   /astro-robots-txt/0.3.10:
@@ -1022,8 +1022,8 @@ packages:
     resolution: {integrity: sha512-nR+dJlAyQhX6s0oAmbBqPq3KCZax/zVAerFsclGiJQ2znOkS/7L+RGjziS4M9Q3OQxm3FMfqIKHp9Ns73Q81ww==}
     dev: true
 
-  /astro/1.6.12:
-    resolution: {integrity: sha512-Pa1BfD/w2B/1bi6UXyvwbSnKnZqBglWgw8vjuEP+YJ8tb63g2yAn4mOy2Fh/Z5jn6fV1mkA2HS2TN2ZpTgagdg==}
+  /astro/1.6.13:
+    resolution: {integrity: sha512-26Ip+7iCdHiK4FQokEWNYTcVDkJ76KLwlzUsuzLck8QBiUFQQUm9fs5nITHDI06k1EYfODYPH81xqZavXlC3Hg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1051,7 +1051,6 @@ packages:
       deepmerge-ts: 4.2.2
       diff: 5.1.0
       es-module-lexer: 0.10.5
-      esbuild: 0.14.54
       execa: 6.1.0
       fast-glob: 3.2.12
       github-slugger: 1.5.0
@@ -1084,8 +1083,8 @@ packages:
       typescript: 4.8.4
       unist-util-visit: 4.1.1
       vfile: 5.3.5
-      vite: 3.2.4
-      vitefu: 0.2.1_vite@3.2.4
+      vite: 3.2.5
+      vitefu: 0.2.1_vite@3.2.5
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -2449,7 +2448,7 @@ packages:
       entities: 4.4.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.16.0
+      terser: 5.16.1
     dev: false
 
   /html-void-elements/2.0.1:
@@ -4163,8 +4162,8 @@ packages:
       readable-stream: 3.6.0
     dev: false
 
-  /terser/5.16.0:
-    resolution: {integrity: sha512-KjTV81QKStSfwbNiwlBXfcgMcOloyuRdb62/iLFPGBcVNF4EXjhdYBhYHmbJpiBrVxZhDvltE11j+LBQUxEEJg==}
+  /terser/5.16.1:
+    resolution: {integrity: sha512-xvQfyfA1ayT0qdK47zskQgRZeWLoOQ8JQ6mIgRGVNwZKdQMU+5FkCBjmv4QjcrTzyZquRw2FVtlJSRUmMKQslw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -4474,7 +4473,40 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitefu/0.2.1_vite@3.2.4:
+  /vite/3.2.5:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.15.12
+      postcss: 8.4.18
+      resolve: 1.22.1
+      rollup: 2.79.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: false
+
+  /vitefu/0.2.1_vite@3.2.5:
     resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
@@ -4482,7 +4514,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 3.2.4
+      vite: 3.2.5
     dev: false
 
   /vscode-css-languageservice/6.1.1:
