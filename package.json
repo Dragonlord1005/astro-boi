@@ -16,8 +16,8 @@
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "@unocss/astro": "0.47.4",
-    "astro": "1.6.12",
-    "astro-compress": "1.1.15",
+    "astro": "1.6.13",
+    "astro-compress": "1.1.18",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "unocss": "0.47.4"
