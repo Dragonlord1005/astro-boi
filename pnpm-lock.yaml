@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/partytown': ^1.0.2
+  '@astrojs/partytown': 1.0.2
   '@astrojs/react': 1.2.2
   '@astrojs/sitemap': 1.0.0
   '@types/react': 18.0.26
