@@ -14,8 +14,11 @@ import robotsTxt from 'astro-robots-txt';
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
+import partytown from "@astrojs/partytown";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), react(), robotsTxt(), sitemap()],
+  integrations: [UnoCSS(), compress(), react(), robotsTxt(), sitemap(), partytown()],
   srcDir: "./src",
   vite: {
     server: {
