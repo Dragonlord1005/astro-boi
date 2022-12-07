@@ -5,4 +5,5 @@
   background-clip: text;
   background-size: 400%;
   background-position: 0%;
+  transition: background-position 1s linear;
 }
