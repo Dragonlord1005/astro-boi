@@ -25,7 +25,7 @@ export default defineConfig({
         "i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)",
     },
     {
-      "page-link":
+      "site-link":
         "i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)",
     },
   ],
