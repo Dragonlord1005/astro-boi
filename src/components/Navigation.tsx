@@ -1,16 +1,16 @@
 const Links = () => {
   return (
     <div className=":uno: links lg:text-center w-full mr-20">
-        <a href="/" className="link mr-6">
+        <a href="/" className="nav-link mr-6">
           Home
         </a>
-        <a href="/about" className="link mr-6">
+        <a href="/about" className="nav-link mr-6">
           About
         </a>
-        <a href="/projects" className="link mr-6">
+        <a href="/projects" className="nav-link mr-6">
           Projects
         </a>
-        <a href="/blog" className="link">
+        <a href="/blog" className="nav-link">
           Blog
         </a>
     </div>
