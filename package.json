@@ -34,6 +34,11 @@
     "@unocss/transformer-variant-group": "0.47.5",
     "astro-robots-txt": "0.3.10",
     "astro-seo": "0.6.0",
+    "autoprefixer": "10.4.13",
+    "cssnano": "5.1.14",
+    "postcss": "8.4.19",
+    "sharp": "0.31.2",
+    "terser": "5.16.1",
     "vite": "3.2.5"
   }
 }

@@ -27,7 +27,11 @@ export default defineConfig({
       watch: {
         ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
       }
-    }
+    },
+    build: {
+      cssCodeSplit: true,
+      minify: "terser",
+    },
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
