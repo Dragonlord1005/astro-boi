@@ -7,7 +7,6 @@ import UnoCSS from "@unocss/astro";
 import compress from "astro-compress";
 
 // https://astro.build/config
-import react from "@astrojs/react";
 import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
@@ -21,7 +20,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), react(), robotsTxt(), sitemap(), partytown(), preact()],
+  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact()],
   srcDir: "./src",
   vite: {
     server: {
