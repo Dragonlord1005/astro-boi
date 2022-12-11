@@ -17,26 +17,22 @@ import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
+import preact from "@astrojs/preact";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [
-    UnoCSS(),
-    compress(),
-    react(),
-    robotsTxt(),
-    sitemap(),
-    partytown(),
-  ],
+  integrations: [UnoCSS(), compress(), react(), robotsTxt(), sitemap(), partytown(), preact()],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
-      },
-    },
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
+      }
+    }
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
   markdown: {
-    syntaxHighlight: "prism",
-  },
+    syntaxHighlight: "prism"
+  }
 });
