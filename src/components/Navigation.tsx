@@ -19,7 +19,7 @@ const Links = () => {
 
 const Navigation = () => {
   return (
-    <nav className="flex w-full color-white justify-between p-6 dark:(bg-gray-800) light:(bg-gray-7)">
+    <nav className="hidden lg:visible lg:flex w-full color-white justify-between p-6 dark:(bg-gray-800) light:(bg-gray-7)">
       <div className="flex flex-shrink-0">
         <span className="font-bold">Astro Boi</span>
         <span className="i-logos-astro?mask color-white w-2em h-2em" />

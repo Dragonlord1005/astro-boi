@@ -6,6 +6,7 @@ export interface Props {
 
 const { title, description } = Astro.props;
 import Navigation from '../components/Navigation';
+import MobileNavMenu from '../components/MobileNavMenu';
 
 import '../styles/layout.css'
 
@@ -37,6 +38,7 @@ import { SEO } from "astro-seo";
 		gtag('config', 'G-ZXNLX86V8S');
 	</script>
 	<header>
+		<MobileNavMenu client:visible/>
 		<Navigation />
 	</header>
 	<body>
