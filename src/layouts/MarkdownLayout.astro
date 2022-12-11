@@ -10,6 +10,7 @@ type Props = MarkdownLayoutProps<{
 }>;
 const { frontmatter, url } = Astro.props;
 import Navigation from '../components/Navigation';
+import MobileNav from '../components/MobileNav.astro';
 
 import '../styles/main.css'
 import '../styles/layout.css'
@@ -23,9 +24,6 @@ import { SEO } from "astro-seo"
             title={frontmatter.title}
             description={frontmatter.description} />
         <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
-        <!-- TODO: Remove Me -->
-        <!-- <title>{frontmatter.title}</title>
-        <meta name="description" content={frontmatter.description} /> -->
         <link rel="preload" href="../../fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preload" href="../../fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
     </head>
@@ -38,6 +36,7 @@ import { SEO } from "astro-seo"
 		gtag('config', 'G-ZXNLX86V8S');
 	</script>
     <header>
+        <MobileNav />
         <Navigation />
     </header>
     <body class="text-center prose">
