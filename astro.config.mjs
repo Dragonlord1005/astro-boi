@@ -19,30 +19,26 @@ import partytown from "@astrojs/partytown";
 import preact from "@astrojs/preact";
 
 // https://astro.build/config
+import image from "@astrojs/image";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [
-    UnoCSS(),
-    compress(),
-    robotsTxt(),
-    sitemap(),
-    partytown(),
-    preact(),
-  ],
+  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact(), image()],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
-      },
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
+      }
     },
     build: {
       cssCodeSplit: true,
-      minify: "terser",
-    },
+      minify: "terser"
+    }
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
   markdown: {
-    syntaxHighlight: "prism",
-  },
+    syntaxHighlight: "prism"
+  }
 });
