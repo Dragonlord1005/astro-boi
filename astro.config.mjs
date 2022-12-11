@@ -20,13 +20,20 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact()],
+  integrations: [
+    UnoCSS(),
+    compress(),
+    robotsTxt(),
+    sitemap(),
+    partytown(),
+    preact(),
+  ],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
-      }
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
+      },
     },
     build: {
       cssCodeSplit: true,
@@ -36,6 +43,6 @@ export default defineConfig({
   site: "https://astroi-boi.netlify.app",
   output: "static",
   markdown: {
-    syntaxHighlight: "prism"
-  }
+    syntaxHighlight: "prism",
+  },
 });

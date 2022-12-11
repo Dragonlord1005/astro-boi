@@ -1,4 +1,4 @@
-import { useState } from 'preact/hooks';
+import { useState } from "preact/hooks";
 
 const MobileNavMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,8 +15,7 @@ const MobileNavMenu = () => {
             type="button"
             className=":uno: inline-block text-white h-6 w-6 fill-current focus:outline-none i-material-symbols-menu"
             onClick={toggleMenu}
-          >
-          </button>
+          ></button>
           {isMenuOpen && (
             <div className="bg-gray-9 shadow-lg rounded-lg p-3">
               <a href="#" className="nav-link">
@@ -41,4 +40,4 @@ const MobileNavMenu = () => {
 //   render(<MobileNavMenu />, rootElement);
 // }
 
-export default MobileNavMenu
+export default MobileNavMenu;
