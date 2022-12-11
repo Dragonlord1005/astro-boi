@@ -5,11 +5,11 @@ export interface Props {
 }
 
 const { title, description } = Astro.props;
-import Navigation from '../components/Navigation';
-import MobileNav from '../components/MobileNav.astro';
+import Navigation from '@components/Navigation';
+import MobileNav from '@components/MobileNav.astro';
 
-import '../styles/main.css'
-import '../styles/layout.css'
+import '@styles/main.css'
+import '@styles/layout.css'
 
 import { SEO } from "astro-seo";
 ---
