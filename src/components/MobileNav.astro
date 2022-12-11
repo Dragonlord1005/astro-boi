@@ -1,0 +1,40 @@
+<!-- HTML -->
+<nav class="block flex justify-between brand-bg p-3 lg:hidden">
+  <div class="flex-grow">
+    <div>
+      <button
+        type="button"
+        class="inline-block text-white h-6 w-6 fill-current focus:outline-none i-material-symbols-menu"
+        id="menu-button"
+      >
+      </button>
+      <div id="menu" class="bg-gray-9 shadow-lg rounded-lg p-3" style="display: none;">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- JavaScript -->
+<script>
+  let isMenuOpen = false;
+  const toggleMenu = () => {
+    const menuElement = document.getElementById('menu');
+    if (menuElement) {
+      if (isMenuOpen) {
+        menuElement.style.display = 'none';
+        isMenuOpen = false;
+      } else {
+        menuElement.style.display = 'block';
+        isMenuOpen = true;
+      }
+    }
+  };
+
+  const menuButtonElement = document.getElementById('menu-button');
+  if (menuButtonElement) {
+    menuButtonElement.addEventListener('click', toggleMenu);
+  }
+</script>
