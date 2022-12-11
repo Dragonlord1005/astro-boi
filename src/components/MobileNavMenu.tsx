@@ -8,7 +8,7 @@ const MobileNavMenu = () => {
   };
 
   return (
-    <nav className="block flex justify-between light:bg-gray-7 dark:bg-gray-8 p-3 lg:hidden">
+    <nav className="block flex justify-between brand-bg p-3 lg:hidden">
       <div className="flex-grow">
         <div>
           <button
