@@ -35,9 +35,4 @@ const MobileNavMenu = () => {
   );
 };
 
-// const rootElement = document.getElementById('root');
-// if (rootElement) {
-//   render(<MobileNavMenu />, rootElement);
-// }
-
 export default MobileNavMenu;
