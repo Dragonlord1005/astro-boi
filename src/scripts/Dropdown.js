@@ -9,10 +9,14 @@ const toggleMenu = () => {
       menuElement.style.display = "block";
       isMenuOpen = true;
     }
+  } else {
+    throw new Error("Menu element not found");
   }
 };
 
 const menuButtonElement = document.getElementById("menu-button");
 if (menuButtonElement) {
   menuButtonElement.addEventListener("click", toggleMenu);
+} else {
+  throw new Error("Menu button element not found");
 }
