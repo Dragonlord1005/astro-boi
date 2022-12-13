@@ -1,3 +1,5 @@
+// @unocss-ignore
+
 import { useState } from "preact/hooks";
 
 const MobileNavMenu = () => {
