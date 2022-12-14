@@ -27,8 +27,10 @@ code {
 
 h1 {
   font-family: "Hubot Sans";
+  --uno: "text-center";
 }
 
 h2 {
   font-family: "Hubot Sans";
+  --uno: "text-center";
 }
