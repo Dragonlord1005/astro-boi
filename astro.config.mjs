@@ -23,7 +23,9 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact(), image()],
+  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact(), image({
+    serviceEntryPoint: '@astrojs/image/sharp',
+  })],
   srcDir: "./src",
   vite: {
     server: {
