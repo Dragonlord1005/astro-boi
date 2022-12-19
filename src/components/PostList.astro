@@ -1,5 +1,6 @@
 ---
-// Find all files in the posts directory
+// TODO: Switch to mdx
+// Find all .md files in the posts directory
 const posts = await Astro.glob('../pages/posts/*.md')
 
 // Filter out any posts with a draft frontmatter value
@@ -9,7 +10,7 @@ const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
 import Card from "./Card.astro";
 
 // Import the CSS file
-import '../styles/link-card-grid.css'
+import '@styles/link-card-grid.css'
 ---
 
 <div>

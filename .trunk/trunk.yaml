@@ -17,5 +17,4 @@ lint:
     - prettier@2.7.1
 runtimes:
   enabled:
-    - go@1.18.3
     - node@16.14.2

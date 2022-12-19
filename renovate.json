@@ -19,5 +19,5 @@
       "groupName": "unocss",
     }
   ],
-  "baseBranches": ["main", "revamp-projects"]
+  "baseBranches": ["main"]
 }

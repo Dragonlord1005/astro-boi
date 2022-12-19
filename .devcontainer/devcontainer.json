@@ -26,7 +26,8 @@
         "WakaTime.vscode-wakatime",
         "astro-build.astro-vscode",
         "antfu.unocss",
-        "Gruntfuggly.todo-tree"
+        "Gruntfuggly.todo-tree",
+        "GitHub.copilot-labs"
       ]
     }
   },
