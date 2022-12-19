@@ -23,24 +23,32 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), preact(), image({
-    serviceEntryPoint: '@astrojs/image/sharp',
-  })],
+  integrations: [
+    UnoCSS(),
+    compress(),
+    robotsTxt(),
+    sitemap(),
+    partytown(),
+    preact(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+  ],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
-      }
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
+      },
     },
     build: {
       cssCodeSplit: true,
-      minify: "terser"
-    }
+      minify: "terser",
+    },
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
   markdown: {
-    syntaxHighlight: "prism"
-  }
+    syntaxHighlight: "prism",
+  },
 });
