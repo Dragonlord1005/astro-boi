@@ -34,7 +34,7 @@
     "@unocss/transformer-compile-class": "0.47.6",
     "@unocss/transformer-variant-group": "0.47.6",
     "astro-robots-txt": "0.3.10",
-    "astro-seo": "0.6.0",
+    "astro-seo": "0.6.1",
     "autoprefixer": "10.4.13",
     "cssnano": "5.1.14",
     "postcss": "8.4.20",
