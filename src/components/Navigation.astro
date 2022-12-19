@@ -1,0 +1,25 @@
+---
+import MobileNav from '@components/MobileNav.astro';
+---
+
+<MobileNav />
+<nav class="lg:visible hidden lg:(flex w-full color-white justify-between p-6 brand-bg)">
+    <div class="flex flex-shrink-0">
+        <span class="font-bold">Astro Boi</span>
+        <span class=":uno: i-logos-astro?mask color-white w-2em h-2em" />
+    </div>
+    <div class=":uno: links text-center w-full mr-20">
+      <a href="/" class="nav-link mr-6">
+        Home
+      </a>
+      <a href="/about" class="nav-link mr-6">
+        About
+      </a>
+      <a href="/projects" class="nav-link mr-6">
+        Projects
+      </a>
+      <a href="/blog" class="nav-link">
+        Blog
+      </a>
+    </div>
+</nav>
