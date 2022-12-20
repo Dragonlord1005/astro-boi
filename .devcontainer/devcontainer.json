@@ -42,6 +42,7 @@
   "remoteUser": "node",
   "features": {
     //"github-cli": "latest"
+    "ghcr.io/NicoVIII/devcontainer-features/pnpm:1": {}
   },
   "portsAttributes": {
     "3000": {
