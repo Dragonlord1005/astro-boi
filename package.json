@@ -33,7 +33,7 @@
     "autoprefixer": "10.4.13",
     "cssnano": "5.1.14",
     "postcss": "8.4.20",
-    "sharp": "0.31.2",
+    "sharp": "0.31.3",
     "terser": "5.16.1",
     "vite": "4.0.2"
   }
