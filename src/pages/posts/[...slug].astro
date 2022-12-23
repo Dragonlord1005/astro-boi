@@ -1,0 +1,22 @@
+---
+import { getCollection, CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+    const blog = await getCollection('posts')
+    return blog.map(entry => ({
+        params: { slug: entry.slug }, props: { entry }
+    }));
+}
+
+interface Props {
+// Optionally use `CollectionEntry` for type safety
+  entry: CollectionEntry<'posts'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render()
+---
+
+<!-- TODO: Make it so that this will render below the navbar -->
+<!-- <h1>{entry.data.title}</h1> -->
+<Content />

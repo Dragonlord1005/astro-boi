@@ -3,7 +3,7 @@ layout: ../../layouts/MarkdownLayout.astro
 title: First Post
 description: My first post in astro
 author: Dragonlord1005
-date: 11/4/2022
+publishDate: 11/4/2022
 url: /posts/first-post
 ---
 
