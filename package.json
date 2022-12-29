@@ -34,7 +34,11 @@
     "cssnano": "5.1.14",
     "postcss": "8.4.20",
     "sharp": "0.31.3",
-    "terser": "5.16.1",
-    "vite": "4.0.3"
+    "terser": "5.16.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["vite"]
+    }
   }
 }
