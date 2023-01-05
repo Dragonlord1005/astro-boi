@@ -12,7 +12,7 @@ specifiers:
   '@unocss/reset': 0.48.0
   '@unocss/transformer-compile-class': 0.48.0
   '@unocss/transformer-variant-group': 0.48.0
-  astro: 1.9.0
+  astro: 1.9.1
   astro-compress: 1.1.24
   astro-robots-txt: 0.3.10
   astro-seo: 0.6.1
@@ -30,7 +30,7 @@ dependencies:
   '@astrojs/preact': 1.2.0_preact@10.11.3
   '@astrojs/sitemap': 1.0.0
   '@unocss/astro': 0.48.0
-  astro: 1.9.0_terser@5.16.1
+  astro: 1.9.1_terser@5.16.1
   astro-compress: 1.1.24
   preact: 10.11.3
   unocss: 0.48.0
@@ -1044,8 +1044,8 @@ packages:
     resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
-  /astro/1.9.0_terser@5.16.1:
-    resolution: {integrity: sha512-wHHMOHgqBGV4L8ThjCeBuVHq0mGF1F515jRyp5ns0MzFcu2nFk1frlXBKZEfmMMM84cilq3HeimrRTLkIGxI8A==}
+  /astro/1.9.1_terser@5.16.1:
+    resolution: {integrity: sha512-aQ6rvAP4w4VCgipVYA/zPmnkuTbFrMZ/+x/sAv2W1uJHWU2iQmrVRrrjUFJl+i1TuYYlHAuC2vKK7aRyXCjD4A==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
