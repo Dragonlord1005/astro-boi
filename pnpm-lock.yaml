@@ -14,7 +14,7 @@ specifiers:
   '@unocss/transformer-variant-group': 0.48.4
   astro: 1.9.1
   astro-compress: 1.1.24
-  astro-robots-txt: 0.3.10
+  astro-robots-txt: 0.3.11
   astro-seo: 0.6.1
   autoprefixer: 10.4.13
   cssnano: 5.1.14
@@ -42,7 +42,7 @@ devDependencies:
   '@unocss/reset': 0.48.4
   '@unocss/transformer-compile-class': 0.48.4
   '@unocss/transformer-variant-group': 0.48.4
-  astro-robots-txt: 0.3.10
+  astro-robots-txt: 0.3.11
   astro-seo: 0.6.1
   autoprefixer: 10.4.13_postcss@8.4.20
   cssnano: 5.1.14_postcss@8.4.20
@@ -1036,8 +1036,8 @@ packages:
       terser: 5.16.1
     dev: false
 
-  /astro-robots-txt/0.3.10:
-    resolution: {integrity: sha512-fVQOdiVFPgMJEILUFBpNsup3q/RBvYiiecQVyPeWo3Ss+CzjMCkbWBflbFr86+9tTkiX0q1dufNem03QnorJ/w==}
+  /astro-robots-txt/0.3.11:
+    resolution: {integrity: sha512-UmIOU6zLusFSPBQjl8vozlfE1fkxLuXDhaT7ZOalsE8Ee4c/ua8OWexcx9Z4d2rZZ8/pywuL28LeG0Sjaq5m3w==}
     dependencies:
       deepmerge: 4.2.2
       valid-filename: 4.0.0
