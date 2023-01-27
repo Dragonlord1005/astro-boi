@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/image': 0.12.1
-  '@astrojs/partytown': 1.0.2
+  '@astrojs/image': 0.13.0
+  '@astrojs/partytown': 1.0.3
   '@astrojs/preact': 1.2.0
   '@astrojs/sitemap': 1.0.0
   '@unocss/astro': 0.48.4
@@ -12,8 +12,8 @@ specifiers:
   '@unocss/reset': 0.48.4
   '@unocss/transformer-compile-class': 0.48.4
   '@unocss/transformer-variant-group': 0.48.4
-  astro: 1.9.1
-  astro-compress: 1.1.24
+  astro: 1.9.2
+  astro-compress: 1.1.28
   astro-robots-txt: 0.3.10
   astro-seo: 0.6.1
   autoprefixer: 10.4.13
@@ -25,13 +25,13 @@ specifiers:
   unocss: 0.48.4
 
 dependencies:
-  '@astrojs/image': 0.12.1_sharp@0.31.3
-  '@astrojs/partytown': 1.0.2
+  '@astrojs/image': 0.13.0_astro@1.9.2+sharp@0.31.3
+  '@astrojs/partytown': 1.0.3
   '@astrojs/preact': 1.2.0_preact@10.11.3
   '@astrojs/sitemap': 1.0.0
   '@unocss/astro': 0.48.4
-  astro: 1.9.1_terser@5.16.1
-  astro-compress: 1.1.24
+  astro: 1.9.2_terser@5.16.1
+  astro-compress: 1.1.28
   preact: 10.11.3
   unocss: 0.48.4
 
@@ -85,23 +85,24 @@ packages:
     resolution: {integrity: sha512-HgjKVwFZ3LwKnGv8gI0J6MhIniUyKwSmGwo7pTDTn14iwfqovfgzVPeJ0+KFpuKBbB4z1lsFNbD/c1WXZyKz6A==}
     dev: false
 
-  /@astrojs/image/0.12.1_sharp@0.31.3:
-    resolution: {integrity: sha512-7pBUPCw7/FPwfEntx+mGjhdwpaWXNHwRVcTK71rpf+c2yb8iIesRS9r26U7lGozTzXUROh1y1ftA82ziuqYF6Q==}
+  /@astrojs/image/0.13.0_astro@1.9.2+sharp@0.31.3:
+    resolution: {integrity: sha512-18IlEsb/mau4ji9sR7+JVPFJHtgIk7Qh/Ol+Hh/JNcPn/oMrjP6FMU3VrNHPy5Ltvw1DyzkDV4wu+jYKU/V0Hw==}
     peerDependencies:
+      astro: ^2.0.0
       sharp: '>=0.31.0'
     peerDependenciesMeta:
       sharp:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
+      astro: 1.9.2_terser@5.16.1
       http-cache-semantics: 4.1.0
       image-size: 1.0.2
       kleur: 4.1.5
-      magic-string: 0.25.9
+      magic-string: 0.27.0
       mime: 3.0.0
       sharp: 0.31.3
       slash: 4.0.0
-      web-streams-polyfill: 3.2.1
     dev: false
 
   /@astrojs/language-server/0.28.3:
@@ -167,10 +168,10 @@ packages:
       vfile-message: 3.1.3
     dev: false
 
-  /@astrojs/partytown/1.0.2:
-    resolution: {integrity: sha512-+pUjLxdp0SYqUO+X+FjFN95KxK7w4Rs5gIMQ7scKUWd2073D3/5hTlij9qNmX5Bk/tFHUfTivKIZ5p233Lpa9Q==}
+  /@astrojs/partytown/1.0.3:
+    resolution: {integrity: sha512-u2/pG9owRipICz/PksLUUqUat98sm0/YODvv3/IKKJ0JCwF7+0olbMvyyvoj7kJooIXh0XowcOjEs5vhCYFo5g==}
     dependencies:
-      '@builder.io/partytown': 0.7.3
+      '@builder.io/partytown': 0.7.5
       mrmime: 1.0.1
     dev: false
 
@@ -456,8 +457,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@builder.io/partytown/0.7.3:
-    resolution: {integrity: sha512-hA6WYBFD/exyrEvs0JSvQIILfH0/Jlr5amqE3lt1nPehCus+eQm4ob3LBMRkSaFDWz9clHSLtsGwG52dUjGy3g==}
+  /@builder.io/partytown/0.7.5:
+    resolution: {integrity: sha512-Zbr2Eo0AQ4yzmQr/36/h+6LKjmdVBB3Q5cGzO6rtlIKB/IOpbQVUZW+XAnhpJmJr9sIF97OZjgbhG9k7Sjn4yw==}
     hasBin: true
     dev: false
 
@@ -760,8 +761,8 @@ packages:
       '@types/node': 17.0.45
     dev: false
 
-  /@types/sharp/0.31.0:
-    resolution: {integrity: sha512-nwivOU101fYInCwdDcH/0/Ru6yIRXOpORx25ynEOc6/IakuCmjOAGpaO5VfUl4QkDtUC6hj+Z2eCQvgXOioknw==}
+  /@types/sharp/0.31.1:
+    resolution: {integrity: sha512-5nWwamN9ZFHXaYEincMSuza8nNfOof8nmO+mcI+Agx1uMUk4/pQnNIcix+9rLPXzKrm1pS34+6WRDbDV0Jn7ag==}
     dependencies:
       '@types/node': 18.11.17
     dev: false
@@ -1022,16 +1023,16 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /astro-compress/1.1.24:
-    resolution: {integrity: sha512-S7yzhmYdHxMPn8N3E7XJFKhTuHFrwLovPyhMJAuReVmhISvR0cxubGxaYnSJZrE67vFePj5Y8Gkd82GJIjFS2A==}
+  /astro-compress/1.1.28:
+    resolution: {integrity: sha512-uk4lZHug/A276T/jdtEscCFbWVI78UqlvDg4ujRL5UUcIs+nd8gJOipSagkzdGswjNkd482zFysQ9YS5/u7xVw==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
-      '@types/sharp': 0.31.0
+      '@types/sharp': 0.31.1
       csso: 5.0.5
       files-pipeline: 0.0.2
       html-minifier-terser: 7.1.0
-      sharp: 0.31.2
+      sharp: 0.31.3
       svgo: 3.0.2
       terser: 5.16.1
     dev: false
@@ -1048,8 +1049,8 @@ packages:
     resolution: {integrity: sha512-eszmxiycjfLcmoRyB8x5lCrWAwcSHs1i5riR1a5JbyJI8OQAl9tn1JvWFRuZvNH483CFdfNCczirnc805t/soA==}
     dev: true
 
-  /astro/1.9.1_terser@5.16.1:
-    resolution: {integrity: sha512-aQ6rvAP4w4VCgipVYA/zPmnkuTbFrMZ/+x/sAv2W1uJHWU2iQmrVRrrjUFJl+i1TuYYlHAuC2vKK7aRyXCjD4A==}
+  /astro/1.9.2_terser@5.16.1:
+    resolution: {integrity: sha512-L+Ma0eR0Aa6QZg7RF0lEs+106Ye1/zukvtq3KtsYIogAojltlwllwU9X5CwMBzFwA55NxpNp4gSRh5US/xb+8Q==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -2758,12 +2759,6 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /magic-string/0.25.9:
-    resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
-    dependencies:
-      sourcemap-codec: 1.4.8
-    dev: false
-
   /magic-string/0.27.0:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
@@ -4244,21 +4239,6 @@ packages:
       type-fest: 0.13.1
     dev: false
 
-  /sharp/0.31.2:
-    resolution: {integrity: sha512-DUdNVEXgS5A97cTagSLIIp8dUZ/lZtk78iNVZgHdHbx1qnQR7JAHY0BnXnwwH39Iw+VKhO08CTYhIg0p98vQ5Q==}
-    engines: {node: '>=14.15.0'}
-    requiresBuild: true
-    dependencies:
-      color: 4.2.3
-      detect-libc: 2.0.1
-      node-addon-api: 5.0.0
-      prebuild-install: 7.1.1
-      semver: 7.3.8
-      simple-get: 4.0.1
-      tar-fs: 2.1.1
-      tunnel-agent: 0.6.0
-    dev: false
-
   /sharp/0.31.3:
     resolution: {integrity: sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg==}
     engines: {node: '>=14.15.0'}
@@ -4355,11 +4335,6 @@ packages:
   /source-map/0.7.4:
     resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
     engines: {node: '>= 8'}
-    dev: false
-
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
-    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: false
 
   /space-separated-tokens/2.0.2:

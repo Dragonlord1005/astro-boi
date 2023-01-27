@@ -11,13 +11,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "0.12.1",
-    "@astrojs/partytown": "1.0.2",
+    "@astrojs/image": "0.13.0",
+    "@astrojs/partytown": "1.0.3",
     "@astrojs/preact": "1.2.0",
     "@astrojs/sitemap": "1.0.0",
     "@unocss/astro": "0.48.4",
-    "astro": "1.9.1",
-    "astro-compress": "1.1.24",
+    "astro": "1.9.2",
+    "astro-compress": "1.1.28",
     "preact": "10.11.3",
     "unocss": "0.48.4"
   },
