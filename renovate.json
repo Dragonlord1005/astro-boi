@@ -16,7 +16,7 @@
     },
     {
       "matchPackagePatterns": ["unocss"],
-      "groupName": "unocss",
+      "groupName": "unocss"
     }
   ],
   "baseBranches": ["main"]
