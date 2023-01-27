@@ -13,7 +13,7 @@
   "dependencies": {
     "@astrojs/image": "0.12.1",
     "@astrojs/partytown": "1.0.2",
-    "@astrojs/preact": "1.2.0",
+    "@astrojs/preact": "2.0.0",
     "@astrojs/sitemap": "1.0.0",
     "@unocss/astro": "0.48.4",
     "astro": "1.9.1",
