@@ -36,20 +36,11 @@ export default defineConfig({
     }),
     presetIcons({
       // scale: 2,
+      // ! For some reason, esm is causing astro to crash
       cdn: "https://esm.sh/",
       prefix: "i-",
-      // extraProperties: {
-      //   display: "inline-block",
-      //   "vertical-align": "middle",
-      // },
     }),
     presetAttributify(),
     presetTypography(),
   ],
-  // preflights: [
-  //   {
-  //     layer: "main",
-  //     getCSS: async () => (await fetch("public/styles/index.css")).text(),
-  //   },
-  // ],
 });
