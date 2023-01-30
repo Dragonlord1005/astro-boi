@@ -25,9 +25,10 @@ import { SEO } from "astro-seo";
 		<meta name="generator" content={Astro.generator} />
 		<link rel="preload" href="/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="/fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css" media="print" onload="this.media='all'">
 	</head>
-	<script async is:inline src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLX86V8S" type="text/partytown"></script>
-	<script is:inline type="text/partytown">
+	<script async is:inline src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLX86V8S" type="text/partytown" type="text/plain" data-cookiecategory="analytics"></script>
+	<script is:inline type="text/partytown" type="text/plain" data-cookiecategory="analytics">
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
@@ -38,6 +39,9 @@ import { SEO } from "astro-seo";
 		<Navigation />
 	</header>
 	<body>
+		<!-- <script is:inline defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.js"></script> -->
+		<script src="@scripts/cookieconsent.js"></script>
+		<script src="@scripts/cookieconsent-init.js"></script>
 		<slot />
 	</body>
 </html>
