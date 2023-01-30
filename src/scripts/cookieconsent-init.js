@@ -1,5 +1,5 @@
 // obtain plugin
-import "./cookieconsent";
+import "vanilla-cookieconsent";
 var cc = initCookieConsent();
 
 // run plugin with your configuration

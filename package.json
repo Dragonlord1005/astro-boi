@@ -34,7 +34,8 @@
     "cssnano": "5.1.14",
     "postcss": "8.4.21",
     "sharp": "0.31.3",
-    "terser": "5.16.1"
+    "terser": "5.16.1",
+    "vanilla-cookieconsent": "^2.8.9"
   },
   "pnpm": {
     "peerDependencyRules": {
