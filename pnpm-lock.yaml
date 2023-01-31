@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/image': 0.13.0
+  '@astrojs/image': 0.13.1
   '@astrojs/partytown': 1.0.3
-  '@astrojs/preact': 2.0.0
-  '@astrojs/sitemap': 1.0.0
+  '@astrojs/preact': 2.0.1
+  '@astrojs/sitemap': 1.0.1
   '@unocss/astro': 0.49.1
   '@unocss/preset-attributify': 0.49.1
   '@unocss/preset-icons': 0.49.1
@@ -12,7 +12,7 @@ specifiers:
   '@unocss/reset': 0.49.1
   '@unocss/transformer-compile-class': 0.49.1
   '@unocss/transformer-variant-group': 0.49.1
-  astro: 2.0.2
+  astro: 2.0.4
   astro-compress: 1.1.28
   astro-robots-txt: 0.3.11
   astro-seo: 0.7.0
@@ -26,12 +26,12 @@ specifiers:
   vanilla-cookieconsent: ^2.8.9
 
 dependencies:
-  '@astrojs/image': 0.13.0_astro@2.0.2+sharp@0.31.3
+  '@astrojs/image': 0.13.1_astro@2.0.4+sharp@0.31.3
   '@astrojs/partytown': 1.0.3
-  '@astrojs/preact': 2.0.0_preact@10.11.3
-  '@astrojs/sitemap': 1.0.0
+  '@astrojs/preact': 2.0.1_preact@10.11.3
+  '@astrojs/sitemap': 1.0.1
   '@unocss/astro': 0.49.1
-  astro: 2.0.2_terser@5.16.1
+  astro: 2.0.4_terser@5.16.1
   astro-compress: 1.1.28
   preact: 10.11.3
   unocss: 0.49.1
@@ -87,17 +87,17 @@ packages:
     resolution: {integrity: sha512-77aacobLKcL98NmhK3OBS5EHIrX9gs1ckB/vGSIdkVZuB7u51V4jh05I6W0tSvG7/86tALv6QtHTRZ8rLhFTbQ==}
     dev: false
 
-  /@astrojs/image/0.13.0_astro@2.0.2+sharp@0.31.3:
-    resolution: {integrity: sha512-18IlEsb/mau4ji9sR7+JVPFJHtgIk7Qh/Ol+Hh/JNcPn/oMrjP6FMU3VrNHPy5Ltvw1DyzkDV4wu+jYKU/V0Hw==}
+  /@astrojs/image/0.13.1_astro@2.0.4+sharp@0.31.3:
+    resolution: {integrity: sha512-H+3I0i8KU+oTc3HsVncE8VGEQkEJEXXi79EnK7nRBf6WS8pWAjVaGBKXkk7jZQv8rM/Qc+Bnvl+lGLQCF1ziOA==}
     peerDependencies:
-      astro: ^2.0.0
+      astro: ^2.0.4
       sharp: '>=0.31.0'
     peerDependenciesMeta:
       sharp:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.0.2_terser@5.16.1
+      astro: 2.0.4_terser@5.16.1
       http-cache-semantics: 4.1.0
       image-size: 1.0.2
       kleur: 4.1.5
@@ -125,13 +125,13 @@ packages:
       vscode-uri: 3.0.7
     dev: false
 
-  /@astrojs/markdown-remark/2.0.1_astro@2.0.2:
+  /@astrojs/markdown-remark/2.0.1_astro@2.0.4:
     resolution: {integrity: sha512-xQF1rXGJN18m+zZucwRRtmNehuhPMMhZhi6HWKrtpEAKnHSPk8lqf1GXgKH7/Sypglu8ivdECZ+EGs6kOYVasQ==}
     peerDependencies:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.2_terser@5.16.1
+      astro: 2.0.4_terser@5.16.1
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.0
       rehype-raw: 6.1.1
@@ -155,8 +155,8 @@ packages:
       mrmime: 1.0.1
     dev: false
 
-  /@astrojs/preact/2.0.0_preact@10.11.3:
-    resolution: {integrity: sha512-Zr0u6U3gxLrhrtHsZjVXarUXqOM6pn/Efj+P5DcnTjuczz34LcdmZcuCck2rqPoqf8Fi4mJ6Hlx2FsWjtG0YwA==}
+  /@astrojs/preact/2.0.1_preact@10.11.3:
+    resolution: {integrity: sha512-WjEInLmTfgvt5Yyxc3bNG1ZzX1uih3VUaFMMnsDKNz+Hh3dwJBMXivb9dJh0SE0wXxfev3VV2QpRujClaOIF8A==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
       preact: ^10.6.5
@@ -178,8 +178,8 @@ packages:
       prismjs: 1.29.0
     dev: false
 
-  /@astrojs/sitemap/1.0.0:
-    resolution: {integrity: sha512-42GxuF5FP7RaKXZrwGLBLOX3hPv+Wl7ExJC43O0J5e34ojJkLeKf7QfwN1UwrJlqH0Ywi0Fm4/xGe482G09+wg==}
+  /@astrojs/sitemap/1.0.1:
+    resolution: {integrity: sha512-qexepZPH6/dLToI/njxr2FjvyxJU0HBAnQRNzEggF0ok811oSNC6su1DkyW2VKp0TNPbWoujuSbcb1yFOjnAqA==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.20.2
@@ -1155,14 +1155,14 @@ packages:
     resolution: {integrity: sha512-G7zJUr4lfKLeqfWx2g5rfuBsOsIOfqxIOqErQfrMsMchDFfLFxNKAuW8yAo8hynJJwBvtGyS/vOXgGdMVVCFrA==}
     dev: true
 
-  /astro/2.0.2_terser@5.16.1:
-    resolution: {integrity: sha512-47N1jLWNxSri7kWfIfgcEnQJZWTvd0gXhNC3P2ZHiiurl4nOxFC5ULsW5MDDTjTzQ1S7y1RoaL9XxYm+Rury7w==}
+  /astro/2.0.4_terser@5.16.1:
+    resolution: {integrity: sha512-VSxFONW4hazODUIzjpoPdSZ4eRMz86pQn375277GhJDDRq/kfA5tSfvDFtySlAeEWrsE9W8tC2Jj3HuYcRYRig==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 1.0.1
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.0.1_astro@2.0.2
+      '@astrojs/markdown-remark': 2.0.1_astro@2.0.4
       '@astrojs/telemetry': 2.0.0
       '@astrojs/webapi': 2.0.0
       '@babel/core': 7.20.5
