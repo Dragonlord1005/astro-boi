@@ -28,6 +28,7 @@ I am not taking contributions at this time.
 - Work on the projects page a litle more
     - Thinking about adding a project status
 - Add more posts
+- Adjust devcontainers
 - Testing
 
 ## License
