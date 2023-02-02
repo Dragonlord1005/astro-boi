@@ -43,4 +43,5 @@ export default defineConfig({
     presetAttributify(),
     presetTypography(),
   ],
+  exclude: [/node_modules/, /src\/content/],
 });
