@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: '@layouts/MarkdownLayout.astro'
 title: First Post
 description: My first post in astro
 author: Dragonlord1005
