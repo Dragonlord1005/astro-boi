@@ -51,9 +51,6 @@ export default defineConfig({
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
-  markdown: {
-    syntaxHighlight: "prism",
-  },
   experimental: {
     contentCollections: true,
   },

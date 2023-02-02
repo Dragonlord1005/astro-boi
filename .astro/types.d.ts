@@ -67,8 +67,8 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"posts": {
-"first-post.md": {
-  id: "first-post.md",
+"first-post.mdx": {
+  id: "first-post.mdx",
   slug: "first-post",
   body: string,
   collection: "posts",

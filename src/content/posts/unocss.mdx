@@ -14,4 +14,12 @@ UnoCSS was created by Antfu as an [atomic css engine](https://antfu.me/posts/rei
 (Note to self, figure out how to change the styling for the link)
 
 ## Its greatest features
-Why is unocss so good? Well, it generates things dynamically, unlike something like tailwindcss, where everything is predefined, UnoCSS can just generate it. I would give examples but astro will assume that it needs to be converted
+Why is unocss so good? Well, it generates things dynamically, unlike something like tailwindcss, where everything is predefined, UnoCSS can just generate it.
+```astro
+{/* This works in both tailwind and unocss */}
+<p class="mt-5">
+
+{/* This works on UnoCSS but tailwind doesn't know what to do with it. */}
+<p class="mt-15">
+```
+It also can use icons in css, allowing for infinite styling possibilities.
