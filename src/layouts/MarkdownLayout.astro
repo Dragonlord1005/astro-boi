@@ -41,7 +41,7 @@ import { SEO } from "astro-seo"
         <!-- <link rel="stylesheet" href="/prism-one-dark.css" /> -->
         <h1>{frontmatter.title} by {frontmatter.author}</h1>
         <slot />
-        <p>Written on: {frontmatter.publishDate}</p>
+        <p class="mt-5 font-italic">Written on: {frontmatter.publishDate}</p>
     </body>
 </html>
 
