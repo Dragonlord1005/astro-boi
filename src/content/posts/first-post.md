@@ -6,9 +6,6 @@ author: Dragonlord1005
 publishDate: 11/4/2022
 url: /posts/first-post
 ---
-
-<!-- @unocss-ignore -->
-
 [Astro](https://Astro.build)
 
 Astro is great, it has the ability to ship ZERO Javascript to the browser, beincredibly easy to develop, and most importantly, has a great and helpful discord community.
