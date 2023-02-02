@@ -16,7 +16,4 @@ interface Props {
 const { entry } = Astro.props;
 const { Content } = await entry.render()
 ---
-
-<!-- TODO: Make it so that this will render below the navbar -->
-<!-- <h1>{entry.data.title}</h1> -->
 <Content />
