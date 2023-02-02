@@ -21,7 +21,7 @@ import preact from "@astrojs/preact";
 // https://astro.build/config
 import image from "@astrojs/image";
 
-import mdx from "@astrojs/mdx"
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
@@ -35,7 +35,7 @@ export default defineConfig({
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
-    mdx()
+    mdx(),
   ],
   srcDir: "./src",
   vite: {
