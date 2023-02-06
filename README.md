@@ -35,8 +35,11 @@ I am not taking contributions at this time.
 
 - Work on the projects page a litle more
     - Thinking about adding a project status
+    - Mini Projects?
+        - Basically litle demos
 - Add more posts
-- Adjust Devcontainers
+    - Proxmox
+    - Codespaces
 - Testing
 
 ## License
