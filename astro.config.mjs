@@ -16,9 +16,6 @@ import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
-import preact from "@astrojs/preact";
-
-// https://astro.build/config
 import image from "@astrojs/image";
 
 import mdx from "@astrojs/mdx";
@@ -31,7 +28,6 @@ export default defineConfig({
     robotsTxt(),
     sitemap(),
     partytown(),
-    preact(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
