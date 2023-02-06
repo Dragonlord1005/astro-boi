@@ -18,18 +18,19 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "antfu.file-nesting",
-        "trunk.io",
-        "EditorConfig.EditorConfig",
-        "quicktype.quicktype",
-        "GitHub.copilot",
-        "WakaTime.vscode-wakatime",
-        "astro-build.astro-vscode",
-        "antfu.unocss",
-        "Gruntfuggly.todo-tree",
-        "GitHub.copilot-labs"
-      ]
+		"dbaeumer.vscode-eslint",
+		"antfu.file-nesting",
+		"trunk.io",
+		"EditorConfig.EditorConfig",
+		"quicktype.quicktype",
+		"GitHub.copilot",
+		"WakaTime.vscode-wakatime",
+		"astro-build.astro-vscode",
+		"antfu.unocss",
+		"Gruntfuggly.todo-tree",
+		"GitHub.copilot-labs",
+		"unifiedjs.vscode-mdx"
+	]
     }
   },
 
@@ -41,9 +42,9 @@
 
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node",
-  "features": {
-    //"github-cli": "latest"
-    "ghcr.io/NicoVIII/devcontainer-features/pnpm:2": {}
+"features": {
+	"ghcr.io/devcontainers-contrib/features/pnpm:2": {}
+    // "github-cli": "latest"
   },
   "portsAttributes": {
     "3000": {

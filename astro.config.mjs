@@ -16,10 +16,9 @@ import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
-import preact from "@astrojs/preact";
-
-// https://astro.build/config
 import image from "@astrojs/image";
+
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
@@ -29,10 +28,10 @@ export default defineConfig({
     robotsTxt(),
     sitemap(),
     partytown(),
-    preact(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
     }),
+    mdx(),
   ],
   srcDir: "./src",
   vite: {
@@ -48,9 +47,6 @@ export default defineConfig({
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
-  markdown: {
-    syntaxHighlight: "prism",
-  },
   experimental: {
     contentCollections: true,
   },

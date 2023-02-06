@@ -4,7 +4,7 @@ import type { MarkdownLayoutProps } from 'astro'
 type Props = MarkdownLayoutProps<{
     title: string
     author: string
-    date: string
+    publishDate: string
     url: string
     description: string
 }>;
@@ -13,7 +13,6 @@ import Navigation from '@components/Navigation.astro';
 
 import '@styles/main.css'
 import '@styles/layout.css'
-import '@styles/prism-one-dark.css'
 
 import { SEO } from "astro-seo"
 ---
@@ -42,7 +41,7 @@ import { SEO } from "astro-seo"
         <!-- <link rel="stylesheet" href="/prism-one-dark.css" /> -->
         <h1>{frontmatter.title} by {frontmatter.author}</h1>
         <slot />
-        <p>Written on: {frontmatter.date}</p>
+        <p class="mt-5 font-italic">Written on: {frontmatter.publishDate}</p>
     </body>
 </html>
 
