@@ -19,7 +19,7 @@ specifiers:
   autoprefixer: 10.4.13
   postcss: 8.4.21
   sharp: 0.31.3
-  terser: 5.16.2
+  terser: 5.16.3
   unocss: 0.49.4
   vanilla-cookieconsent: 2.8.9
 
@@ -29,7 +29,7 @@ dependencies:
   '@astrojs/partytown': 1.0.3
   '@astrojs/sitemap': 1.0.1
   '@unocss/astro': 0.49.4
-  astro: 2.0.6_terser@5.16.2
+  astro: 2.0.6_terser@5.16.3
   astro-compress: 1.1.29
   unocss: 0.49.4
 
@@ -45,7 +45,7 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
   sharp: 0.31.3
-  terser: 5.16.2
+  terser: 5.16.3
   vanilla-cookieconsent: 2.8.9
 
 packages:
@@ -93,7 +93,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.0.6_terser@5.16.2
+      astro: 2.0.6_terser@5.16.3
       http-cache-semantics: 4.1.0
       image-size: 1.0.2
       kleur: 4.1.5
@@ -126,7 +126,7 @@ packages:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.6_terser@5.16.2
+      astro: 2.0.6_terser@5.16.3
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.0
       rehype-raw: 6.1.1
@@ -1218,7 +1218,7 @@ packages:
     resolution: {integrity: sha512-G7zJUr4lfKLeqfWx2g5rfuBsOsIOfqxIOqErQfrMsMchDFfLFxNKAuW8yAo8hynJJwBvtGyS/vOXgGdMVVCFrA==}
     dev: true
 
-  /astro/2.0.6_terser@5.16.2:
+  /astro/2.0.6_terser@5.16.3:
     resolution: {integrity: sha512-aI8Ijy2EpMyP5SpjmDJpEUdNL6CUAxnja6IeaBC1BokD/mNAnijtmMnTyWVI3UeEZ727wYLISQMyqCfEUq8VNA==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1271,7 +1271,7 @@ packages:
       typescript: 4.9.4
       unist-util-visit: 4.1.1
       vfile: 5.3.6
-      vite: 4.0.4_terser@5.16.2
+      vite: 4.0.4_terser@5.16.3
       vitefu: 0.2.4_vite@4.0.4
       yargs-parser: 21.1.1
       zod: 3.20.2
@@ -2218,7 +2218,7 @@ packages:
       entities: 4.4.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.16.2
+      terser: 5.16.3
     dev: false
 
   /html-void-elements/2.0.1:
@@ -3930,6 +3930,17 @@ packages:
       acorn: 8.8.1
       commander: 2.20.3
       source-map-support: 0.5.21
+    dev: false
+
+  /terser/5.16.3:
+    resolution: {integrity: sha512-v8wWLaS/xt3nE9dgKEWhNUFP6q4kngO5B8eYFUuebsu7Dw/UNAnpUod6UHo04jSSkv8TzKHjZDSd7EXdDQAl8Q==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': 0.3.2
+      acorn: 8.8.1
+      commander: 2.20.3
+      source-map-support: 0.5.21
 
   /tiny-glob/0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
@@ -4189,7 +4200,7 @@ packages:
       vfile-message: 3.1.3
     dev: false
 
-  /vite/4.0.4_terser@5.16.2:
+  /vite/4.0.4_terser@5.16.3:
     resolution: {integrity: sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4218,7 +4229,7 @@ packages:
       postcss: 8.4.21
       resolve: 1.22.1
       rollup: 3.12.0
-      terser: 5.16.2
+      terser: 5.16.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -4231,7 +4242,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.0.4_terser@5.16.2
+      vite: 4.0.4_terser@5.16.3
     dev: false
 
   /vscode-css-languageservice/6.2.1:
