@@ -1,7 +1,7 @@
 
 # Astro Boi
 
-Just me messing around Astro, at least for the time being
+Just me messing around Astro, at least for the time being, maybe become my actual site
 
 
 ## Site
@@ -38,7 +38,9 @@ I am not taking contributions at this time.
     - Mini Projects?
         - Basically litle demos
 - Add more posts
-    - Proxmox
+    - Server
+    - SvelteKit (maybe)
+    - Nuxt (maybe)
     - Codespaces
 - Testing
 
