@@ -1,5 +1,12 @@
 ---
 import Counter from "@components/mini-projects/Counter.svelte";
+import Layout from "@layouts/Layout.astro";
+// import TokyoWeather from "@components/mini-projects/tokyo-weather.svelte";
 ---
 
-<Counter client:load />
+<Layout description="This is svelte counter" title="Svelte Counter">
+    <div class="text-center">
+        <Counter client:load />
+    </div>
+    <!-- <TokyoWeather client:load /> -->
+</Layout>
