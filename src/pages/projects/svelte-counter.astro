@@ -5,8 +5,11 @@ import Layout from "@layouts/Layout.astro";
 ---
 
 <Layout description="This is svelte counter" title="Svelte Counter">
-    <div class="text-center">
-        <Counter client:load />
-    </div>
-    <!-- <TokyoWeather client:load /> -->
+    <body class="prose">
+        <h1 class="text-center mt-3">Svelte Counter</h1>
+        <div class="text-center mt-5">
+            <Counter client:load />
+        </div>
+        <!-- <TokyoWeather client:load /> -->
+    </body>
 </Layout>
