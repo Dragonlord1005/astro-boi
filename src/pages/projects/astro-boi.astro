@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import ProjectLinks from "@components/Projects/ProjectLinks.astro";
 ---
 
 <Layout description="This is about astro-boi" title="Astro-Boi Project">
@@ -13,15 +14,6 @@ import Layout from "@layouts/Layout.astro";
                 <p>It also uses <a href="https://github.com/mona-sans" target="_blank">Mona and Hubot Sans</a> which are some pretty cool variable fonts</p>
             </p>
         </article>
-        <footer class="border-t max-w-60ch m-auto">
-            <div class="flex justify-center mt-3">
-                <a href="https://github.com/Dragonlord1005/astro-boi" target="_blank">
-                    <div class="i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s) mr-3"></div>
-                </a>
-                <a href="https://astro-boi.vercel.app/" target="_blank">
-                    <div class="i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)"></div>
-                </a>
-            </div>
-        </footer>
+        <ProjectLinks githubUrl="https://github.com/Dragonlord1005/astro-boi" siteUrl="https://astro-boi.dragonlord1005.com/" />
     </main>
 </Layout>

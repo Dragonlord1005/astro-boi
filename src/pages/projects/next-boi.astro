@@ -1,5 +1,6 @@
 ---
 import Layout from "@layouts/Layout.astro";
+import ProjectLinks from "@components/Projects/ProjectLinks.astro";
 ---
 
 <Layout description="This is about Next-Boi" title="Next Boi">
@@ -10,15 +11,6 @@ import Layout from "@layouts/Layout.astro";
             <p>Next Boi is the Next.js Project I'm working on</p>
             <p>It runs on <a href="https://nextjs.org/" target="_blank">Next.js</a> and <a href="https://tailwindcss.com/" target="_blank">Tailwind</a> (If I remember correctly anyway)</p>
         </article>
-        <footer class="border-t max-w-60ch m-auto">
-            <div class="flex justify-center mt-3">
-                <a href="https://github.com/Dragonlord1005/next-boi" target="_blank">
-                    <div class="i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s) mr-3"></div>
-                </a>
-                <a href="https://next-boi.vercel.app/" target="_blank">
-                    <div class="i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)"></div>
-                </a>
-            </div>
-        </footer>
+        <ProjectLinks githubUrl="https://github.com/Dragonlord1005/Next-Boi" siteUrl="https://next-boi.vercel.app" />
     </main>
 </Layout>
