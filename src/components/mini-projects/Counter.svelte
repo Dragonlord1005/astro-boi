@@ -9,8 +9,6 @@
     }
 </script>
 
-<h1>Counter</h1>
-
-<div class="mt-5">
+<div>
     <p><button on:click={increase} class="border rounded text-green-3 i-ic-baseline-plus?mask"></button> {count} <button on:click={decrease} class="border rounded text-red-5 i-ic-baseline-minus?mask"></button></p>
 </div>
