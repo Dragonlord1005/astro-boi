@@ -29,7 +29,8 @@
 		"antfu.unocss",
 		"Gruntfuggly.todo-tree",
 		"GitHub.copilot-labs",
-		"unifiedjs.vscode-mdx"
+		"unifiedjs.vscode-mdx",
+		"svelte.svelte-vscode"
 	]
     }
   },

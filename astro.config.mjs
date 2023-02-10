@@ -17,37 +17,31 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 import image from "@astrojs/image";
-
 import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
+import svelte from "@astrojs/svelte";
+
+// https://astro.build/config
 export default defineConfig({
-  integrations: [
-    UnoCSS(),
-    compress(),
-    robotsTxt(),
-    sitemap(),
-    partytown(),
-    image({
-      serviceEntryPoint: "@astrojs/image/sharp",
-    }),
-    mdx(),
-  ],
+  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), image({
+    serviceEntryPoint: "@astrojs/image/sharp"
+  }), mdx(), svelte()],
   srcDir: "./src",
   vite: {
     server: {
       watch: {
-        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"],
-      },
+        ignored: ["**/node_modules", "**/.git", "**/.trunk/**"]
+      }
     },
     build: {
       cssCodeSplit: true,
-      minify: "terser",
-    },
+      minify: "terser"
+    }
   },
   site: "https://astroi-boi.netlify.app",
   output: "static",
   experimental: {
-    contentCollections: true,
-  },
+    contentCollections: true
+  }
 });
