@@ -16,7 +16,7 @@ specifiers:
   astro: 2.0.14
   astro-compress: 1.1.33
   astro-robots-txt: 0.4.0
-  astro-seo: 0.7.0
+  astro-seo: 0.7.1
   autoprefixer: 10.4.13
   nanostores: ^0.7.3
   postcss: 8.4.21
@@ -49,7 +49,7 @@ devDependencies:
   '@unocss/transformer-compile-class': 0.49.7
   '@unocss/transformer-variant-group': 0.49.7
   astro-robots-txt: 0.4.0
-  astro-seo: 0.7.0
+  astro-seo: 0.7.1
   autoprefixer: 10.4.13_postcss@8.4.21
   postcss: 8.4.21
   sharp: 0.31.3
@@ -1296,8 +1296,8 @@ packages:
       zod: 3.20.6
     dev: true
 
-  /astro-seo/0.7.0:
-    resolution: {integrity: sha512-G7zJUr4lfKLeqfWx2g5rfuBsOsIOfqxIOqErQfrMsMchDFfLFxNKAuW8yAo8hynJJwBvtGyS/vOXgGdMVVCFrA==}
+  /astro-seo/0.7.1:
+    resolution: {integrity: sha512-8Yo1nQrl2iB5zj+VUAHrvGIck8bZ4WAmXQgJOeF9FuAZGQD5qK6DtSZaRbpBXsFfZYHA6tE8pjs3btHhLbC1zQ==}
     dev: true
 
   /astro/2.0.14_terser@5.16.4:
