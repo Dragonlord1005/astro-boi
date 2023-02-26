@@ -1,16 +1,19 @@
-<!-- We need to make a counter in svelte -->
-<script>
-    import { atom } from 'nanostores'
-    let count = atom(0);
-    function increase() {
-        count.set(count.get() + 1) ;
-    }
-    function decrease() {
-        count.set(count.get() - 1)
-    }
+<script lang="ts">
+  import { atom } from 'nanostores'
+
+  const counter = atom(0)
+
+  function increase() {
+    counter.set(counter.get() + 1)
+  }
+
+  function decrease() {
+    counter.set(counter.get() - 1)
+  }
 </script>
 
-<div class="content-center">
-    <!-- TODO: Fix the counter so it's not just slightly above everything -->
-    <p><button on:click={increase} class="border rounded-full text-green-3 i-ic-baseline-plus?mask"></button>{$count}<button on:click={decrease} class="border rounded-full text-red-5 i-ic-baseline-minus?mask"></button></p>
+<div class="flex justify-center items-center">
+  <button class="bg-white text-blue-500 w-12 h-12 text-2xl rounded-full" on:click={increase}>+</button>
+  <span class="text-xl mx-4">{$counter}</span>
+  <button class="bg-white text-blue-500 w-12 h-12 text-2xl rounded-full" on:click={decrease}>-</button>
 </div>
