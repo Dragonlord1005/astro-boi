@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "1.1.0",
     "@astrojs/svelte": "^2.0.1",
     "@unocss/astro": "0.50.1",
-    "astro": "2.0.15",
+    "astro": "2.0.16",
     "astro-compress": "1.1.35",
     "nanostores": "^0.7.3",
     "svelte": "^3.54.0",
