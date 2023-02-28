@@ -10,5 +10,6 @@
       "@layouts/*": ["layouts/*"],
       "@scripts/*": ["scripts/*"]
     }
-  }
+  },
+  "exclude": ["./node_modules", "./.astro"]
 }
