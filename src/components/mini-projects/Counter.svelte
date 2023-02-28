@@ -1,7 +1,7 @@
 <script lang="ts">
   import { atom } from 'nanostores'
 
-  const counter = atom(0)
+  const counter = atom<number>(0)
 
   function increase() {
     counter.set(counter.get() + 1)
