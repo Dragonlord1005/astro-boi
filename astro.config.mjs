@@ -24,7 +24,9 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [UnoCSS(), compress(), robotsTxt(), sitemap(), partytown(), image({
+  integrations: [UnoCSS({
+    injectReset: false,
+  }), compress(), robotsTxt(), sitemap(), partytown(), image({
     serviceEntryPoint: "@astrojs/image/sharp"
   }), mdx(), svelte()],
   srcDir: "./src",
