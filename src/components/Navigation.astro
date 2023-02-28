@@ -1,8 +1,9 @@
 ---
 import MobileNav from '@components/MobileNav.astro';
+import Dropdown from "@components/Dropdown.svelte";
 ---
 
-<MobileNav />
+<Dropdown client:load />
 <nav class="lg:visible hidden lg:(flex w-full color-white justify-between p-6 brand-bg)">
     <div class="flex flex-shrink-0">
         <span class="font-bold">Astro Boi</span>
