@@ -1,9 +1,5 @@
 /* TODO: See if using * does anything */
 
-* {
-  --uno: "dark:text-white" "light:text-dark";
-}
-
 :root {
   --accent: 124, 58, 237;
   --accent-gradient: linear-gradient(
