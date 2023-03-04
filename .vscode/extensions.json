@@ -3,7 +3,8 @@
     "astro-build.astro-vscode",
     "antfu.unocss",
     "svelte.svelte-vscode",
-    "unifiedjs.vscode-mdx"
+    "unifiedjs.vscode-mdx",
+    "dbaeumer.vscode-eslint"
   ],
   "unwantedRecommendations": []
 }
