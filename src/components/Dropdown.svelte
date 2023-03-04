@@ -11,7 +11,7 @@
     <div>
       <button
         type="button"
-        class="inline-block text-white h-6 w-6 fill-current focus:outline-none i-material-symbols-menu"
+        class="nav-menu"
         on:click={toggleIsPressed}
         aria-pressed={isPressed}
         aria-label="Toggle navigation menu"
@@ -28,3 +28,9 @@
     </div>
   </div>
 </nav>
+
+<style scoped>
+  .nav-menu {
+    --at-apply: "inline-block text-white h-6 w-6 fill-current focus:outline-none i-material-symbols-menu";
+  }
+</style>

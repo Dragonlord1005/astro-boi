@@ -31,11 +31,11 @@
       #da62c4 30%,
       white 60%);
   font-family: "Mona Sans";
-  --uno: bg-white;
-  --uno: "dark:bg-gray-700";
-  --uno: "dark:text-white";
-  --uno: "light:text-dark";
-  --uno: "dark:text-white" "light:text-dark";
+  --at-apply: bg-white;
+  --at-apply: "dark:bg-gray-700";
+  --at-apply: "dark:text-white";
+  --at-apply: "light:text-dark";
+  --at-apply: "dark:text-white" "light:text-dark";
 }
 
 code {
@@ -50,5 +50,5 @@ h4,
 h5,
 h6 {
   font-family: "Hubot Sans";
-  --uno: "text-center";
+  --at-apply: "text-center";
 }
