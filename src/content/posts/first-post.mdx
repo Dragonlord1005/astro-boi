@@ -13,28 +13,31 @@ Astro is great, it has the ability to ship ZERO Javascript to the browser, beinc
 
 ```astro
 ---
-const posts = await Astro.glob('../pages/posts/*.md') // returns an array of posts that live at ../pages/blog/*.md
+const posts = await Astro.glob("../pages/posts/*.md"); // returns an array of posts that live at ../pages/blog/*.md
 const nonDraftPosts = posts.filter((post) => !post.frontmatter.draft);
 import Card from "./Card.astro";
 ---
+
 <div>
-    <ul role="list" class="link-card-grid">
-        {nonDraftPosts.map((post) => (
-            <Card
-                title={post.frontmatter.title}
-                body={post.frontmatter.description}
-                href={post.frontmatter.url}
-            />
-        ))}
-    </ul>
+  <ul role="list" class="link-card-grid">
+    {
+      nonDraftPosts.map((post) => (
+        <Card
+          title={post.frontmatter.title}
+          body={post.frontmatter.description}
+          href={post.frontmatter.url}
+        />
+      ))
+    }
+  </ul>
 </div>
 <style>
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
 </style>
 ```
 
@@ -73,7 +76,7 @@ export default Navigation;
 Its automatically rendered into html, but it can easily be rendered by javascript instead, just add
 
 ```astro
-<component client:load>
+<component client:load></component>
 ```
 
 and your done!

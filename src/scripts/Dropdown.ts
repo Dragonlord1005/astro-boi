@@ -21,4 +21,4 @@ if (menuButtonElement) {
   throw new Error("Menu button element not found");
 }
 
-export {}
+export {};

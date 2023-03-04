@@ -2,19 +2,21 @@
 import { getCollection } from "astro:content";
 
 // Get all published blog posts
-const blogPosts = await getCollection('posts');
+const blogPosts = await getCollection("posts");
 
 import Card from "./Card.astro";
 ---
 
 <div>
-    <ul role="list" class="link-card-grid">
-        {blogPosts.map((post) => (
-            <Card
-                title={post.data.title}
-                body={post.data.description}
-                href={post.data.url}
-            />
-        ))}
-    </ul>
+  <ul role="list" class="link-card-grid">
+    {
+      blogPosts.map((post) => (
+        <Card
+          title={post.data.title}
+          body={post.data.description}
+          href={post.data.url}
+        />
+      ))
+    }
+  </ul>
 </div>

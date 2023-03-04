@@ -1,47 +1,64 @@
 ---
-import type { MarkdownLayoutProps } from 'astro'
+import type { MarkdownLayoutProps } from "astro";
 
 type Props = MarkdownLayoutProps<{
-    title: string
-    author: string
-    publishDate: string
-    url: string
-    description: string
+  title: string;
+  author: string;
+  publishDate: string;
+  url: string;
+  description: string;
 }>;
 const { frontmatter, url } = Astro.props;
-import Navigation from '@components/Navigation.astro';
+import Navigation from "@components/Navigation.astro";
 
-import '@styles/main.css'
-import '@styles/layout.css'
+import "@styles/main.css";
+import "@styles/layout.css";
 
-import { SEO } from "astro-seo"
+import { SEO } from "astro-seo";
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <SEO
-            title={frontmatter.title}
-            description={frontmatter.description} />
-        <meta rel="canonical" href={new URL(url, Astro.site).pathname}>
-        <link rel="preload" href="../../fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="../../fonts/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
-    </head>
-    <script async is:inline src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLX86V8S" type="text/partytown"></script>
-	<script is:inline type="text/partytown">
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+  <head>
+    <SEO title={frontmatter.title} description={frontmatter.description} />
+    <meta rel="canonical" href={new URL(url, Astro.site).pathname} />
+    <link
+      rel="preload"
+      href="../../fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="../../fonts/Hubot-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <script
+      async
+      is:inline
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLX86V8S"
+      type="text/partytown"
+    ></script><script is:inline type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-		gtag('config', 'G-ZXNLX86V8S');
-	</script>
-    <header>
-        <Navigation />
-    </header>
-    <body class="text-center prose">
-        <!-- <link rel="stylesheet" href="/prism-one-dark.css" /> -->
-        <h1>{frontmatter.title} by {frontmatter.author}</h1>
-        <slot />
-        <p class="mt-5 font-italic">Written on: {frontmatter.publishDate}</p>
-    </body>
+      gtag("config", "G-ZXNLX86V8S");
+    </script></head
+  >
+
+  <header>
+    <Navigation />
+  </header>
+  <body class="text-center prose">
+    <!-- <link rel="stylesheet" href="/prism-one-dark.css" /> -->
+    <h1>{frontmatter.title} by {frontmatter.author}</h1>
+    <slot />
+    <p class="mt-5 font-italic">Written on: {frontmatter.publishDate}</p>
+  </body>
 </html>
-

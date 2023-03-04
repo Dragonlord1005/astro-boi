@@ -1,28 +1,25 @@
 ---
-import Layout from '@layouts/Layout.astro';
-import Card from '@components/Card.astro';
+import Layout from "@layouts/Layout.astro";
+import Card from "@components/Card.astro";
 
-import '@styles/text-gradient.css'
+import "@styles/text-gradient.css";
 ---
+
 <Layout title="Astro-boi" description="Home Page">
-	<div class="wrapper">
-		<!-- Prose is causing an issue -->
-		<main>
-			<title>Astro Boi</title>
-			<h1><span class="text-gradient">Astro Boi</span></h1>
-			<h2 class="mb10">A personal site</h2>
-			<ul role="list" class="link-card-grid">
-				<Card
-					href="/projects"
-					title="Projects"
-					body="View My personal projects"
-				/>
-				<Card
-					href="/blog"
-					title="Blog"
-					body="My blog posts"
-				/>
-			</ul>
-		</main>
-	</div>
+  <div class="wrapper">
+    <!-- Prose is causing an issue -->
+    <main>
+      <title>Astro Boi</title>
+      <h1><span class="text-gradient">Astro Boi</span></h1>
+      <h2 class="mb10">A personal site</h2>
+      <ul role="list" class="link-card-grid">
+        <Card
+          href="/projects"
+          title="Projects"
+          body="View My personal projects"
+        />
+        <Card href="/blog" title="Blog" body="My blog posts" />
+      </ul>
+    </main>
+  </div>
 </Layout>
