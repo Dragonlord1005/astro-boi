@@ -4,7 +4,8 @@
     "antfu.unocss",
     "svelte.svelte-vscode",
     "unifiedjs.vscode-mdx",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
   ],
   "unwantedRecommendations": []
 }

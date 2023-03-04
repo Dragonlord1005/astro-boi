@@ -30,7 +30,8 @@
 		"GitHub.copilot-labs",
 		"unifiedjs.vscode-mdx",
 		"svelte.svelte-vscode",
-		"wix.vscode-import-cost"
+		"wix.vscode-import-cost",
+		"esbenp.prettier-vscode"
 	]
     }
   },
