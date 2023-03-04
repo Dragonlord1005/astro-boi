@@ -11,7 +11,7 @@
     "astro": "astro",
     "lint": "eslint src",
     "fmt": "prettier -w --plugin-search-dir=. src",
-    "lfmt": "eslint src && prettier -w --plugin-search-dir=. src"
+    "lfmt": "prettier -w --plugin-search-dir=. src && eslint src"
   },
   "dependencies": {
     "@astrojs/image": "0.15.1",
