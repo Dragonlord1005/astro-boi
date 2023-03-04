@@ -27,6 +27,8 @@ export default defineConfig({
   integrations: [
     UnoCSS({
       injectReset: false,
+      injectEntry: process.env["NODE_ENV"] === "development",
+      mode: "dist-chunk",
     }),
     compress(),
     robotsTxt(),
