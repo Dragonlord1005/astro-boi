@@ -1,18 +1,33 @@
 ---
 interface Props {
-    githubUrl: string
-    siteUrl: string
+  githubUrl: string;
+  siteUrl: string;
 }
-const {githubUrl, siteUrl} = Astro.props
+const { githubUrl, siteUrl } = Astro.props;
 ---
 
 <footer class="border-t max-w-60ch m-auto">
-    <div class="flex justify-center mt-3">
-        <a href={githubUrl} target="_blank">
-            <div class="i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s) mr-3"></div>
-        </a>
-        <a href={siteUrl} target="_blank">
-            <div class="i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)"></div>
-        </a>
-    </div>
+  <div class="flex justify-center mt-3">
+    <a href={githubUrl} target="_blank">
+      <div
+        class="github-link"
+      >
+      </div>
+    </a>
+    <a href={siteUrl} target="_blank">
+      <div
+        class="site-link"
+      >
+      </div>
+    </a>
+  </div>
 </footer>
+
+<style scoped>
+  .github-link {
+    --at-apply: "i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s) mr-3";
+  },
+  .site-link {
+    --at-apply: "i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)"
+  }
+</style>

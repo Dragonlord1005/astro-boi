@@ -1,31 +1,31 @@
 ---
-import Card from '@components/Card.astro';
-import Layout from '@layouts/Layout.astro';
+import Card from "@components/Card.astro";
+import Layout from "@layouts/Layout.astro";
 
-import '@styles/text-gradient.css'
+import "@styles/text-gradient.css";
 ---
 
 <Layout title="Projects" description="Projects">
-    <main class="prose">
-		<title>Dragonlord1005's Projects</title>
-        <h1>My <span class="text-gradient">Projects</span></h1>
-		<ul role="list" class="link-card-grid">
-			<Card
-				title="Next Boi"
-				body="My current main blog site, made with Next.js and TailwindCSS"
-				href="/projects/next-boi"
-			/>
-			<Card
-				title="Astro Boi"
-				body="My current main blog site, made with Astro and UnoCSS"
-				href="/projects/astro-boi"
-			/>
-		</ul>
-		<h2>Mini Projects</h2>
-		<Card
-			title="Svelte Counter"
-			body="A simple counter made with Svelte"
-			href="/projects/svelte-counter"
-		/>
-	</main>
+  <main class="prose">
+    <title>Dragonlord1005's Projects</title>
+    <h1>My <span class="text-gradient">Projects</span></h1>
+    <ul role="list" class="link-card-grid">
+      <Card
+        title="Next Boi"
+        body="My current main blog site, made with Next.js and TailwindCSS"
+        href="/projects/next-boi"
+      />
+      <Card
+        title="Astro Boi"
+        body="My current main blog site, made with Astro and UnoCSS"
+        href="/projects/astro-boi"
+      />
+    </ul>
+    <h2>Mini Projects</h2>
+    <Card
+      title="Svelte Counter"
+      body="A simple counter made with Svelte"
+      href="/projects/svelte-counter"
+    />
+  </main>
 </Layout>

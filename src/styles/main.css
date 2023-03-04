@@ -1,23 +1,30 @@
-@font-face {
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+:root {
+  --accent: 124, 58, 237;
+  --accent-gradient: linear-gradient(45deg,
+      rgb(var(--accent)),
+      #da62c4 30%,
+      white 60%);
   font-family: "Mona Sans";
-  src: url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
-    url("/fonts/Mona-Sans.woff2") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-  font-display: swap;
+  --at-apply: bg-white;
+  --at-apply: "dark:bg-gray-700";
+  --at-apply: "dark:text-white";
+  --at-apply: "light:text-dark";
+  --at-apply: "dark:text-white" "light:text-dark";
 }
 
-@font-face {
-  font-family: "Hubot Sans";
-  src: url("/fonts/Hubot-Sans.woff2") format("woff2 supports variations"),
-    url("/fonts/Hubot-Sans.woff2") format("woff2-variations");
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-  font-display: swap;
+code {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-main {
-  margin: auto;
-  padding: 1.5rem;
-  max-width: 60ch;
+.title {
+  text-align: center;
 }
