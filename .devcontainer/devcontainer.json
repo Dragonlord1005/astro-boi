@@ -20,7 +20,6 @@
       "extensions": [
 		"dbaeumer.vscode-eslint",
 		"antfu.file-nesting",
-		"trunk.io",
 		"EditorConfig.EditorConfig",
 		"quicktype.quicktype",
 		"GitHub.copilot",
