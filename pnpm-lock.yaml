@@ -28,7 +28,7 @@ specifiers:
   prettier-plugin-astro: ^0.8.0
   sharp: 0.31.3
   svelte: ^3.55.1
-  terser: 5.16.5
+  terser: 5.16.6
   typescript: ^4.9.5
   unocss: 0.50.4
   vanilla-cookieconsent: 2.8.9
@@ -40,7 +40,7 @@ dependencies:
   '@astrojs/sitemap': 1.2.0
   '@astrojs/svelte': 2.0.2_tc33bjnfd4ubjsh3syuhk4qd4i
   '@unocss/astro': 0.50.4
-  astro: 2.1.2_sharp@0.31.3+terser@5.16.5
+  astro: 2.1.2_sharp@0.31.3+terser@5.16.6
   astro-compress: 1.1.35
   nanostores: 0.7.4
   svelte: 3.55.1
@@ -65,7 +65,7 @@ devDependencies:
   prettier: 2.8.4
   prettier-plugin-astro: 0.8.0
   sharp: 0.31.3
-  terser: 5.16.5
+  terser: 5.16.6
   vanilla-cookieconsent: 2.8.9
 
 packages:
@@ -112,7 +112,7 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.1.2_sharp@0.31.3+terser@5.16.5
+      astro: 2.1.2_sharp@0.31.3+terser@5.16.6
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
@@ -145,7 +145,7 @@ packages:
       astro: ^2.1.0
     dependencies:
       '@astrojs/prism': 2.1.0
-      astro: 2.1.2_sharp@0.31.3+terser@5.16.5
+      astro: 2.1.2_sharp@0.31.3+terser@5.16.6
       github-slugger: 1.5.0
       image-size: 1.0.2
       import-meta-resolve: 2.2.1
@@ -219,7 +219,7 @@ packages:
       svelte: ^3.54.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.3_svelte@3.55.1
-      astro: 2.1.2_sharp@0.31.3+terser@5.16.5
+      astro: 2.1.2_sharp@0.31.3+terser@5.16.6
       svelte: 3.55.1
       svelte2tsx: 0.5.23_4x7phaipmicbaooxtnresslofa
     transitivePeerDependencies:
@@ -1456,7 +1456,7 @@ packages:
     resolution: {integrity: sha512-8Yo1nQrl2iB5zj+VUAHrvGIck8bZ4WAmXQgJOeF9FuAZGQD5qK6DtSZaRbpBXsFfZYHA6tE8pjs3btHhLbC1zQ==}
     dev: true
 
-  /astro/2.1.2_sharp@0.31.3+terser@5.16.5:
+  /astro/2.1.2_sharp@0.31.3+terser@5.16.6:
     resolution: {integrity: sha512-qxBIPHfFJhwNOxI2E96XrGrUM6lGkDRkDY8iqEJNFWPGP+t5yY5SWb8H+OdYUGopexy1GGjoY7SYQCzFBkt7iw==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1517,7 +1517,7 @@ packages:
       typescript: 4.9.5
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.1.4_terser@5.16.5
+      vite: 4.1.4_terser@5.16.6
       vitefu: 0.2.4_vite@4.1.4
       yargs-parser: 21.1.1
       zod: 3.20.6
@@ -3038,7 +3038,7 @@ packages:
       entities: 4.4.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.16.5
+      terser: 5.16.6
     dev: false
 
   /html-void-elements/2.0.1:
@@ -5278,6 +5278,17 @@ packages:
       acorn: 8.8.2
       commander: 2.20.3
       source-map-support: 0.5.21
+    dev: false
+
+  /terser/5.16.6:
+    resolution: {integrity: sha512-IBZ+ZQIA9sMaXmRZCUMDjNH0D5AQQfdn4WUjHL0+1lF4TP1IHRJbrhb6fNaXWikrYQTSkb7SLxkeXAiy1p7mbg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': 0.3.2
+      acorn: 8.8.2
+      commander: 2.20.3
+      source-map-support: 0.5.21
 
   /text-table/0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
@@ -5576,7 +5587,7 @@ packages:
       vfile-message: 3.1.4
     dev: false
 
-  /vite/4.1.4_terser@5.16.5:
+  /vite/4.1.4_terser@5.16.6:
     resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -5605,7 +5616,7 @@ packages:
       postcss: 8.4.21
       resolve: 1.22.1
       rollup: 3.18.0
-      terser: 5.16.5
+      terser: 5.16.6
     optionalDependencies:
       fsevents: 2.3.2
     dev: false
@@ -5627,7 +5638,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.4_terser@5.16.5
+      vite: 4.1.4_terser@5.16.6
     dev: false
 
   /vscode-css-languageservice/6.2.4:
