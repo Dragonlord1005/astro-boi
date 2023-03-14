@@ -29,6 +29,7 @@
     "unocss": "0.50.4"
   },
   "devDependencies": {
+    "@fontsource/inter": "^4.5.15",
     "@typescript-eslint/parser": "^5.54.0",
     "@unocss/preset-attributify": "0.50.4",
     "@unocss/preset-icons": "0.50.4",

@@ -7,6 +7,7 @@ specifiers:
   '@astrojs/sitemap': 1.2.1
   '@astrojs/svelte': ^2.0.2
   '@astrojs/vercel': ^3.2.1
+  '@fontsource/inter': ^4.5.15
   '@typescript-eslint/parser': ^5.54.0
   '@unocss/astro': 0.50.4
   '@unocss/preset-attributify': 0.50.4
@@ -50,6 +51,7 @@ dependencies:
   unocss: 0.50.4_postcss@8.4.21
 
 devDependencies:
+  '@fontsource/inter': 4.5.15
   '@typescript-eslint/parser': 5.54.0_ycpbpc6yetojsgtrx3mwntkhsu
   '@unocss/preset-attributify': 0.50.4
   '@unocss/preset-icons': 0.50.4
@@ -758,6 +760,10 @@ packages:
   /@eslint/js/8.35.0:
     resolution: {integrity: sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@fontsource/inter/4.5.15:
+    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
     dev: true
 
   /@humanwhocodes/config-array/0.11.8:
