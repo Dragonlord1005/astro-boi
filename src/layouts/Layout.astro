@@ -11,9 +11,9 @@ import "@styles/main.css";
 
 import { SEO } from "astro-seo";
 
-import '@fontsource/inter'
-// import '@fontsource/inter/400.css'
-// import '@fontsource/inter/variable.css'
+import '@fontsource/twinkle-star';
+import '@fontsource/inter/400.css'
+import '@fontsource/inter/variable.css'
 ---
 
 <!DOCTYPE html>
@@ -192,10 +192,16 @@ import '@fontsource/inter'
   </body>
 </html>
 
-<style>
-  h1 {
-  font-family: "Inter", sans-serif;
-  /* font-weight: 400; */
-  /* font-variation-settings: "wght" 900; */
+<style is:global>
+  h1, h2 {
+  font-family: "InterVariable", sans-serif;
+  font-weight: 400;
+}
+
+@supports (font-variation-settings: normal) {
+  h1, h2 {
+    font-family: "InterVariable";
+    font-variation-settings: "wght" 400;
+  }
 }
 </style>

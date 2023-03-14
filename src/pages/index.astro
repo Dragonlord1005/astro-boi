@@ -4,6 +4,8 @@ import Card from "@components/Card.astro";
 
 import "@styles/text-gradient.css";
 export const prerender = true;
+
+import '@fontsource/twinkle-star'
 ---
 
 <Layout title="Astro-boi" description="Home Page">
@@ -11,8 +13,8 @@ export const prerender = true;
     <!-- Prose is causing an issue -->
     <main>
       <title>Astro Boi</title>
-      <h1 class="title"><span class="text-gradient">Astro Boi</span></h1>
-      <h2 class="mb10 text-center">A personal site</h2>
+      <h1 class="font-bold text-center text-2.5rem"><span class="text-gradient">Astro Boi</span></h1>
+      <h2 class="mb10 text-center text-2rem">A personal site</h2>
       <ul role="list" class="link-card-grid">
         <Card
           href="/projects"
