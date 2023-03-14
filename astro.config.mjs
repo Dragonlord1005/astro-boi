@@ -27,7 +27,7 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS({
-    injectReset: false,
+    // injectReset: false,
     injectEntry: process.env["NODE_ENV"] === "development",
     mode: "dist-chunk"
   }), compress(), robotsTxt(), sitemap(), partytown(), image({
@@ -46,7 +46,7 @@ export default defineConfig({
     }
   },
   site: "https://astroi-boi.netlify.app",
-  output: "static",
+  output: "server",
   experimental: {
     contentCollections: true
   },
