@@ -3,6 +3,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
+    "strictNullChecks": true,
+    "allowJs": true,
     "baseUrl": "src/",
     "paths": {
       "@components/*": ["components/*"],
