@@ -30,3 +30,16 @@ code {
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "InterVariable", sans-serif;
+  font-weight: 400;
+}
+
+@supports (font-variation-settings: normal) {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "InterVariable";
+    font-variation-settings: "wght" 400;
+  }
+}
