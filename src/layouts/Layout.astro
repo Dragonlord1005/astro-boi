@@ -11,8 +11,8 @@ import "@styles/main.css";
 
 import { SEO } from "astro-seo";
 
-import '@fontsource/inter/400.css'
-import '@fontsource/inter/variable.css'
+import "@fontsource/inter/400.css";
+import "@fontsource/inter/variable.css";
 ---
 
 <!DOCTYPE html>
@@ -189,18 +189,19 @@ import '@fontsource/inter/variable.css'
     </script>
     <slot />
   </body>
+  <style is:global>
+    h1,
+    h2 {
+      font-family: "InterVariable", sans-serif;
+      font-weight: 400;
+    }
+
+    @supports (font-variation-settings: normal) {
+      h1,
+      h2 {
+        font-family: "InterVariable";
+        font-variation-settings: "wght" 400;
+      }
+    }
+  </style>
 </html>
-
-<style is:global>
-  h1, h2 {
-  font-family: "InterVariable", sans-serif;
-  font-weight: 400;
-}
-
-@supports (font-variation-settings: normal) {
-  h1, h2 {
-    font-family: "InterVariable";
-    font-variation-settings: "wght" 400;
-  }
-}
-</style>
