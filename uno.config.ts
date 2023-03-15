@@ -44,7 +44,7 @@ export default defineConfig({
       prefix: "i-",
     }),
     presetAttributify(),
-    // presetTypography(),
+    presetTypography(),
   ],
   exclude: [/node_modules/, /src\/content/],
 });
