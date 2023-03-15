@@ -7,9 +7,8 @@ export const prerender = true;
 ---
 
 <Layout title="Astro-boi" description="Home Page">
-  <div class="wrapper">
     <!-- Prose is causing an issue -->
-    <main class="prose">
+    <main class="prose wrapper">
       <title>Astro Boi</title>
       <h1 class="font-bold text-center">
         <span class="text-gradient">Astro Boi</span>
@@ -24,5 +23,4 @@ export const prerender = true;
         <Card href="/blog" title="Blog" body="My blog posts" />
       </ul>
     </main>
-  </div>
 </Layout>
