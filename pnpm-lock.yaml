@@ -24,6 +24,7 @@ specifiers:
   cssnano: ^5.1.15
   eslint: ^8.35.0
   eslint-plugin-astro: ^0.24.0
+  modern-css-reset: ^1.4.0
   nanostores: ^0.7.4
   postcss: 8.4.21
   prettier: ^2.8.4
@@ -65,6 +66,7 @@ devDependencies:
   cssnano: 5.1.15_postcss@8.4.21
   eslint: 8.35.0
   eslint-plugin-astro: 0.24.0_eslint@8.35.0
+  modern-css-reset: 1.4.0
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-astro: 0.8.0
@@ -4205,6 +4207,10 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dev: false
+
+  /modern-css-reset/1.4.0:
+    resolution: {integrity: sha512-0crZmSFmrxkI7159rvQWjpDhy0u4+Awg/iOycJdlVn0RSeft/a+6BrQHR3IqvmdK25sqt0o6Z5Ap7cWgUee2rw==}
+    dev: true
 
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
