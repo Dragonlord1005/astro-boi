@@ -31,7 +31,8 @@
 		"unifiedjs.vscode-mdx",
 		"svelte.svelte-vscode",
 		"wix.vscode-import-cost",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"albert.TabOut"
 	]
     }
   },
@@ -49,7 +50,9 @@
 "features": {
 	"ghcr.io/devcontainers-contrib/features/npm-package:1": {
     "package": "@antfu/ni"
-  }
+  },
+	"ghcr.io/dhoeric/features/act:1": {},
+	"ghcr.io/frntn/devcontainers-features/gitleaks:1": {}
     // "github-cli": "latest"
   },
   "portsAttributes": {
