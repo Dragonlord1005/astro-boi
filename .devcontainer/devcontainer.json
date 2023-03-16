@@ -18,21 +18,22 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "dbaeumer.vscode-eslint",
-        "antfu.file-nesting",
-        "EditorConfig.EditorConfig",
-        "quicktype.quicktype",
-        "GitHub.copilot",
-        "WakaTime.vscode-wakatime",
-        "astro-build.astro-vscode",
-        "antfu.unocss",
-        "Gruntfuggly.todo-tree",
-        "GitHub.copilot-labs",
-        "unifiedjs.vscode-mdx",
-        "svelte.svelte-vscode",
-        "wix.vscode-import-cost",
-        "esbenp.prettier-vscode",
-        "albert.TabOut"
+		"dbaeumer.vscode-eslint",
+		"antfu.file-nesting",
+		"EditorConfig.EditorConfig",
+		"quicktype.quicktype",
+		"GitHub.copilot",
+		"WakaTime.vscode-wakatime",
+		"astro-build.astro-vscode",
+		"antfu.unocss",
+		"Gruntfuggly.todo-tree",
+		"GitHub.copilot-labs",
+		"unifiedjs.vscode-mdx",
+		"svelte.svelte-vscode",
+		"wix.vscode-import-cost",
+		"esbenp.prettier-vscode",
+		"albert.TabOut",
+		"ms-playwright.playwright"
 	]
     }
   },
