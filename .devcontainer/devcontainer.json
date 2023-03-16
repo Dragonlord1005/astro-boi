@@ -43,7 +43,7 @@
   "updateContentCommand": "nci",
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "ni && pnpm exec playwright install-deps",
+  "postCreateCommand": "ni",
 
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node",
