@@ -30,6 +30,7 @@
     "unocss": "0.50.4"
   },
   "devDependencies": {
+    "@playwright/test": "^1.31.2",
     "@typescript-eslint/parser": "^5.54.0",
     "@unocss/preset-attributify": "0.50.4",
     "@unocss/preset-icons": "0.50.4",

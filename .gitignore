@@ -25,3 +25,6 @@ pnpm-debug.log*
 git-sim_media/
 git-story_media
 .vercel
+/test-results/
+/playwright-report/
+/playwright/.cache/
