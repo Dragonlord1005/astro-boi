@@ -52,7 +52,6 @@
     "package": "@antfu/ni"
   },
 	"ghcr.io/dhoeric/features/act:1": {},
-	"ghcr.io/frntn/devcontainers-features/gitleaks:1": {}
     // "github-cli": "latest"
   },
   "portsAttributes": {
