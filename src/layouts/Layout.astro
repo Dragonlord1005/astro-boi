@@ -7,13 +7,13 @@ export interface Props {
 const { title, description } = Astro.props;
 import Navigation from "@components/Navigation.astro";
 
+import "@styles/reset.css"
 import "@styles/main.css";
 
 import { SEO } from "astro-seo";
 
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/variable.css";
-// import "modern-css-reset"
 ---
 
 <!DOCTYPE html>
