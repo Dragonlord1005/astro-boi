@@ -5,7 +5,8 @@
     "svelte.svelte-vscode",
     "unifiedjs.vscode-mdx",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "seatonjiang.gitmoji-vscode"
   ],
   "unwantedRecommendations": []
 }
