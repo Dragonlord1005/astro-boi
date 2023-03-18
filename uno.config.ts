@@ -10,8 +10,6 @@ import {
 
 import presetIcons from "@unocss/preset-icons";
 
-// ! We need to figure out how to fix the styling issue after removing resets
-
 export default defineConfig({
   shortcuts: [
     {
