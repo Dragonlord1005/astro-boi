@@ -21,4 +21,9 @@ test.describe('Test each page individually', () => {
         // await page.getByRole('link', { name: 'Projects' }).click();
         await page.getByRole('heading', { name: 'My Projects' }).click();
     })
+
+    test ('Test Blog Posts page', async ({ page }) => {
+        await page.getByRole('link', { name: 'Blog', exact: true }).click();
+        await page.getByRole('heading', { name: 'Blog Posts' }).click();
+    })
 });
