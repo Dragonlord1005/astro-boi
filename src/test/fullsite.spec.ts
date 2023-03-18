@@ -11,6 +11,14 @@ test.describe('Test each page individually', () => {
 
     test('Test about page', async ({ page }) => {
         await page.getByRole('link', { name: 'About' }).click();
+        await page.getByAltText('Derpy Picture').waitFor
         await page.getByRole('heading', { name: 'About', exact: true }).click();
+    })
+
+    test('Test projects page', async ({ page }) => {
+        // await page.goto('http://localhost:3000/');
+        await page.getByRole('link', { name: 'Projects', exact: true }).click();
+        // await page.getByRole('link', { name: 'Projects' }).click();
+        await page.getByRole('heading', { name: 'My Projects' }).click();
     })
 });
