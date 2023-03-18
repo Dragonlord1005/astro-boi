@@ -33,7 +33,8 @@
 		"wix.vscode-import-cost",
 		"esbenp.prettier-vscode",
 		"albert.TabOut",
-		"ms-playwright.playwright"
+		"ms-playwright.playwright",
+		"seatonjiang.gitmoji-vscode"
 	]
     }
   },
