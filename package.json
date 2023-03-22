@@ -24,7 +24,7 @@
     "@astrojs/vercel": "^3.2.1",
     "@fontsource/inter": "^4.5.15",
     "@unocss/astro": "0.50.6",
-    "astro": "2.1.4",
+    "astro": "2.1.5",
     "astro-compress": "1.1.35",
     "nanostores": "^0.7.4",
     "svelte": "^3.55.1",
