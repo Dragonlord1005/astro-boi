@@ -11,7 +11,7 @@ Just me messing around Astro, at least for the time being, maybe become my actua
 
 **Client:** [Astro](https://astro.build/), [UnoCSS](https://uno.antfu.me/)
 
-**Server:** Pocketbase (soon), Netlify
+**Server:** Pocketbase (soon), Netlify/Vercel
 
 
 ## Badges
