@@ -9,6 +9,10 @@ specifiers:
   '@astrojs/vercel': ^3.2.1
   '@axe-core/playwright': ^4.6.0
   '@fontsource/inter': ^4.5.15
+  '@iconify-json/carbon': ^1.1.16
+  '@iconify-json/game-icons': ^1.1.2
+  '@iconify-json/mdi': ^1.1.50
+  '@iconify-json/skill-icons': ^1.1.2
   '@playwright/test': ^1.31.2
   '@typescript-eslint/parser': ^5.54.0
   '@unocss/astro': 0.50.6
@@ -56,6 +60,10 @@ dependencies:
 
 devDependencies:
   '@axe-core/playwright': 4.6.0
+  '@iconify-json/carbon': 1.1.16
+  '@iconify-json/game-icons': 1.1.2
+  '@iconify-json/mdi': 1.1.50
+  '@iconify-json/skill-icons': 1.1.2
   '@playwright/test': 1.31.2
   '@typescript-eslint/parser': 5.54.0_byynos7ffx3cepxtk6gvolkky4
   '@unocss/preset-attributify': 0.50.6
@@ -835,6 +843,30 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/carbon/1.1.16:
+    resolution: {integrity: sha512-AD8bcnRSGA0WfcGEass2FbA0sagrUzrpFx5WchuDy3uf7yKBWumdypdQK121DH321fQDl5+zZQ26T6gC9knwUQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/game-icons/1.1.2:
+    resolution: {integrity: sha512-XZqaFmmkKRQLSx8cJDC1RVWRZ11VoBSWhbtH+unPd5dc2JE+aF/zEBKVfVMEIibFu1PEAcJSMmPe48cUtEjVwA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.50:
+    resolution: {integrity: sha512-SgbT5w5eHCdOG74ZWPz7HlTGk6VsifIJhNi6lAsxj/5Nlqt6Cz4LlQmSa9eecU9p075Jub2aAx/o7YI+GCahRQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/skill-icons/1.1.2:
+    resolution: {integrity: sha512-USuBvlGoOryx7EPCNGqJ2PohbNHRJ4wTl7druaarQglhiYYOw8B6UoDZhWWu6+xIy4vieRpmyYO7HVd6dI30Dg==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify/types/2.0.0:

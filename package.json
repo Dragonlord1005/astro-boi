@@ -33,6 +33,10 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.6.0",
+    "@iconify-json/carbon": "^1.1.16",
+    "@iconify-json/game-icons": "^1.1.2",
+    "@iconify-json/mdi": "^1.1.50",
+    "@iconify-json/skill-icons": "^1.1.2",
     "@playwright/test": "^1.31.2",
     "@typescript-eslint/parser": "^5.54.0",
     "@unocss/preset-attributify": "0.50.6",
