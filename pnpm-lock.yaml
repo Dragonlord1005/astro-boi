@@ -31,7 +31,7 @@ specifiers:
   postcss: 8.4.21
   prettier: ^2.8.4
   prettier-plugin-astro: ^0.8.0
-  sharp: 0.31.3
+  sharp: 0.32.0
   svelte: ^3.55.1
   terser: 5.16.8
   typescript: ^5.0.0
@@ -39,7 +39,7 @@ specifiers:
   vanilla-cookieconsent: 2.8.9
 
 dependencies:
-  '@astrojs/image': 0.16.1_astro@2.1.5+sharp@0.31.3
+  '@astrojs/image': 0.16.1_astro@2.1.5+sharp@0.32.0
   '@astrojs/mdx': 0.18.2_astro@2.1.5
   '@astrojs/partytown': 1.1.1
   '@astrojs/sitemap': 1.2.1
@@ -47,7 +47,7 @@ dependencies:
   '@astrojs/vercel': 3.2.1_astro@2.1.5
   '@fontsource/inter': 4.5.15
   '@unocss/astro': 0.50.6
-  astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+  astro: 2.1.5_sharp@0.32.0+terser@5.16.8
   astro-compress: 1.1.35
   nanostores: 0.7.4
   svelte: 3.55.1
@@ -74,7 +74,7 @@ devDependencies:
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-astro: 0.8.0
-  sharp: 0.31.3
+  sharp: 0.32.0
   terser: 5.16.8
   vanilla-cookieconsent: 2.8.9
 
@@ -112,7 +112,7 @@ packages:
   /@astrojs/compiler/1.2.0:
     resolution: {integrity: sha512-O8yPCyuq+PU9Fjht2tIW6WzSWiq8qDF1e8uAX2x+SOGFzKqOznp52UlDG2mSf+ekf0Z3R34sb64O7SgX+asTxg==}
 
-  /@astrojs/image/0.16.1_astro@2.1.5+sharp@0.31.3:
+  /@astrojs/image/0.16.1_astro@2.1.5+sharp@0.32.0:
     resolution: {integrity: sha512-NI5wscxJC0qmvAqnNT79vucQcBP1ZzhVMd8iqy/bhjoccxEgFFvqLIUa88Tf/br3eyhHfN95FDIqNTOs4K3HSg==}
     peerDependencies:
       astro: ^2.1.3
@@ -122,13 +122,13 @@ packages:
         optional: true
     dependencies:
       '@altano/tiny-async-pool': 1.0.2
-      astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+      astro: 2.1.5_sharp@0.32.0+terser@5.16.8
       http-cache-semantics: 4.1.1
       image-size: 1.0.2
       kleur: 4.1.5
       magic-string: 0.27.0
       mime: 3.0.0
-      sharp: 0.31.3
+      sharp: 0.32.0
     dev: false
 
   /@astrojs/language-server/0.28.3:
@@ -155,7 +155,7 @@ packages:
       astro: ^2.1.4
     dependencies:
       '@astrojs/prism': 2.1.1
-      astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+      astro: 2.1.5_sharp@0.32.0+terser@5.16.8
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
       rehype-raw: 6.1.1
@@ -178,7 +178,7 @@ packages:
       astro: ^2.1.5
     dependencies:
       '@astrojs/prism': 2.1.1
-      astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+      astro: 2.1.5_sharp@0.32.0+terser@5.16.8
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
       rehype-raw: 6.1.1
@@ -251,7 +251,7 @@ packages:
       svelte: ^3.54.0
     dependencies:
       '@sveltejs/vite-plugin-svelte': 2.0.3_svelte@3.55.1
-      astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+      astro: 2.1.5_sharp@0.32.0+terser@5.16.8
       svelte: 3.55.1
       svelte2tsx: 0.5.23_l6gh7invo235md22ird7wlz7xq
     transitivePeerDependencies:
@@ -284,7 +284,7 @@ packages:
       '@astrojs/webapi': 2.1.0
       '@vercel/analytics': 0.1.11
       '@vercel/nft': 0.22.6
-      astro: 2.1.5_sharp@0.31.3+terser@5.16.8
+      astro: 2.1.5_sharp@0.32.0+terser@5.16.8
       fast-glob: 3.2.12
       set-cookie-parser: 2.5.1
       web-vitals: 3.3.0
@@ -1620,7 +1620,7 @@ packages:
     resolution: {integrity: sha512-YnSqj4E6vbF7wRk3gcxOPHBjenhfgaINEJlTsnu4sovAyfyGEdQksbioYKoZ+vERRDaYvEricfSzC6fc9lieww==}
     dev: true
 
-  /astro/2.1.5_sharp@0.31.3+terser@5.16.8:
+  /astro/2.1.5_sharp@0.32.0+terser@5.16.8:
     resolution: {integrity: sha512-NFHFkf3DkyV/9FQ9uMxXx9KP9a6nBOMDd9OC9SWgCwTJc2+Cm4oL94BnKmZ2SNR124pSoKimnaBkZncTYmIVwA==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
@@ -1670,7 +1670,7 @@ packages:
       rehype: 12.0.1
       semver: 7.3.8
       server-destroy: 1.0.1
-      sharp: 0.31.3
+      sharp: 0.32.0
       shiki: 0.11.1
       slash: 4.0.0
       string-width: 5.1.2
@@ -4321,6 +4321,10 @@ packages:
 
   /node-addon-api/5.1.0:
     resolution: {integrity: sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==}
+    dev: false
+
+  /node-addon-api/6.0.0:
+    resolution: {integrity: sha512-GyHvgPvUXBvAkXa0YvYnhilSB1A+FRYMpIVggKzPZqdaZfevZOuzfWzyvgzOwRLHBeo/MMswmJFsrNF4Nw1pmA==}
 
   /node-fetch-native/1.0.2:
     resolution: {integrity: sha512-KIkvH1jl6b3O7es/0ShyCgWLcfXxlBrLBbP3rOr23WArC66IMcU4DeZEeYEOwnopYhawLTn7/y+YtmASe8DFVQ==}
@@ -5277,6 +5281,21 @@ packages:
       color: 4.2.3
       detect-libc: 2.0.1
       node-addon-api: 5.1.0
+      prebuild-install: 7.1.1
+      semver: 7.3.8
+      simple-get: 4.0.1
+      tar-fs: 2.1.1
+      tunnel-agent: 0.6.0
+    dev: false
+
+  /sharp/0.32.0:
+    resolution: {integrity: sha512-yLAypVcqj1toSAqRSwbs86nEzfyZVDYqjuUX8grhFpeij0DDNagKJXELS/auegDBRDg1XBtELdOGfo2X1cCpeA==}
+    engines: {node: '>=14.15.0'}
+    requiresBuild: true
+    dependencies:
+      color: 4.2.3
+      detect-libc: 2.0.1
+      node-addon-api: 6.0.0
       prebuild-install: 7.1.1
       semver: 7.3.8
       simple-get: 4.0.1
