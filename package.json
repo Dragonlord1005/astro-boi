@@ -16,7 +16,7 @@
     "playwright": "playwright"
   },
   "dependencies": {
-    "@astrojs/image": "0.16.1",
+    "@astrojs/image": "0.16.2",
     "@astrojs/mdx": "0.18.2",
     "@astrojs/partytown": "1.1.1",
     "@astrojs/sitemap": "1.2.1",
@@ -24,7 +24,7 @@
     "@astrojs/vercel": "^3.2.1",
     "@fontsource/inter": "^4.5.15",
     "@unocss/astro": "0.50.6",
-    "astro": "2.1.5",
+    "astro": "2.1.7",
     "astro-compress": "1.1.35",
     "nanostores": "^0.7.4",
     "svelte": "^3.55.1",
