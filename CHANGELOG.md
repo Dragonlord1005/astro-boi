@@ -1,44 +1,44 @@
 # Changelog
 
-<a name="0.1.0"></a>
-## 0.0.1 (2023-03-18)
+<a name="0.1.1"></a>
+## 0.1.1 (2023-03-26)
 
 ### Added
 
-- ✅ Added the last test [[65d2c38](https://github.com/Dragonlord1005/astro-boi/commit/65d2c381cc3800062ff21ee320e1325f779c80c4)]
-- ✅ Even more tests [[9126e5e](https://github.com/Dragonlord1005/astro-boi/commit/9126e5ebf8254bc0acbd574f63692059692f321e)]
-- ➕ Added axe-core for accessibility testing [[cbfb143](https://github.com/Dragonlord1005/astro-boi/commit/cbfb143ac6a1fc5966b331e6895ebad3efd25925)]
-- ✅ Rewrote full site test (WIP) [[e42907c](https://github.com/Dragonlord1005/astro-boi/commit/e42907c087fcfab3878f7dcd284604ee2fe172d8)]
-- ✅ Add demo test [[9beb9bb](https://github.com/Dragonlord1005/astro-boi/commit/9beb9bb8a5d934e824112889a9713869e98da0f7)]
+- ✅ Testing ([#130](https://github.com/Dragonlord1005/astro-boi/issues/130)) [[396c174](https://github.com/Dragonlord1005/astro-boi/commit/396c174b2843907828acb50402b518f5a8921ce1)]
 
 ### Changed
 
-- 🔧 Made playwright record tests after first retry [[2d5c610](https://github.com/Dragonlord1005/astro-boi/commit/2d5c610b3050a7174418f605dc36a6513021c686)]
-- 🔧 Added webserver and baseurl to playwright config [[04ccfc3](https://github.com/Dragonlord1005/astro-boi/commit/04ccfc3319623d6d22cf0fe7b541aceb11916001)]
-- 🔧 Added test to scripts [[5a5f78f](https://github.com/Dragonlord1005/astro-boi/commit/5a5f78f06894a0a5d107095aa95acc7022b60e89)]
-- 🔧 Added gitmoji extension to configs [[d612534](https://github.com/Dragonlord1005/astro-boi/commit/d61253462ce4b0e8e727be4664155fab8e667f6d)]
-- 🔧 Updated devcontainer with playwright [[1688f17](https://github.com/Dragonlord1005/astro-boi/commit/1688f1767bd71ca856f9466a8b7eb1c6c92c6104)]
+- ⬆️ Update dependencies (non-major) ([#135](https://github.com/Dragonlord1005/astro-boi/issues/135)) [[062b2ac](https://github.com/Dragonlord1005/astro-boi/commit/062b2ac84162799dc55233749dd11a9008221ad2)]
+- ⬆️ Update dependency sharp to v0.32.0 ([#137](https://github.com/Dragonlord1005/astro-boi/issues/137)) [[5266156](https://github.com/Dragonlord1005/astro-boi/commit/526615657126a76e5f60a51eb958c18849cdc292)]
+- ⬆️ Update dependency terser to v5.16.8 ([#136](https://github.com/Dragonlord1005/astro-boi/issues/136)) [[c7ab4d6](https://github.com/Dragonlord1005/astro-boi/commit/c7ab4d64c5c30816ad370a25db2e3362d5d9b3d8)]
+- ⬆️ Update dependency astro-seo to v0.7.2 ([#134](https://github.com/Dragonlord1005/astro-boi/issues/134)) [[6dd7577](https://github.com/Dragonlord1005/astro-boi/commit/6dd7577776384031d6577dee1d9b4bfbb83c234c)]
+- ⬆️ Update dependency astro to v2.1.5 ([#132](https://github.com/Dragonlord1005/astro-boi/issues/132)) [[c8dfc06](https://github.com/Dragonlord1005/astro-boi/commit/c8dfc06d9a6cfee7c7bd6a80f300d3c08c80160b)]
+- ⬆️ Update dependency astro-robots-txt to v0.4.1 ([#133](https://github.com/Dragonlord1005/astro-boi/issues/133)) [[049ebf5](https://github.com/Dragonlord1005/astro-boi/commit/049ebf5d7f748aacfeed47bf879ecdaa1f7cf222)]
+- 🔧 Update config files to fix playwright install [[4b60456](https://github.com/Dragonlord1005/astro-boi/commit/4b60456b72202a4f77293feacf2a1907b497af3b)]
+- 🔧 Update devcontainer.json [[1cef651](https://github.com/Dragonlord1005/astro-boi/commit/1cef65105f93fbd9f3bba55f0345bb524a7f7101)]
+- ⬆️ Update dependencies (non-major) ([#131](https://github.com/Dragonlord1005/astro-boi/issues/131)) [[50ebaa6](https://github.com/Dragonlord1005/astro-boi/commit/50ebaa63d0316e8e3abc26b42b4cc3ddeee7ed0e)]
+- 🔧 Update devcontainer.json [[91622e8](https://github.com/Dragonlord1005/astro-boi/commit/91622e8f11d2401612dde347dec1dc5fe02f7539)]
+- ⬆️ Update unocss to v0.50.6 ([#127](https://github.com/Dragonlord1005/astro-boi/issues/127)) [[542c5a7](https://github.com/Dragonlord1005/astro-boi/commit/542c5a798e0f3e1fbb071130f883809a3295317c)]
+- ⬆️ Update dependency eslint-plugin-astro to ^0.26.0 ([#128](https://github.com/Dragonlord1005/astro-boi/issues/128)) [[318e0e1](https://github.com/Dragonlord1005/astro-boi/commit/318e0e177347199c238874b98c6579265602b49f)]
+- ⬆️ Update dependency typescript to v5 ([#129](https://github.com/Dragonlord1005/astro-boi/issues/129)) [[268c659](https://github.com/Dragonlord1005/astro-boi/commit/268c6591a996344dcf4fdd1a1b1111fdc7e273ac)]
+- 🔧 Made renovate use gitmoji [[35267bb](https://github.com/Dragonlord1005/astro-boi/commit/35267bb8c6b6cd0321005a223abc9a67c2ec9a14)]
 
 ### Fixed
 
-- 🐛 Fixed Firefox [[83706fc](https://github.com/Dragonlord1005/astro-boi/commit/83706fcdd9ddb1f72a2714e8c8f96654625205dc)]
+- ✏️ Fixed typos for version [[9338abc](https://github.com/Dragonlord1005/astro-boi/commit/9338abc2d789ea27356e7511b6b2d9c58f8b674d)]
 
 ### Miscellaneous
 
-- 💡 Removed a now useless comment [[7fa52d4](https://github.com/Dragonlord1005/astro-boi/commit/7fa52d45624ddd8affe6f3e17dcad85eb0d4aeda)]
-- 💡 Added a comment relating cookieconsent [[4036ea3](https://github.com/Dragonlord1005/astro-boi/commit/4036ea3141aa0f15b3052cc7684d5a69fe3d0418)]
-- 🩹 Fixed blog page not being centered [[cb5a971](https://github.com/Dragonlord1005/astro-boi/commit/cb5a971e75c7cde8aa1def15a51b3bff2b2000df)]
-- ⚰️ Removed useless demo tests [[cf043c9](https://github.com/Dragonlord1005/astro-boi/commit/cf043c9f13761ce688eef62bc9a9439910f7afaf)]
--  AHHHHH [[74282fd](https://github.com/Dragonlord1005/astro-boi/commit/74282fde71d2e4e84e4c608a4987a2e77bc47785)]
--  ugh [[a64f19e](https://github.com/Dragonlord1005/astro-boi/commit/a64f19e9f22aaaab5796952b875fa7d17aae0f61)]
+- 📝 Update README.md [[4cbb466](https://github.com/Dragonlord1005/astro-boi/commit/4cbb46612358ba0c009b616d30a6b348a3372ff1)]
+- 📝 Update README.md [[bc167fc](https://github.com/Dragonlord1005/astro-boi/commit/bc167fc4c09f32baf5db14c2f578c90d1d8e1382)]
 -  Formatted properly [[f4ca1e9](https://github.com/Dragonlord1005/astro-boi/commit/f4ca1e910caee54cb90cf53d44c5d54a7269929b)]
 -  chore: Removed a useless comment [[fdb18ee](https://github.com/Dragonlord1005/astro-boi/commit/fdb18eeafd08b6c04101045e76afc59ff5034f89)]
 -  fix: Removed gitleaks due to issues [[cfbf4b7](https://github.com/Dragonlord1005/astro-boi/commit/cfbf4b755bb30a0f5d336b71e8375a8d501a4f1c)]
 -  feat: Added some things to devcontainer [[62fb996](https://github.com/Dragonlord1005/astro-boi/commit/62fb9968529d4908c84386d618b6e42b1f77191a)]
 -  feat: Successfully did the css stuff [[b0e008b](https://github.com/Dragonlord1005/astro-boi/commit/b0e008bd484a2583088ef9644215aefd9e910c35)]
 -  feat: Replace css reset [[f088d83](https://github.com/Dragonlord1005/astro-boi/commit/f088d832ca77e09b0a5ff1e15f2e43681cb531a9)]
--  &quot;Comment out Firefox configuration due to issues with the browser.&quot; [[6bcc39d](https://github.com/Dragonlord1005/astro-boi/commit/6bcc39dc1321d501b540d6c04ebb5a2c5eb69f7a)]
--  Add a new file that tests the entire site using Playwright test framework [[c8d0371](https://github.com/Dragonlord1005/astro-boi/commit/c8d0371d64e6a225ad7067cf28359743bd8fad2d)]
+-  Update postCreateCommand in devcontainer.json to only run &quot;ni&quot;. [[028bb31](https://github.com/Dragonlord1005/astro-boi/commit/028bb31bf099fd504d3dbfc23ae608cc1a27931a)]
 -  feat: Fade in for landing page [[492990d](https://github.com/Dragonlord1005/astro-boi/commit/492990d717005d13106259ced034265d29c9d07e)]
 -  Moved font variations into the main css file [[b2ab40a](https://github.com/Dragonlord1005/astro-boi/commit/b2ab40afb0222fb8268dc334eeb5c7952ba8084c)]
 -  Removed the useless indent [[2c4705f](https://github.com/Dragonlord1005/astro-boi/commit/2c4705ff60637e1dc0587d7e0171a82ece358024)]
