@@ -1,5 +1,5 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 
 import "@styles/text-gradient.css";
 
@@ -8,7 +8,7 @@ import Joe from "../assets/Joe.jpg";
 export const prerender = true;
 ---
 
-<Layout title="About" description="About Page">
+<BaseLayout title="About" description="About Page">
   <main class="prose wrapper">
     <title>About Astro Boi</title>
     <h1><span class="text-gradient">About</span></h1>
@@ -38,4 +38,4 @@ export const prerender = true;
       </p>
     </p>
   </main>
-</Layout>
+</BaseLayout>

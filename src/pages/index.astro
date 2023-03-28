@@ -1,12 +1,12 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 import Card from "@components/Card.astro";
 
 import "@styles/text-gradient.css";
 export const prerender = true;
 ---
 
-<Layout title="Astro-boi" description="Home Page">
+<BaseLayout title="Astro-boi" description="Home Page">
     <!-- Prose is causing an issue -->
     <main class="prose wrapper">
       <title>Astro Boi</title>
@@ -23,4 +23,4 @@ export const prerender = true;
         <Card href="/blog" title="Blog" body="My blog posts" />
       </ul>
     </main>
-</Layout>
+</BaseLayout>
