@@ -3,6 +3,7 @@ import MarkdownLayoutNew from "@layouts/MarkdownLayoutNew.astro";
 import { getEntryBySlug } from "astro:content";
 
 interface Entry {
+  data: any;
   render(): Promise<{ Content: any }>;
 }
 
