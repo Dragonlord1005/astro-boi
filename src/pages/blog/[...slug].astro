@@ -16,6 +16,6 @@ const entry = (await getEntryBySlug("posts", slug as string)) as Entry; // <-- a
 const { Content } = await entry.render();
 ---
 
-<MarkdownLayoutNew frontmatter={slug}>
+<MarkdownLayoutNew frontmatter={entry.data}>
   <Content />
 </MarkdownLayoutNew>
