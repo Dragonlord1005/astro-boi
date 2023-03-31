@@ -3,7 +3,7 @@ module.exports = {
   extends: [
     // ...
     // See how to make it work with other files
-    // "eslint:recommended",
+    "eslint:recommended",
     // "eslint-config-javascript",
     "plugin:astro/recommended",
   ],
