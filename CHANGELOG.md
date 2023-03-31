@@ -1,14 +1,18 @@
 # Changelog
 
-<a name="0.1.1"></a>
-## 0.1.1 (2023-03-26)
+<a name="0.1.2"></a>
+## 0.1.2 (2023-03-31)
 
 ### Added
 
+- ✨ Nested Layouts ([#140](https://github.com/Dragonlord1005/astro-boi/issues/140)) [[242c000](https://github.com/Dragonlord1005/astro-boi/commit/242c0000e7f77193974bf1fd4f62ebf334017e66)]
+- ➕ Added icon dependencies for offline development [[b863b82](https://github.com/Dragonlord1005/astro-boi/commit/b863b82ab207607f78be7cda1deb912c9d47b7c9)]
 - ✅ Testing ([#130](https://github.com/Dragonlord1005/astro-boi/issues/130)) [[396c174](https://github.com/Dragonlord1005/astro-boi/commit/396c174b2843907828acb50402b518f5a8921ce1)]
 
 ### Changed
 
+- 🔧 Switched to copilot nightly [[5a6430f](https://github.com/Dragonlord1005/astro-boi/commit/5a6430f2062c0905d1a0ffebad9f6db06354ab31)]
+- ⬆️ Update dependency cssnano to v6 ([#138](https://github.com/Dragonlord1005/astro-boi/issues/138)) [[2e96778](https://github.com/Dragonlord1005/astro-boi/commit/2e96778a521ecdcc9610cd38bc55ea6b70d10b61)]
 - ⬆️ Update dependencies (non-major) ([#135](https://github.com/Dragonlord1005/astro-boi/issues/135)) [[062b2ac](https://github.com/Dragonlord1005/astro-boi/commit/062b2ac84162799dc55233749dd11a9008221ad2)]
 - ⬆️ Update dependency sharp to v0.32.0 ([#137](https://github.com/Dragonlord1005/astro-boi/issues/137)) [[5266156](https://github.com/Dragonlord1005/astro-boi/commit/526615657126a76e5f60a51eb958c18849cdc292)]
 - ⬆️ Update dependency terser to v5.16.8 ([#136](https://github.com/Dragonlord1005/astro-boi/issues/136)) [[c7ab4d6](https://github.com/Dragonlord1005/astro-boi/commit/c7ab4d64c5c30816ad370a25db2e3362d5d9b3d8)]
