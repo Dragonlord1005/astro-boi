@@ -33,14 +33,9 @@ I am not taking contributions at this time.
 
 - Work on the projects page a litle more
     - Thinking about adding a project status
-    - Mini Projects?
-        - Basically litle demos
 - Add more posts
-    - Server
-    - Unreal Engine (maybe)
-    - SvelteKit (maybe)
-    - Nuxt (maybe)
     - Codespaces
+    - Copilot
 - Testing
 
 ## License
