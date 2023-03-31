@@ -22,6 +22,7 @@ import mdx from "@astrojs/mdx";
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
+// TODO: Switch from serverless to static until we actually need serverless
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config

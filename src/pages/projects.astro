@@ -1,12 +1,12 @@
 ---
 import Card from "@components/Card.astro";
-import Layout from "@layouts/Layout.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 
 import "@styles/text-gradient.css";
 export const prerender = true;
 ---
 
-<Layout title="Projects" description="Projects">
+<BaseLayout title="Projects" description="Projects">
   <main class="prose wrapper">
     <title>Dragonlord1005's Projects</title>
     <h1>My <span class="text-gradient">Projects</span></h1>
@@ -29,4 +29,4 @@ export const prerender = true;
       href="/projects/svelte-counter"
     />
   </main>
-</Layout>
+</BaseLayout>
