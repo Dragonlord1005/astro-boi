@@ -15,7 +15,7 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
-    <h1 class="title">{frontmatter.title}</h1>
-    <!-- <h2>Author: {frontmatter.author}</h2> -->
-    <slot />
+  <h1 class="title">{frontmatter.title}</h1>
+  <!-- <h2>Author: {frontmatter.author}</h2> -->
+  <slot />
 </BaseLayout>

@@ -16,10 +16,9 @@ const entry = (await getEntryBySlug("posts", slug as string)) as Entry; // <-- a
 // 3. (Optional) render the entry to HTML in the template
 const { Content } = await entry.render();
 
-import '@styles/markdown.css'
+import "@styles/markdown.css";
 ---
 
 <MarkdownLayout frontmatter={entry.data}>
   <Content />
 </MarkdownLayout>
-
