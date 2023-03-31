@@ -2,63 +2,20 @@
 // Is this file even used?
 import type { MarkdownLayoutProps } from "astro";
 
-type Props = MarkdownLayoutProps<{
-  title: string;
-  author: string;
-  publishDate: string;
-  url: string;
-  description: string;
-}>;
-const { frontmatter, url } = Astro.props;
-import Navigation from "@components/Navigation.astro";
+import BaseLayout from "./BaseLayout.astro";
 
-import "@styles/reset.css"
-import "@styles/main.css";
-
-import { SEO } from "astro-seo";
+// type Props = MarkdownLayoutProps<{
+//   title: string;
+//   author: string;
+//   publishDate: string;
+//   url: string;
+//   description: string;
+// }>;
+const { frontmatter } = Astro.props;
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <SEO title={frontmatter.title} description={frontmatter.description} />
-    <!-- <meta rel="canonical" href={new URL(url, Astro.site).pathname} /> -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css"
-      media="print"
-      onload="this.media='all'"
-    />
-    <script
-      async
-      is:inline
-      src="https://www.googletagmanager.com/gtag/js?id=G-ZXNLX86V8S"
-      type="text/partytown"
-      type="text/plain"
-      data-cookiecategory="analytics"
-    ></script><script
-      is:inline
-      type="text/partytown"
-      type="text/plain"
-      data-cookiecategory="analytics"
-    >
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-ZXNLX86V8S");
-    </script></head
-  >
-
-  <header>
-    <Navigation />
-  </header>
-  <body class="text-center prose">
-    <!-- <link rel="stylesheet" href="/prism-one-dark.css" /> -->
-    <h1>{frontmatter.title} by {frontmatter.author}</h1>
+<BaseLayout title={frontmatter.title} description={frontmatter.description}>
+    <h1 class="title">{frontmatter.title}</h1>
+    <!-- <h2>Author: {frontmatter.author}</h2> -->
     <slot />
-    <p class="mt-5 font-italic">Written on: {frontmatter.publishDate}</p>
-  </body>
-</html>
+</BaseLayout>

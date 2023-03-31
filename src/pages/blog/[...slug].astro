@@ -1,5 +1,5 @@
 ---
-import MarkdownLayoutNew from "@layouts/MarkdownLayoutNew.astro";
+import MarkdownLayout from "@layouts/MarkdownLayout.astro";
 import { getEntryBySlug } from "astro:content";
 
 interface Entry {
@@ -17,6 +17,6 @@ const entry = (await getEntryBySlug("posts", slug as string)) as Entry; // <-- a
 const { Content } = await entry.render();
 ---
 
-<MarkdownLayoutNew frontmatter={entry.data}>
+<MarkdownLayout frontmatter={entry.data}>
   <Content />
 </MarkdownLayoutNew>
