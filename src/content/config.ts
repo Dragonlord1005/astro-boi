@@ -7,10 +7,19 @@ const posts = defineCollection({
     description: z.string(),
     author: z.string(),
     publishDate: z.string().transform((str) => new Date(str)),
-    url: z.string(),
+  }),
+});
+
+const projects = defineCollection({
+  schema: z.object({
+    draft: z.boolean().default(false),
+    title: z.string(),
+    description: z.string(),
+    mini: z.boolean().default(false),
   }),
 });
 
 export const collections = {
   posts: posts,
+  projects: projects,
 };
