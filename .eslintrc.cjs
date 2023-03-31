@@ -4,6 +4,8 @@ module.exports = {
     // ...
     // See how to make it work with other files
     "plugin:astro/recommended",
+    "eslint:recommended",
+    "eslint-config-javascript"
   ],
   // ...
   overrides: [
