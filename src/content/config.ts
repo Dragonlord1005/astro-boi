@@ -16,6 +16,8 @@ const projects = defineCollection({
     title: z.string(),
     description: z.string(),
     mini: z.boolean().default(false),
+    githubUrl: z.string().url(),
+    siteUrl: z.string().url(),
   }),
 });
 

@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+
+const Projects = await getCollection("projects");
+
+import Card from "@components/Card.astro";
+---
+
+<div>
+  <ul role="list" class="link-card-grid">
+    {
+        Projects.map((project) => (
+        <Card
+        title={project.data.title}
+        body={project.data.description}
+          href={'projects/' + project.slug}
+        />
+      ))
+    }
+  </ul>
+</div>
