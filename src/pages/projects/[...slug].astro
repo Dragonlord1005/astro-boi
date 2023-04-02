@@ -1,0 +1,25 @@
+---
+import MarkdownLayout from "@layouts/MarkdownLayout.astro";
+import { getEntryBySlug } from "astro:content";
+
+interface Entry {
+    data: any;
+    render(): Promise<{ Content: any }>;
+}
+
+const { slug } = Astro.params;
+
+const entry = (await getEntryBySlug("projects", slug)) as Entry;
+
+const { Content } = await entry.render();
+
+import "@styles/markdown.css"
+import "./projects.css"
+
+import ProjectFooter from "@components/Projects/ProjectFooter.astro";
+---
+
+<MarkdownLayout frontmatter={entry.data}>
+    <Content />
+    <ProjectFooter githubUrl={entry.data.githubUrl} siteUrl={entry.data.siteUrl} />
+</MarkdownLayout>
