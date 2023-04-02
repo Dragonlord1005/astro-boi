@@ -5,9 +5,11 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout title={frontmatter.title} description={frontmatter.description}>
-  <h1 class="title">{frontmatter.title}</h1>
-  <!-- <h2>Author: {frontmatter.author}</h2> -->
-  <!-- We can only display it if it exists -->
-  {frontmatter.author && <h2>Author: {frontmatter.author}</h2>}
-  <slot />
+  <main class="prose wrapper">
+    <h1 class="title">{frontmatter.title}</h1>
+    <!-- <h2>Author: {frontmatter.author}</h2> -->
+    <!-- We can only display it if it exists -->
+    {frontmatter.author && <h2>Author: {frontmatter.author}</h2>}
+    <slot />
+  </main>
 </BaseLayout>
