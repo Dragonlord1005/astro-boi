@@ -15,13 +15,20 @@ const projects = defineCollection({
     // draft: z.boolean().default(false),
     title: z.string(),
     description: z.string(),
-    mini: z.boolean().default(false),
     githubUrl: z.string().url(),
     siteUrl: z.string().url(),
   }),
 });
 
+const miniprojects = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string()
+  })
+})
+
 export const collections = {
   posts: posts,
   projects: projects,
+  miniprojects: miniprojects,
 };
