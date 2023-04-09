@@ -1,16 +1,17 @@
 ---
-import Card from "@components/Card.astro";
+// import Card from "@components/Card.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import ProjectList from "@components/Projects/ProjectList.astro";
+import MiniProjectList from "@components/Projects/MiniProjectList.astro";
 
 import "@styles/text-gradient.css";
-export const prerender = true;
 ---
 
 <BaseLayout title="Projects" description="Projects">
   <main class="prose wrapper">
     <title>Dragonlord1005's Projects</title>
     <h1>My <span class="text-gradient">Projects</span></h1>
-    <ul role="list" class="link-card-grid">
+    <!-- <ul role="list" class="link-card-grid">
       <Card
         title="Next Boi"
         body="My current main blog site, made with Next.js and TailwindCSS"
@@ -27,6 +28,9 @@ export const prerender = true;
       title="Svelte Counter"
       body="A simple counter made with Svelte"
       href="/projects/svelte-counter"
-    />
+    /> -->
+    <ProjectList />
+    <h2>Mini Projects</h2>
+    <MiniProjectList />
   </main>
 </BaseLayout>

@@ -7,16 +7,14 @@ interface Entry {
   render(): Promise<{ Content: any }>;
 }
 
-// 1. Get the slug from the incoming server request
 const { slug } = Astro.params;
 
-// 2. Query for the entry directly using the request slug
-const entry = (await getEntryBySlug("posts", slug as string)) as Entry; // <-- add this line
+const entry = (await getEntryBySlug("miniprojects", slug)) as Entry;
 
-// 3. (Optional) render the entry to HTML in the template
 const { Content } = await entry.render();
 
-// import "@styles/markdown.css";
+import "@styles/markdown.css";
+// import "./projects.css"
 ---
 
 <MarkdownLayout frontmatter={entry.data}>

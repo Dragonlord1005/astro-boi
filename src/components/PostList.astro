@@ -14,7 +14,7 @@ import Card from "./Card.astro";
         <Card
           title={post.data.title}
           body={post.data.description}
-          href={post.data.url}
+          href={"blog/" + post.slug}
         />
       ))
     }

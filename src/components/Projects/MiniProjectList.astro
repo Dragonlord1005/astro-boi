@@ -1,0 +1,21 @@
+---
+import { getCollection } from "astro:content";
+
+const MiniProjects = await getCollection("miniprojects");
+
+import Card from "@components/Card.astro";
+---
+
+<div>
+  <ul role="list" class="link-card-grid">
+    {
+      MiniProjects.map((miniproject) => (
+        <Card
+          title={miniproject.data.title}
+          body={miniproject.data.description}
+          href={"projects/" + miniproject.slug}
+        />
+      ))
+    }
+  </ul>
+</div>

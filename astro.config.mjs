@@ -32,7 +32,9 @@ export default defineConfig({
     // injectReset: "modern-css-reset",
     injectEntry: process.env["NODE_ENV"] === "development",
     mode: "dist-chunk"
-  }), compress(), robotsTxt(), sitemap(), partytown(), image({
+  }), compress(), robotsTxt(), sitemap(), 
+  // partytown(), Remove for now due to unknown issue
+  image({
     serviceEntryPoint: "@astrojs/image/sharp"
   }), mdx(), svelte()],
   srcDir: "./src",
