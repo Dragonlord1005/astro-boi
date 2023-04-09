@@ -3,8 +3,8 @@ import MarkdownLayout from "@layouts/MarkdownLayout.astro";
 import { getEntryBySlug } from "astro:content";
 
 interface Entry {
-    data: any;
-    render(): Promise<{ Content: any }>;
+  data: any;
+  render(): Promise<{ Content: any }>;
 }
 
 const { slug } = Astro.params;
@@ -13,10 +13,10 @@ const entry = (await getEntryBySlug("miniprojects", slug)) as Entry;
 
 const { Content } = await entry.render();
 
-import "@styles/markdown.css"
+import "@styles/markdown.css";
 // import "./projects.css"
 ---
 
 <MarkdownLayout frontmatter={entry.data}>
-    <Content />
+  <Content />
 </MarkdownLayout>

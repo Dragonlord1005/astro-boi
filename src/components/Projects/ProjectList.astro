@@ -9,25 +9,13 @@ import Card from "@components/Card.astro";
 <div>
   <ul role="list" class="link-card-grid">
     {
-        Projects.map((project) => (
-        (project.data.mini) ? null : (
+      Projects.map((project) => (
         <Card
-        title={project.data.title}
-        body={project.data.description}
-        href={'projects/' + project.slug}
+          title={project.data.title}
+          body={project.data.description}
+          href={"projects/" + project.slug}
         />
-        )
       ))
     }
   </ul>
-  <!-- TODO: See if theres a way to not create a new header every time -->
-  <h2>Mini Projects</h2>
-  {Projects.map((project) => (
-    (project.data.mini) ? (
-      <ul role="list" class="link-card-grid">
-        <Card title={project.data.title} body={project.data.description} href={'projects/' + project.slug} />
-      </ul>
-    ) : null
-  ))
-}
 </div>
