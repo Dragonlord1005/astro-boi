@@ -57,8 +57,7 @@
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0",
     "sharp": "0.32.0",
-    "terser": "5.16.8",
-    "vanilla-cookieconsent": "2.8.9"
+    "terser": "5.16.8"
   },
   "pnpm": {
     "peerDependencyRules": {
