@@ -52,9 +52,10 @@
   "remoteUser": "node",
 "features": {
 	"ghcr.io/devcontainers-contrib/features/npm-package:1": {
-    "package": "@antfu/ni"
-  },
+    	"package": "@antfu/ni"
+  	},
 	"ghcr.io/dhoeric/features/act:1": {},
+	"ghcr.io/devcontainers-contrib/features/neofetch:1": {},
   },
   "portsAttributes": {
     "3000": {
