@@ -45,7 +45,7 @@
     "@unocss/reset": "0.51.4",
     "@unocss/transformer-compile-class": "0.51.4",
     "@unocss/transformer-variant-group": "0.51.4",
-    "astro-robots-txt": "0.4.1",
+    "astro-robots-txt": "0.5.0",
     "astro-seo": "0.7.2",
     "autoprefixer": "10.4.14",
     "cssnano": "^6.0.0",
