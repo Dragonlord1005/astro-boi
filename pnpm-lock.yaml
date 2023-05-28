@@ -20,8 +20,8 @@ dependencies:
     specifier: ^3.2.1
     version: 3.2.1(astro@2.2.1)
   '@fontsource/inter':
-    specifier: ^4.5.15
-    version: 4.5.15
+    specifier: ^5.0.0
+    version: 5.0.0
   '@unocss/astro':
     specifier: 0.52.4
     version: 0.52.4
@@ -820,8 +820,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@fontsource/inter@4.5.15:
-    resolution: {integrity: sha512-FzleM9AxZQK2nqsTDtBiY0PMEVWvnKnuu2i09+p6DHvrHsuucoV2j0tmw+kAT3L4hvsLdAIDv6MdGehsPIdT+Q==}
+  /@fontsource/inter@5.0.0:
+    resolution: {integrity: sha512-yhNfm2hV+5u7PQDSGYraJ6g1nbaVuWJFiE9fo1r0Tg2xthveZsYFOUltLRLCASo3DIkTkPgf1WX8Wpxfm3IEUQ==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.8:
