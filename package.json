@@ -20,7 +20,7 @@
     "@astrojs/mdx": "0.18.3",
     "@astrojs/partytown": "1.2.0",
     "@astrojs/sitemap": "1.2.2",
-    "@astrojs/svelte": "^2.0.2",
+    "@astrojs/svelte": "^3.0.0",
     "@astrojs/vercel": "^3.2.1",
     "@fontsource/inter": "^4.5.15",
     "@unocss/astro": "0.52.4",
