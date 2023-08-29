@@ -57,7 +57,7 @@
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0",
     "sharp": "0.32.0",
-    "terser": "5.17.1"
+    "terser": "5.19.3"
   },
   "pnpm": {
     "peerDependencyRules": {
