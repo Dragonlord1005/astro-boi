@@ -16,17 +16,17 @@
     "playwright": "playwright"
   },
   "dependencies": {
-    "@astrojs/image": "0.16.5",
-    "@astrojs/mdx": "0.18.3",
-    "@astrojs/partytown": "1.2.0",
-    "@astrojs/sitemap": "1.2.2",
+    "@astrojs/image": "0.18.0",
+    "@astrojs/mdx": "0.19.7",
+    "@astrojs/partytown": "1.2.3",
+    "@astrojs/sitemap": "1.4.0",
     "@astrojs/svelte": "^2.0.2",
     "@astrojs/vercel": "^3.2.1",
     "@fontsource/inter": "^4.5.15",
     "@unocss/astro": "0.52.4",
-    "astro": "2.2.1",
+    "astro": "2.10.15",
     "astro-compress": "1.1.35",
-    "nanostores": "^0.7.4",
+    "nanostores": "^0.9.0",
     "svelte": "^3.55.1",
     "typescript": "^5.0.0",
     "unocss": "0.52.4"
