@@ -15,7 +15,6 @@ import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
-import image from "@astrojs/image";
 import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
@@ -34,9 +33,7 @@ export default defineConfig({
     mode: "dist-chunk"
   }), compress(), robotsTxt(), sitemap(), 
   // partytown(), Remove for now due to unknown issue
-  image({
-    serviceEntryPoint: "@astrojs/image/sharp"
-  }), mdx(), svelte()],
+  mdx(), svelte()],
   srcDir: "./src",
   vite: {
     server: {
@@ -50,10 +47,10 @@ export default defineConfig({
     }
   },
   site: "https://astroi-boi.netlify.app",
-  output: "server",
-  experimental: {
-    contentCollections: true
-  },
+  output: "hybrid",
+  // experimental: {
+  //   contentCollections: true
+  // },
   adapter: vercel({
     analytics: true
   })

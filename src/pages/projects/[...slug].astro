@@ -1,15 +1,16 @@
 ---
 import MarkdownLayout from "@layouts/MarkdownLayout.astro";
-import { getEntryBySlug } from "astro:content";
+import { getCollection } from "astro:content";
 
-interface Entry {
-  data: any;
-  render(): Promise<{ Content: any }>;
+
+export async function getStaticPaths() {
+  const projectEntries = await getCollection('projects');
+  return projectEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
 }
 
-const { slug } = Astro.params;
-
-const entry = (await getEntryBySlug("projects", slug)) as Entry;
+const { entry } = Astro.props;
 
 const { Content } = await entry.render();
 
@@ -17,6 +18,7 @@ import "@styles/markdown.css";
 import "./projects.css";
 
 import ProjectFooter from "@components/Projects/ProjectFooter.astro";
+export const prerender = true;
 ---
 
 <MarkdownLayout frontmatter={entry.data}>
