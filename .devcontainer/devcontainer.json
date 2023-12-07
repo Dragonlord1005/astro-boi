@@ -11,7 +11,7 @@
   //     "VARIANT": "16-bullseye"
   //   }
   // },
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:16",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -43,7 +43,7 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
 
-  "updateContentCommand": "nci && pnpm run playwright install --with-deps",
+  "updateContentCommand": "nci",
 
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "ni",
