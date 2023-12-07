@@ -9,3 +9,12 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+    groups:
+      unocss:
+        patterns:
+          - "@unocss/*"
+          - "unocss"
+      astro:
+        patterns:
+          - "@astrojs/*"
+          - "astro"
