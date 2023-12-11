@@ -16,14 +16,14 @@
     "playwright": "playwright"
   },
   "dependencies": {
-    "@astrojs/mdx": "2.0.0",
+    "@astrojs/mdx": "2.0.1",
     "@astrojs/partytown": "2.0.2",
     "@astrojs/sitemap": "3.0.3",
-    "@astrojs/svelte": "^5.0.0",
-    "@astrojs/vercel": "^6.0.1",
+    "@astrojs/svelte": "^5.0.1",
+    "@astrojs/vercel": "^6.0.2",
     "@fontsource-variable/inter": "^5.0.16",
     "@unocss/astro": "0.58.0",
-    "astro": "4.0.3",
+    "astro": "4.0.4",
     "astro-compress": "2.2.3",
     "nanostores": "^0.9.5",
     "svelte": "^4.0.0",
