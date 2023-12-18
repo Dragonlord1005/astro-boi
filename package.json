@@ -34,7 +34,7 @@
     "@axe-core/playwright": "^4.8.2",
     "@iconify-json/carbon": "^1.1.24",
     "@iconify-json/game-icons": "^1.1.6",
-    "@iconify-json/mdi": "^1.1.59",
+    "@iconify-json/mdi": "^1.1.63",
     "@iconify-json/skill-icons": "^1.1.5",
     "@playwright/test": "^1.40.1",
     "@typescript-eslint/parser": "6.13.2",
