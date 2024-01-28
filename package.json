@@ -25,7 +25,7 @@
     "astro": "4.2.6",
     "astro-compress": "2.2.3",
     "nanostores": "^0.9.5",
-    "svelte": "^4.0.0",
+    "svelte": "^4.2.9",
     "typescript": "^5.2",
     "unocss": "0.58.0"
   },
