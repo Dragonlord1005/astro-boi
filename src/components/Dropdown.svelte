@@ -6,7 +6,7 @@
   };
 </script>
 
-<nav class="block flex justify-between brand-bg p-3 md:hidden">
+<nav class="block justify-between brand-bg p-3 md:hidden">
   <div class="flex-grow">
     <div>
       <button
