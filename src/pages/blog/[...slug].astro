@@ -1,22 +1,16 @@
 ---
 import MarkdownLayout from "@layouts/MarkdownLayout.astro";
-import { getEntryBySlug } from "astro:content";
-
-interface Entry {
-  data: any;
-  render(): Promise<{ Content: any }>;
+import { getCollection } from 'astro:content';
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('posts');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
 }
-
-// 1. Get the slug from the incoming server request
-const { slug } = Astro.params;
-
-// 2. Query for the entry directly using the request slug
-const entry = (await getEntryBySlug("posts", slug as string)) as Entry; // <-- add this line
-
-// 3. (Optional) render the entry to HTML in the template
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
 const { Content } = await entry.render();
-
-// import "@styles/markdown.css";
 ---
 
 <MarkdownLayout frontmatter={entry.data}>

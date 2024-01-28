@@ -1,20 +1,16 @@
 ---
 import MarkdownLayout from "@layouts/MarkdownLayout.astro";
-import { getEntryBySlug } from "astro:content";
-
-interface Entry {
-  data: any;
-  render(): Promise<{ Content: any }>;
+import { getCollection } from 'astro:content';
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const miniProjectEntries = await getCollection('miniprojects');
+  return miniProjectEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
 }
-
-const { slug } = Astro.params;
-
-const entry = (await getEntryBySlug("miniprojects", slug)) as Entry;
-
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
 const { Content } = await entry.render();
-
-import "@styles/markdown.css";
-// import "./projects.css"
 ---
 
 <MarkdownLayout frontmatter={entry.data}>
