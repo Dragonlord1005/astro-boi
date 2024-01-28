@@ -8,17 +8,18 @@
     line-height: 2rem;
     /* we need button to be a fully rounded button */
     border-radius: 9999px;
-}
+};
 
 .counter-text {
     font-size: 1.25rem;
     line-height: 1.75rem;
     margin-left: 1rem;
     margin-right: 1rem;
-}
+    @apply font-sans;
+};
 
 .counter {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+};

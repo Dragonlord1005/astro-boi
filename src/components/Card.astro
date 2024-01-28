@@ -1,4 +1,7 @@
 ---
+/**
+ * Represents a card component with a title, body, and a link.
+ */
 export interface Props {
   title: string;
   body: string;
@@ -12,7 +15,7 @@ import "@styles/link-card-grid.css";
 
 <li class="link-card">
   <a href={href}>
-    <h2 class="m-0 text-xl">
+    <h2 class="m-0 text-xl font-sans">
       {title}
       <span>&rarr;</span>
     </h2>
@@ -45,6 +48,7 @@ import "@styles/link-card-grid.css";
     color: #111;
     background-color: white;
     opacity: 0.8;
+    @apply font-sans
     @apply dark:(bg-gray-600 color-white);
   }
   h2 {
