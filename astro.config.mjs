@@ -12,9 +12,6 @@ import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
-import partytown from "@astrojs/partytown";
-
-// https://astro.build/config
 import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
@@ -48,9 +45,6 @@ export default defineConfig({
   },
   site: "https://astroi-boi.netlify.app",
   output: "hybrid",
-  // experimental: {
-  //   contentCollections: true
-  // },
   adapter: vercel({
     analytics: true
   })
