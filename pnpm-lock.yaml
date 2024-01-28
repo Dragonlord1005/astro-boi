@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^1.1.24
     version: 1.1.24
   '@iconify-json/game-icons':
-    specifier: ^1.1.6
-    version: 1.1.6
+    specifier: ^1.1.7
+    version: 1.1.7
   '@iconify-json/mdi':
     specifier: ^1.1.59
     version: 1.1.59
@@ -1101,8 +1101,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/game-icons@1.1.6:
-    resolution: {integrity: sha512-vYLZanjfjkGVKjYqutvsBRDIuE/ORWZy4E5xTg1N2y99bj1N0kSz6+Pvb5ExgALMkONJA0d+CwCv0YTShJ9ynw==}
+  /@iconify-json/game-icons@1.1.7:
+    resolution: {integrity: sha512-qZlG+WtqTZjYvpwTkS8SquPmCMLIz4F183twG/aGF0Q85udUZaxRvEkG+4rUHVL+U6Mv5KnlqTTweCVUMqXCWA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
