@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.8.2",
-    "@iconify-json/carbon": "^1.1.24",
+    "@iconify-json/carbon": "^1.1.28",
     "@iconify-json/game-icons": "^1.1.7",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/skill-icons": "^1.1.5",
