@@ -12,8 +12,12 @@
   }
 </script>
 
-<div class="flex justify-center items-center">
-  <button class="bg-white text-blue-500 w-12 h-12 text-2xl rounded-full" on:click={increase}>+</button>
-  <span class="text-xl mx-4">{$counter}</span>
-  <button class="bg-white text-blue-500 w-12 h-12 text-2xl rounded-full" on:click={decrease}>-</button>
+<style>
+  @import './Counter.css'
+</style>
+
+<div class="counter">
+  <button class="button" on:click={increase}>+</button>
+  <span class="counter-text">{$counter}</span>
+  <button class="button" on:click={decrease}>-</button>
 </div>
