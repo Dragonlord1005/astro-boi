@@ -46,7 +46,7 @@ export default defineConfig({
     }),
     presetAttributify(),
     presetTypography(),
-  ],
+  ]
   // content: {
   //   pipeline: {
   //     exclude: [/node_modules/, /src\/content/],
