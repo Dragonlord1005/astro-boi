@@ -21,10 +21,10 @@ export default defineConfig({
       // "github-link": "i-carbon-logo-github w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s) mr-3",
       // "site-link": "i-material-symbols-open-in-new-rounded w-1.5em h-1.5em hover:(text-yellow w-1.7em h-1.7em transition-duration-1.5s)",
       "nav-link":
-        "block mt-4 font-['InterVariable'] lg:(inline-block mt-0) text-gray-200 transition-all-500 transition-duration-.75s hover:(font-bold text-4.5 color-yellow-500) no-underline",
+        "block mt-4 font-sans lg:(inline-block mt-0) text-gray-200 transition-all-500 transition-duration-.75s hover:(font-bold text-4.5 color-yellow-500) no-underline",
       "brand-bg": "light:bg-gray-7 dark:bg-gray-8",
       title:
-        "text-center font-['InterVariable',sans-serif] font-bold text-2rem",
+        "text-center font-sans font-bold text-2rem",
     },
     [
       /^btn-(.*)$/,

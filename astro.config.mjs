@@ -1,8 +1,6 @@
 import { defineConfig } from "astro/config";
-
 import UnoCSS from "@unocss/astro";
 
-// https://astro.build/config
 import compress from "astro-compress";
 
 // https://astro.build/config
@@ -22,15 +20,19 @@ import svelte from "@astrojs/svelte";
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
+import sentry from "@sentry/astro";
+import spotlightjs from "@spotlightjs/astro";
+
+// https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS({
     injectReset: false,
     // injectReset: "modern-css-reset",
     injectEntry: process.env["NODE_ENV"] === "development",
     mode: "dist-chunk"
-  }), compress(), robotsTxt(), sitemap(), 
+  }), compress(), robotsTxt(), sitemap(),
   // partytown(), Remove for now due to unknown issue
-  mdx(), svelte()],
+  mdx(), svelte(), sentry(), spotlightjs()],
   srcDir: "./src",
   vite: {
     server: {
