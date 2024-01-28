@@ -18,7 +18,6 @@
   function decrease() {
     counter.set(counter.get() - 1)
   }
-  import './Counter.css'
 </script>
 
 <style>
