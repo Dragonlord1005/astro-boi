@@ -21,7 +21,7 @@
     "@astrojs/svelte": "^5.0.3",
     "@astrojs/vercel": "^7.0.2",
     "@sentry/astro": "^7.98.0",
-    "@spotlightjs/astro": "^1.0.12",
+    "@spotlightjs/astro": "^1.0.13",
     "@unocss/astro": "0.58.4",
     "astro": "4.2.6",
     "astro-compress": "2.2.3",
