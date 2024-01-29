@@ -46,7 +46,7 @@
     "@unocss/transformer-variant-group": "0.58.4",
     "astro-robots-txt": "1.0.0",
     "astro-seo": "0.8.0",
-    "autoprefixer": "10.4.16",
+    "autoprefixer": "10.4.17",
     "cssnano": "^6.0.3",
     "eslint": "^8.56.0",
     "eslint-config-javascript": "^2.1.3",
