@@ -8,5 +8,6 @@
         "typescript",
         "typescriptreact",
         "astro"
-    ]
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
 }
