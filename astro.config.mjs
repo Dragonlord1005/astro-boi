@@ -20,10 +20,6 @@ import svelte from "@astrojs/svelte";
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
-import sentry from "@sentry/astro";
-import spotlightjs from "@spotlightjs/astro";
-
-// https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS({
     injectReset: false,
@@ -32,7 +28,7 @@ export default defineConfig({
     mode: "dist-chunk"
   }), compress(), robotsTxt(), sitemap(),
   // partytown(), Remove for now due to unknown issue
-  mdx(), svelte(), sentry(), spotlightjs()],
+  mdx(), svelte()],
   srcDir: "./src",
   vite: {
     server: {
