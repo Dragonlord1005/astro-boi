@@ -1,11 +1,12 @@
 ---
 import MarkdownLayout from "@layouts/MarkdownLayout.astro";
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
-  const miniProjectEntries = await getCollection('miniprojects');
-  return miniProjectEntries.map(entry => ({
-    params: { slug: entry.slug }, props: { entry },
+  const miniProjectEntries = await getCollection("miniprojects");
+  return miniProjectEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
   }));
 }
 // 2. For your template, you can get the entry directly from the prop
