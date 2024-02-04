@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import UnoCSS from "@unocss/astro";
 
 import compress from "astro-compress";
@@ -45,5 +45,8 @@ export default defineConfig({
   output: "hybrid",
   adapter: vercel({
     analytics: true
-  })
+  }),
+  image: {
+    service: passthroughImageService()
+  }
 });
