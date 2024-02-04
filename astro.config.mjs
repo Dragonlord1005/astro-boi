@@ -41,7 +41,7 @@ export default defineConfig({
       minify: "terser"
     }
   },
-  site: "https://astroi-boi.netlify.app",
+  site: "https://astro-boi.dragonlord1005.com",
   output: "static",
   adapter: vercel({
     analytics: true,
