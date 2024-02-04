@@ -20,6 +20,9 @@ dependencies:
   '@unocss/astro':
     specifier: 0.58.4
     version: 0.58.4
+  '@vercel/speed-insights':
+    specifier: ^1.0.9
+    version: 1.0.9(svelte@4.2.9)
   astro:
     specifier: 4.3.2
     version: 4.3.2(terser@5.27.0)(typescript@5.3.3)
@@ -2014,6 +2017,33 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: false
+
+  /@vercel/speed-insights@1.0.9(svelte@4.2.9):
+    resolution: {integrity: sha512-f+XFP0O+aZ4Olj9h+BitkB1b4NJQaxtyCb69wWuDxytJHY6Pa4QtZPdBUftHOcajUCHRVeq062fk3MKXKtjNVQ==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      svelte: 4.2.9
     dev: false
 
   /@volar/kit@1.11.1(typescript@5.3.3):

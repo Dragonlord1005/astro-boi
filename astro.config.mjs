@@ -44,7 +44,8 @@ export default defineConfig({
   site: "https://astroi-boi.netlify.app",
   output: "hybrid",
   adapter: vercel({
-    analytics: true
+    analytics: true,
+    // imageService: true,
   }),
   image: {
     service: passthroughImageService()
