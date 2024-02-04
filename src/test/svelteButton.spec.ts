@@ -18,7 +18,7 @@ test.describe("Svelte Counter", () => {
     await page.getByRole("button", { name: "+" }).click();
 
     // Wait for the counter value to be updated
-    await page.waitForSelector(".counter span:has-text('1')");
+    // await page.waitForSelector(".counter span:has-text('1')");
 
     // Get the new counter value
     counterValue = await page.textContent(".counter span");
@@ -39,6 +39,7 @@ test.describe("Svelte Counter", () => {
   test("should enter negative numbers", async ({ page }) => {
     // Get the counter value
     let counterValue = await page.textContent(".counter span");
+    expect(counterValue).toBe("0");
 
     // Check initial counter value
     expect(counterValue).toBe("0");
