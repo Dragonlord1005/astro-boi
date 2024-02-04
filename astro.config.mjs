@@ -17,7 +17,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 // TODO: Switch from serverless to static until we actually need serverless
-import vercel from "@astrojs/vercel/serverless";
+import vercel from "@astrojs/vercel/static";
 
 // https://astro.build/config
 export default defineConfig({
@@ -42,7 +42,7 @@ export default defineConfig({
     }
   },
   site: "https://astroi-boi.netlify.app",
-  output: "hybrid",
+  output: "static",
   adapter: vercel({
     analytics: true,
     // imageService: true,
