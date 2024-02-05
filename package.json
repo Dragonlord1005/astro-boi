@@ -23,7 +23,7 @@
     "@unocss/astro": "0.58.4",
     "@vercel/speed-insights": "^1.0.9",
     "astro": "4.3.2",
-    "astro-compress": "2.2.8",
+    "astro-compress": "2.2.9",
     "nanostores": "^0.9.5",
     "sharp": "^0.33.2",
     "svelte": "^4.2.9",
