@@ -26,7 +26,7 @@ export default defineConfig({
     // injectReset: "modern-css-reset",
     injectEntry: process.env["NODE_ENV"] === "development",
     mode: "dist-chunk"
-  }), compress(), robotsTxt(), sitemap(),
+  }), robotsTxt(), sitemap(), compress(),
   // partytown(), Remove for now due to unknown issue
   mdx(), svelte()],
   srcDir: "./src",
@@ -47,7 +47,7 @@ export default defineConfig({
     analytics: true,
     // imageService: true,
   }),
-  image: {
-    service: passthroughImageService()
-  }
+  // image: {
+  //   service: passthroughImageService()
+  // }
 });

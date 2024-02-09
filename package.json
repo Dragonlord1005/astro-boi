@@ -23,9 +23,8 @@
     "@unocss/astro": "0.58.4",
     "@vercel/speed-insights": "^1.0.9",
     "astro": "4.3.2",
-    "astro-compress": "2.2.8",
+    "astro-compress": "2.2.9",
     "nanostores": "^0.9.5",
-    "sharp": "^0.33.2",
     "svelte": "^4.2.9",
     "typescript": "^5.3.3",
     "unocss": "0.58.4"
@@ -56,7 +55,8 @@
     "postcss": "8.4.33",
     "prettier": "3.2.4",
     "prettier-plugin-astro": "^0.13.0",
-    "terser": "5.27.0"
+    "terser": "5.27.0",
+    "sharp": "0.32.6"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -65,9 +65,17 @@
         "rollup",
         "react"
       ]
+    },
+    "overrides": {
+      "sharp": "0.32.6"
     }
   },
   "engines": {
     "node": ">=18"
+  },
+  "overrides": {
+    "astro": {
+      "sharp": "0.32.6"
+    }
   }
 }
