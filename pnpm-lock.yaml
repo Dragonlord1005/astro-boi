@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^4.8.4
     version: 4.8.4(playwright-core@1.41.2)
   '@iconify-json/carbon':
-    specifier: ^1.1.28
-    version: 1.1.28
+    specifier: ^1.1.30
+    version: 1.1.30
   '@iconify-json/game-icons':
     specifier: ^1.1.7
     version: 1.1.7
@@ -943,8 +943,8 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
 
-  /@iconify-json/carbon@1.1.28:
-    resolution: {integrity: sha512-tg+h0i+69JrIqUpQva2Mt611KdLMeCyibqS7lIqaMRXJgnalHtdqDcdZAKCSLb/hTbkJHyk0NCpQSYJ3f/v51w==}
+  /@iconify-json/carbon@1.1.30:
+    resolution: {integrity: sha512-tEvEmxCO0J0t0p2NT2IvJ+iiSNqqnabygSo/S8wkeh2Guhc4tQOgl9dxvDMpy6RqwtKRTKsaROPtnRfu/bl+Tg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
