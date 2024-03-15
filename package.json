@@ -32,7 +32,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.5.9",
     "@axe-core/playwright": "^4.8.4",
-    "@iconify-json/carbon": "^1.1.28",
+    "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/game-icons": "^1.1.7",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/skill-icons": "^1.1.7",
