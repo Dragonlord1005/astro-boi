@@ -1,9 +1,7 @@
 import { defineConfig, passthroughImageService } from "astro/config";
 import UnoCSS from "@unocss/astro";
-
 import compress from "astro-compress";
 
-// https://astro.build/config
 import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
@@ -20,6 +18,9 @@ import svelte from "@astrojs/svelte";
 import vercel from "@astrojs/vercel/static";
 
 // https://astro.build/config
+import db from "@astrojs/db";
+
+// https://astro.build/config
 export default defineConfig({
   integrations: [UnoCSS({
     injectReset: false,
@@ -28,7 +29,7 @@ export default defineConfig({
     mode: "dist-chunk"
   }), robotsTxt(), sitemap(), compress(),
   // partytown(), Remove for now due to unknown issue
-  mdx(), svelte()],
+  mdx(), svelte(), db()],
   srcDir: "./src",
   vite: {
     server: {
@@ -44,9 +45,9 @@ export default defineConfig({
   site: "https://astro-boi.dragonlord1005.com",
   output: "static",
   adapter: vercel({
-    analytics: true,
+    analytics: true
     // imageService: true,
-  }),
+  })
   // image: {
   //   service: passthroughImageService()
   // }

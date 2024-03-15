@@ -16,6 +16,7 @@
     "playwright": "playwright"
   },
   "dependencies": {
+    "@astrojs/db": "^0.8.5",
     "@astrojs/mdx": "2.2.0",
     "@astrojs/sitemap": "3.1.1",
     "@astrojs/svelte": "^5.2.0",
