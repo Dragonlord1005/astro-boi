@@ -16,13 +16,13 @@
     "playwright": "playwright"
   },
   "dependencies": {
-    "@astrojs/mdx": "2.1.1",
-    "@astrojs/sitemap": "3.0.5",
-    "@astrojs/svelte": "^5.0.3",
-    "@astrojs/vercel": "^7.1.1",
+    "@astrojs/mdx": "2.2.0",
+    "@astrojs/sitemap": "3.1.1",
+    "@astrojs/svelte": "^5.2.0",
+    "@astrojs/vercel": "^7.3.6",
     "@unocss/astro": "0.58.4",
     "@vercel/speed-insights": "^1.0.9",
-    "astro": "4.3.2",
+    "astro": "4.5.4",
     "astro-compress": "2.2.9",
     "nanostores": "^0.9.5",
     "svelte": "^4.2.9",
@@ -30,7 +30,7 @@
     "unocss": "0.58.4"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.4.1",
+    "@astrojs/check": "^0.5.9",
     "@axe-core/playwright": "^4.8.4",
     "@iconify-json/carbon": "^1.1.28",
     "@iconify-json/game-icons": "^1.1.7",
@@ -55,8 +55,8 @@
     "postcss": "8.4.33",
     "prettier": "3.2.4",
     "prettier-plugin-astro": "^0.13.0",
-    "terser": "5.27.0",
-    "sharp": "0.32.6"
+    "sharp": "0.32.6",
+    "terser": "5.27.0"
   },
   "pnpm": {
     "peerDependencyRules": {
