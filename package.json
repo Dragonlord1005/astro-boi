@@ -55,7 +55,7 @@
     "postcss": "8.4.33",
     "prettier": "3.2.5",
     "prettier-plugin-astro": "^0.13.0",
-    "sharp": "0.32.6",
+    "sharp": "0.33.2",
     "terser": "5.27.0"
   },
   "pnpm": {
@@ -67,7 +67,7 @@
       ]
     },
     "overrides": {
-      "sharp": "0.32.6"
+      "sharp": "0.33.2"
     }
   },
   "engines": {
@@ -75,7 +75,7 @@
   },
   "overrides": {
     "astro": {
-      "sharp": "0.32.6"
+      "sharp": "0.33.2"
     }
   }
 }
