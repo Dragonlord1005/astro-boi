@@ -26,7 +26,7 @@
     "astro-compress": "2.2.9",
     "nanostores": "^0.9.5",
     "svelte": "^4.2.12",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "unocss": "0.58.4"
   },
   "devDependencies": {
