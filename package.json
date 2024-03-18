@@ -53,7 +53,7 @@
     "eslint-plugin-astro": "^0.31.4",
     "modern-css-reset": "^1.4.0",
     "postcss": "8.4.33",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "prettier-plugin-astro": "^0.13.0",
     "sharp": "0.32.6",
     "terser": "5.27.0"
