@@ -36,7 +36,7 @@
     "@iconify-json/game-icons": "^1.1.7",
     "@iconify-json/mdi": "^1.1.64",
     "@iconify-json/skill-icons": "^1.1.7",
-    "@playwright/test": "^1.41.2",
+    "@playwright/test": "^1.44.1",
     "@typescript-eslint/parser": "7.8.0",
     "@unocss/preset-attributify": "0.59.4",
     "@unocss/preset-icons": "0.59.4",
